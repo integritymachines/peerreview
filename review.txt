@@ -1,0 +1,207 @@
+BEGIN TEST PROMPT
+
+Execute ten fully independent runs of the following peer review process. Absolutely no information should be retained by anyone other than the System S between runs other than the scorecard including quality flags, integrity flags, books and papers assigned. Publish minimal reports during runs 1-10 (panel, lit, flags). After the tenth run, compile a scorecard summarizing all 10 runs. Using this scorecard with union of all flags, stage a final deciding run in the format provided after the run prompt. 
+
+Start with naming paper author(s) in one line: title in quotes, journal (shorthand, eg AER, QJE, etc.), year in parentheses. Eg "Katherine Casey, Rachel Glennerster &c Edward Miguel: "Reshaping Institutions: Evidence on Aid Impacts Using a Preanalysis Plan", QJE (2012)."
+-----
+
+BEGIN RUN PROMPT
+
+Execute an automated peer review for the provided economics paper, at AER/QJE/Econometrica quality level (very high quality, full mastery of traditional and up-to-date methods, novelty expected). 
+
+Process the paper through each role in sequence. Judge objectively, unaffected by author identities. Ignore all background information, only consider the provided paper and supplementary materials. 
+
+Workflow: Roles, tasks, personae, documents and reports, checklists, execution notes, scorecard.
+
+Roles: System (S), Assigning Editor (A), N ~ 3-8 Reviewers (R1–RN), Huddle (H) composed of R1-RN, Deciding Editor (E, same person as A).
+
+Tasks:
+S: Pre-scans paper, determines focus, identifies 3-8 specific technical competencies, checks for integrity breaches, and sets a special marker "potential integrity breach" if needed. Checks if paper has relevance to economics. Chooses A based on focus areas. Issues a brief, fully qualitative assessment to A (pre criteria checklist, just a heads-up). Maintains scorecard.
+
+A: Breadth search — scopes paper, flags potential integrity breaches and quality flaws, selects 3-8 R1–RN panel with documented competency based on flags, composition and panel size based on flag pointers. Assigns one textbook and one specialized paper each. Flags potential overarching (O) integrity (I), quality issues (EC plus CI, MA, MI, GT, ME) by type, severity (fatal, critical, fixable), visibility (obvious, tricky, concealed). Assigns flaw color (red, orange, yellow); green if all clear (rare).
+
+R1–RN: Breadth search — swarm flag-blind (no flags from A), pinpoint flaws, set and justify flags. Self-assign one additional textbook and one specialized paper each. Focus quality EC plus own specialty; O backgrounding, keep note of I5 flags.
+
+H: Depth search — dissects flaws, isolates fatal flaws with R1–RN, pinpoints what/where/how consequential. Goes into detail where needed. All review holistically with individual focus assignments. Goal: consensus.
+
+E: Depth search — checks R1–RN/H against flags in A report, drills down on fatal flaws, writes Nobel-quality scorecard, reconvenes H if open questions. Finalizes scorecard.
+
+Personae:
+S: Neutral LLM system.
+
+A (also E): AER/QJE/Econometrica level: named Nobel-grade professor, focus on scientific integrity, bias detection, flaw hunting. Best fit with paper focus and subject.
+R1–RN: top 5 journal level: named top 5 journal-level professors, focus areas tied to A’s flaw pointers (eg R1: ID, R4: bias), assigned textbooks plus specialist papers for fatal and tricky flags.
+
+Documents and reports: 
+Original paper, optionally supplementary material. Available to A, R1-RN, H, E.
+
+S report to A with focus areas, brief qualitative assessment, integrity pre-check, integrity marker if needed.
+
+A report to E (invisible to R1-RN, H) with integrity and quality flags, plus special marker "potential integrity breach" if needed, to focus panel on integrity criteria.
+Keywords (3–5), flags (Scope/Integrity/Quality, yellow/red only—yellow: likely flaws, red: probable fatal), critical hunches (eg “#3 no ID, p. 5—hunt!”), panel assignment—sent to E (self), not R1–RN.
+
+R1–RN report to H with individual flags and notes.
+R1–RN Reports: Flags (red/orange/yellow/green) with descriptions (eg “red #E3: Correlation-only, p. 5”).
+
+H report to E: R1-RN reports, unresolved issues.
+Union flags, isolates fatal flaws (eg “red O7 (R1): No ID, p. 5—causality dead”), what/where/how consequential, consensus or splits. 
+Checks H report against A report. Reconvene directive if fatal flaws missed (eg “R1/R5: Drill I3, p. 5”) or substantial disagreements remaining.
+
+E callback to H: discrepancies and A report.
+
+Scorecard: All flags, terse justifications, literature. Two-sentence summary. Issued by E, maintained by S.
+
+O: Overarching criteria (all papers)
+O1 Novelty
+O2 Significance
+O3 Analytical rigor
+O4 Evidence quality
+O5 Scholarly integrity
+O6 Scope & generalizability
+O7 Replicability
+O8 Robustness & resilience
+O9 Theoretical grounding
+
+I: Integrity checklist (all papers)
+I1 Bias detection
+I2 Plagiarism check
+I3 AI signals
+I4 Citation balance
+I5 Data honesty
+I6 Effort level
+
+EC — Economics (general)
+
+EC1 Mechanism clarity
+EC2 General Equilibrium (GE) Spillovers
+EC3 Structural Policy Invariance
+EC4 Institutional Fit
+EC5 Internal consistency
+EC6 Evidence–claim alignment
+EC7 Transparency
+EC8 Pareto & Distributional Welfare
+EC9 Reproducibility
+EC10 External validity
+
+EC bookshelf: Acemoglu Institutions; Heckman Selection; Autor Inequality; Samuelson Foundations; Arrow–Hahn General Equilibrium.
+
+CI — Causal Inference
+
+CI1 Causal question
+CI2 Treatment definition
+CI3 Outcome definition
+CI4 Identification strategy
+CI5 SUTVA & Interference
+CI6 Dynamic Treatment Effects
+CI7 Confounder control
+CI8 Weak Instrument / Bartik Sensitivity
+CI9 Sampling validity
+CI10 Robustness
+CI11 External validity
+CI12 Assumptions
+CI13 Alternative mechanisms
+CI14 Design integrity
+CI15 Estimation discipline
+
+CI specialists: Angrist, Imbens, Abadie, Athey, Chernozhukov, Rubin, Heckman, Duflo, Card.
+CI bookshelf: Angrist–Pischke MHE; Abadie SCM; Athey–Wager ML Causal Forests; Imbens–Rubin Causal Inference; Pearl Causality.
+
+MA — Macroeconomics
+
+MA1 Dynamic structure
+MA2 Expectations formation
+MA3 Heterogeneity (HANK)
+MA4 Financial Frictions
+MA5 Calibration targets
+MA6 Global Solution Methods
+MA7 Policy rules
+MA8 Determinacy
+MA9 Numerical accuracy
+MA10 Moment matching
+MA11 Transition dynamics
+
+MA specialists: Kaplan, Violante, Krusell, Brunnermeier, Guerrieri, Sargent, Woodford, Galí, Werning.
+MA bookshelf: Kaplan–Violante HANK; Krusell–Smith Heterogeneity; Brunnermeier–Sannikov Financial Frictions; Ljungqvist–Sargent Recursive Macro.
+
+MI — Micro / IO / Information
+
+MI1 Preferences
+MI2 Technology
+MI3 Information sets
+MI4 Timing
+MI5 Unobserved Heterogeneity
+MI6 Uniqueness
+MI7 Constructive Non-parametric Identification
+MI8 Market structure / BLP
+MI9 Comparative statics
+MI10 Welfare mapping
+
+MI specialists: Einav, Nevo, Berry, Ho, Farrell, Tirole, Maskin, Pakes, Gentzkow.
+MI bookshelf: Berry–Levinsohn–Pakes BLP; Einav–Finkelstein Empirical IO; Nevo Demand Estimation; Tirole IO; Mas-Colell Micro Theory.
+
+GT — Game Theory
+
+GT1 Players & Actions
+GT2 Payoffs
+GT3 Information Design
+GT4 Timing
+GT5 Equilibrium concept
+GT6 Existence
+GT7 Refinement
+GT8 Robustness to Info Structure
+GT9 Multiplicity / Network Effects
+GT10 Dynamic consistency
+
+GT specialists: Morris, Bergemann, Jackson, Dekel, Ely, Fudenberg, Myerson.
+GT bookshelf: Bergemann–Morris Robust Mechanism; Jackson Networks; Dekel–Gul–Pesendorfer Bounded Rationality; Fudenberg–Tirole Game Theory.
+
+ME — Methods
+
+ME1 Identification clarity
+ME2 Estimator definition
+ME3 Regularity conditions
+ME4 Asymptotics
+ME5 High-Dimensional Selection (ML)
+ME6 Misspecification robustness
+ME7 Algorithm correctness
+ME8 Convergence
+ME9 Simulation design
+ME10 Implementation clarity
+
+ME specialists: Chernozhukov, Hansen, Newey, Andrews, Armstrong, Belloni, Stock.
+ME bookshelf: Chernozhukov–Hansen IV Quantile; Newey–McFadden Large Sample Theory; Mullainathan–Spiess ML Econ; Hayashi Econometrics.
+
+
+Execution Notes:
+Journal focus is Economics (Econ) unless otherwise stated.
+Use green/yellow/red dot emojis for all flags.
+Do not assign paper authors as editor or reviewers. 
+A flags overarching, integrity, quality, yellow/orange/red, obvious/tricky/concealed; all green rare at top 5 level, A report goes directly to E, R1–RN swarm blind
+H drills fatal flaws (what/where/how)
+E checks A’s flags vs. H report, reconvenes if off, compiles scorecard.
+A, R1-RN, E all ignore all background knowledge on authors, paper, journal; review PURELY on merit of paper. 
+Absolutely no data leakage outside the described document flow and huddles.
+High O1, O2 scores cannot override fatal method or integrity flaws, but tip the scale when flaws are fixable.
+
+END RUN PROMPT
+
+-----
+
+After the tenth run, recall scorecards of all ten reviews and run a final deciding review using the union of all flags from prior runs, provided by S to A, all previous named reviewers and their assigned/self-assigned books and papers. S, A/E, R1-RN, H also explicitly consider #O criteria. Add assignments where needed. Keep full record of the deciding run:
+
+Editor name, All flags fully identified by type, severity, location. Reviewer names, flags identified if different than E flags.
+S keeps list of helpful housekeeping items and hints (style, phrasing, conceptual ambiguities, unnecessary repetitions, general fuzziness) that don't affect rigor, cordial and helpful tone.
+
+Final run scorecard:
+
+Compile all flags in the format: flag descriptor and color (eg Identification clarity, red), brief description, page reference (eg "p. 41"), quote, citation, severity (fatal, critical, fixable), visibility (obvious, tricky, concealed). Don't use flag codes.
+
+A/E: Editor’s name
+R1-RN: number of reviewers (3–8), followed by names, focus, literature
+
+
+Combined Scorecard = compact summary for all runs 1-10 plus final run
+
+No further elaboration.
+
+END TEST PROMPT 
