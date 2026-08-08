@@ -19,16 +19,16 @@ The output of this initial run is an itemized, color-coded **Scorecard** of flag
 ### Workflow B: Editorial Board Decision (`review.txt` -> `report.txt`)
 *Designed to simulate a full, definitive editorial evaluation of a submitted manuscript.*
 * **Process:** Feeds the Scorecard to a top-tier Managing Editor persona tasked with making a final publication call. 
-* **Output:** Offers a definitive editorial decision (Accept, Reject, or Revise) along with a synthesized rationale, a formal editorial letter, and a simulated pushback correspondence with the author.
+* **Output:** Offers a definitive editorial decision (Accept, Revise with path to acceptance, Revise, Reject) along with a synthesized rationale, a formal editorial letter, and a simulated pushback correspondence with the author.
 
 ## Design Philosophy
 
 * **Pinpoint-accurate:** The workflows are engineered to extract specific, actionable critiques based on embedded academic literature, anchored in the submitted manuscript and the relevant literature, avoiding generic LLM summarization.
 * **Objective & Cordial:** Operates strictly on the merit of the text, maintaining a professional, senior-editorial tone free of bias.
 * **Extensible:** The evaluation checklists—currently covering Overarching Quality, Causal Inference, Macroeconomics, Micro/IO, Game Theory, and Methods—can be swapped out for other fields while keeping the core agent workflow intact.
-* **Modularizable:** The workflow can be run on a single LLM or distributed among multiple LLMs. Single-LLM runs will only simulate the division of tasks, so information bleeding cannot be fully ruled out. It is recommended to use to separate sessions for the creation of the scorecard (`review.txt`) and the ultimate verdict (`preview.txt` or `report.txt`).
+* **Modularizable:** The workflow can be run on a single LLM or distributed among multiple LLMs. Single-LLM runs will only simulate the division of tasks, so information bleeding cannot be fully ruled out. It is recommended to use separate sessions for the creation of the scorecard (`review.txt`) and the ultimate verdict (`preview.txt` or `report.txt`). This workflow can be harnessed in a multi-agent or multi-LLM environment.
 
 ## Disclaimer & Best Practices
 
-* These tools are designed to **augment, not replace, human expertise**. It is highly recommended that this process be run in conjunction with traditional freeform human review. Pinpoit accuracy should simplify the location of flags in the original text.
+* These tools are designed to **augment, not replace, human expertise**. It is highly recommended that this process be run in conjunction with traditional freeform human review. Pinpoint accuracy should simplify the location of flags in the original text.
 * No warranties are offered or implied regarding the accuracy, validity, or publication outcomes resulting from these outputs. Ultimate responsibility for any editorial or submission decisions rests entirely with the human operator.
