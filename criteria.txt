@@ -173,7 +173,7 @@ LITS  GE CW PO FI DW LT WH TX TR
 MUSI  GE PI CO TA MH EM MT
 URPL  GE LU TT HO ED RS UD GV UH
 PORTABLE
-CIN  DEC  EXP  LEC  MLR  NET  SIM  SUR  MES  QLT  SPA  SYN
+CIN  DEC  EXP  LEC  MLR  NET  OPT  SIM  SUR  MES  QLT  SPA  SYN
 
 
 F HOME DISCIPLINES
@@ -642,23 +642,25 @@ Trefethen–Bau *Numerical Linear Algebra*
 Quarteroni–Sacco–Saleri *Numerical Mathematics*
 
 
-MATH-OR — Optimization & Operations Research
+MATH-OR — Operations Research
 
-OR1 Feasible-set geometry
-OR2 Constraint qualifications
-OR3 Convexity structure
-OR4 Local–global optimality
-OR5 Primal–dual correspondence
-OR6 Duality gap
-OR7 Optimality conditions
-OR8 Relaxation tightness
+OR1 Operational-system boundary & decision horizon
+OR2 Resource, capacity & flow conservation
+OR3 Demand, arrival & service-process specification
+OR4 Queueing, congestion & stability
+OR5 Inventory state, replenishment & shortage dynamics
+OR6 Scheduling, sequencing & assignment structure
+OR7 Network, routing & flow structure
+OR8 Dynamic & sequential decision structure
+OR9 Analytic, simulation & approximation correspondence
+OR10 Policy performance, sensitivity & implementation
 
-Dantzig *Linear Programming*
-Rockafellar *Convex Analysis*
-Boyd–Vandenberghe *Convex Optimization*
-Nocedal–Wright *Numerical Optimization*
-Nemhauser–Wolsey *Integer and Combinatorial Optimization*
-Shapiro–Dentcheva–Ruszczyński *Lectures on Stochastic Programming: Modeling and Theory*, 3rd ed.
+Churchman–Ackoff–Arnoff *Introduction to Operations Research*
+Wagner *Principles of Operations Research*
+Hillier–Lieberman *Introduction to Operations Research*
+Kleinrock *Queueing Systems*
+Puterman *Markov Decision Processes*
+Ahuja–Magnanti–Orlin *Network Flows*
 
 
 PHIL — PHILOSOPHY
@@ -5630,6 +5632,25 @@ Barabási *Network Science*
 Wasserman–Faust *Social Network Analysis*
 Newman *Networks*
 Jackson *Social and Economic Networks*
+
+
+OPT — OPTIMIZATION
+
+OPT1 Feasible-set geometry
+OPT2 Constraint qualifications
+OPT3 Convexity structure
+OPT4 Local–global optimality
+OPT5 Primal–dual correspondence
+OPT6 Duality gap
+OPT7 Optimality conditions
+OPT8 Relaxation tightness
+
+Dantzig *Linear Programming*
+Rockafellar *Convex Analysis*
+Boyd–Vandenberghe *Convex Optimization*
+Nocedal–Wright *Numerical Optimization*
+Nemhauser–Wolsey *Integer and Combinatorial Optimization*
+Shapiro–Dentcheva–Ruszczyński *Lectures on Stochastic Programming: Modeling and Theory*, 3rd ed.
 
 
 SIM — SIMULATION & COMPUTATIONAL MODELING
