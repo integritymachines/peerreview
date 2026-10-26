@@ -37,6 +37,57 @@ Selection changes the **kind** of scrutiny, not its rigor. No discipline, method
 
 The bookshelves attached to anchors and fields are reference pools for the relevant traditions of scrutiny, not mandatory reading lists and not citation requirements.
 
+## Selecting Catalogue Criteria and Bookshelf Works
+
+The catalogue itself is curated rather than accumulated. Fields, criteria and bookshelves should be large enough to expose the mature scrutiny of a domain, but small enough that every retained element has a distinct job. There are useful compact ranges and proliferation checks, **not hard numerical quotas**.
+
+### Criteria
+
+A standing criterion belongs in the catalogue when it captures a **recurrent, material way in which a claim can fail, become overstated, or require narrowing**.
+
+A candidate criterion should satisfy the following tests:
+
+- **Residuality.** It adds scrutiny not already supplied by I/Q, the relevant anchor, an imported portable module, or a more general surviving criterion.
+- **Recurrence.** It applies to a recognizable class of publications, not merely one paper or one unusual case.
+- **Materiality.** Failure of the criterion can change the surviving claim, the scope of the claim, or the credibility of the publication.
+- **Specificity.** It identifies a relation, distinction, boundary, correspondence, or failure mode that a reviewer can actually inspect.
+- **Generality at the right level.** Put the test at the highest level at which it is genuinely general, but no higher. Universal tests belong in I/Q; epistemic-mode tests in anchors; cross-disciplinary machinery in portable modules; residual domain tests in disciplines and fields.
+- **Orthogonality.** The criterion should not merely restate another criterion in different vocabulary.
+- **Compactness without semantic loss.** Wording should be short enough to scan, but not compressed until distinct failure modes disappear.
+- **Promotability.** A genuinely missing paper-specific test can first be added ad hoc. Repeated recurrence of the same ad hoc test is evidence that it deserves standing status.
+
+Criterion proliferation is checked by asking:
+
+> **What failure mode would become materially harder to detect or route if this criterion were removed?**
+
+If no distinct answer exists, merge, rewrite, or delete it. A criterion should disappear only when another surviving test actually captures the same failure mode; thematic similarity or a “nearest surviving criterion” is not enough.
+
+### Bookshelves
+
+A bookshelf is a compact set of **top-line synthetic works that materially support the scrutiny represented by the anchor or field**. It is not a bibliography, a citation leaderboard, or a display of famous names.
+
+A candidate work should satisfy the following tests:
+
+- **Synthetic scope.** Prefer books, monographs, handbooks, collected-paper volumes, or comparable synthetic works. Isolated articles, conference papers, chapters and narrow technical notes belong at the research/review layer rather than on the standing shelf.
+- **Criterion-generating relevance.** The work should illuminate multiple recurring failure modes, distinctions, or standards represented by the field. Mere subject-matter association is insufficient.
+- **Mature scrutiny.** It should embody reasoning that is durable, authoritative, or especially rigorous for conducting or evaluating work in the field.
+- **Coverage contribution.** It should add a distinct major tradition, mode of reasoning, class of failure, mature synthesis, or indispensable counterweight not already supplied by the shelf.
+- **Field fit.** The relevant material must be central enough to the work that the volume genuinely belongs on that shelf.
+- **Top-line quality.** Every retained work should be defensible as one of the strongest synthetic resources available for the purpose.
+- **Classics and current work.** Durable classics and strong contemporary treatments are both eligible when they materially improve scrutiny. There is no recency quota and no classics quota.
+- **Antecedent separation.** Works retained primarily because they helped constitute a discipline or tradition belong in the antecedent lineage, not automatically on a field shelf as well.
+- **No quota backfill.** A deleted work does not require replacement merely to restore a preferred shelf size.
+
+Bookshelf proliferation is checked by asking:
+
+> **What distinct scrutiny or intellectual coverage does this additional volume contribute that the existing shelf does not?**
+
+If that cannot be answered crisply, prune. Redundant prestige, near-substitutable textbooks, multiple works serving the same role, or works retained only for historical fame should not accumulate. Conversely, a short shelf should not be kept artificially short if a major mature tradition or indispensable synthetic perspective is missing.
+
+The governing standard is:
+
+> **Enough to triangulate the field's strongest mature reasoning; no more than can be individually defended.**
+
 ## Design Philosophy
 
 * **Pinpoint-accurate:** The workflows are engineered to extract specific, actionable critiques based on embedded academic literature, anchored in the submitted manuscript and the relevant literature, avoiding generic LLM summarization.
