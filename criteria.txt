@@ -1,0 +1,5753 @@
+PEER REVIEW CRITERIA CATALOGUE
+
+I — INTEGRITY
+
+I1 Bias & conflict
+I2 Plagiarism & unattributed dependence
+I3 Hallucination
+I4 Citation manipulation & imbalance
+I5 Data, source & material honesty
+I6 Fabrication & manipulation
+I7 Selective reporting & adverse-information suppression
+
+
+Q — QUALITY
+
+Q1 Novelty
+Q2 Significance
+Q3 Claim & concept precision
+Q4 Support-basis quality
+Q5 Claim–support adequacy
+Q6 Inferential rigor
+Q7 Adversarial alternative generation
+Q8 Comparative precedence
+Q9 Assumption exposure
+Q10 Scope & generalizability
+Q11 Robustness & resilience
+Q12 Transparency & inspectability
+Q13 Claim calibration
+
+
+F — FORMAL
+
+F1 Formal object & definition precision
+F2 Assumption consistency
+F3 Derivation & proof correctness
+F4 Formal argument completeness
+F5 Existence
+F6 Uniqueness & determinacy
+F7 Boundary & limiting cases
+F8 Approximation validity
+F9 Computational & numerical correctness
+F10 Convergence mode & stability
+F11 Formalization fidelity
+
+Tarski *Logic, Semantics, Metamathematics*
+Suppes *Representation and Invariance*
+Savage *Foundations of Statistics*
+Wald *Statistical Decision Functions*
+Woodward *Making Things Happen*
+
+
+E — EMPIRICAL
+
+E1 Empirical target & observable mapping
+E2 Data & observation provenance
+E3 Measurement & construct validity
+E4 Sampling & selection
+E5 Design integrity
+E6 Identification & observational equivalence
+E7 Confounding, dependence & interference
+E8 Uncertainty & error calibration
+E9 Model–data correspondence
+E10 External validity & transportability
+E11 Reproducibility
+
+Bernard *Experimental Medicine*
+Fisher *Design of Experiments*
+Cox *Planning of Experiments*
+Pearl *Causality*
+Hacking *Representing and Intervening*
+
+
+S — SOURCE
+
+S1 Source provenance & authenticity
+S2 Source completeness & selection
+S3 Source fidelity
+S4 Source dependence & corroboration
+S5 Contextual reconstruction
+S6 Attribution
+S7 Chronology & temporal validity
+S8 Translation & transmission fidelity
+S9 Anachronism control
+S10 Representativeness & silence
+
+Ginzburg *Clues*
+Grafton *Footnote*
+Howell–Prevenier *From Reliable Sources: An Introduction to Historical Methods*
+Trouillot *Silencing the Past: Power and the Production of History*
+Stoler *Along the Archival Grain: Epistemic Anxieties and Colonial Common Sense*
+
+
+N — NORMATIVE
+
+N1 Normative premise exposure
+N2 Normative premise support
+N3 Descriptive–normative bridge
+N4 Normative consistency
+N5 Relevant-difference & symmetry discipline
+N6 Value conflict & tradeoffs
+N7 Aggregation & distribution
+N8 Normative uncertainty & pluralism
+
+Sidgwick *Methods of Ethics*
+Rawls *Theory of Justice*
+Arrow *Social Choice and Individual Values*
+Sen *Collective Choice and Social Welfare*
+Scanlon *What We Owe*
+
+
+D — DESIGN
+
+D1 Framing & reframing
+D2 Intent & evaluative frame
+D3 Constraint & affordance recognition
+D4 Possibility-space exploration
+D5 Alternative synthesis
+D6 Intent–construction correspondence
+D7 Trade-space discipline
+D8 Integration coherence
+D9 Realizability & execution
+D10 Evaluation–intent alignment
+D11 Iteration & reflective development
+D12 Context, use & adaptation
+
+Simon *Sciences of the Artificial*
+Alexander *Notes on the Synthesis of Form*
+Jones *Design Methods*
+Schön *Reflective Practitioner*
+Cross *Designerly Ways of Knowing*
+
+
+INDEX
+F
+COMP  GE TH SY SW AI HM
+LING  GE PN MR SX SQ SO HI TY FD PS CL
+MATH  GE AN AL NT GT PR NA OR
+PHIL  GE ES FM MM AX SF
+STAT  GE BA NP DX SU TS ML CT DT
+E
+AGRI  GE CP AV FS NR AG AE
+BIOL  GE MO GN DB EV EC PH MB IY
+CHEM  GE AC OC IN PC BC TC MP
+COGN  GE PA LM LC DR CN CX DN CC
+COMM  GE IP RH MD JN OS ID
+ECON  GE MI MA LP DE FN ME
+EDUC  GE CI LS EA TE EL HE
+GEOG  GE FG GI EG GP CG UG DG EN
+GEOS  GE GL GD GC SE HY AT OA PL
+INFO  GE KO RD IB RP IF IG
+MEDI  GE IM SG DL NM RM
+MGMT  GE AF MK OM SR OG
+PHYS  GE QM CM PF NU AM GR AS FL PM SN
+POLI  GE CV IR PB PE PT
+PSYC  GE BL DV SP PY CH IO EP
+PUBH  GE EI EO HP SB MN IC DP
+SOCI  GE SI OW FP CU LD MV MS UC
+S
+ANTH  GE SC BO AA LI MY AP
+CLAS  GE LG AH AR DS LR RL
+HIST  GE DH HS IH SH GH
+LAWS  GE PU PV CR PJ IL
+N
+PPOL  GE HL EY SL ER UR SK DI MG FT
+THEO  GE BI HT ST TP ET CY
+D
+ARCH  GE AD BE HB PP HC CA
+ARTS  GE OB PG IA LA HA GM
+DESI  GE PD IX SD CD SM DC DM
+ENGI  GE MC EE CE BM IE
+LITS  GE CW PO FI DW LT WH TX TR
+MUSI  GE PI CO TA MH EM MT
+URPL  GE LU TT HO ED RS UD GV UH
+PORTABLE
+CIN  DEC  EXP  LEC  MLR  NET  SIM  SUR  MES  QLT  SPA  SYN
+
+
+F HOME DISCIPLINES
+
+
+COMP — COMPUTER SCIENCE
+
+Antecedents
+Boole *Laws of Thought*
+Turing *Essential Turing*
+Shannon–Weaver *Mathematical Theory of Communication*
+von Neumann *Theory of Self-Reproducing Automata*
+Wiener *Cybernetics*
+
+COMP-GE — General Computer Science
+
+GE1 Computational problem, object & input-domain specification
+GE2 Correctness property & behavioral specification
+GE3 Resource model, cost metric & scaling regime
+GE4 Representation, abstraction & interface assumptions
+GE5 State, data & information model
+GE6 Determinism, randomness, concurrency & interaction regime
+GE7 Workload, dataset & operating-environment representativeness
+GE8 Hardware–software–implementation correspondence
+GE9 Toolchain, dependency & computational reproducibility
+GE10 Prototype, benchmark & component claim–system capability calibration
+
+Knuth *Art of Computer Programming*
+Dijkstra *Discipline of Programming*
+Papadimitriou *Computational Complexity*
+Hennessy–Patterson *Computer Architecture*
+Saltzer–Kaashoek *Principles of Computer System Design*
+
+
+COMP-TH — Theory & Algorithms
+
+TH1 Computational model & admissible operation
+TH2 Reduction & problem-equivalence validity
+TH3 Complexity class, asymptotic regime & model dependence
+TH4 Lower-bound & impossibility argument
+TH5 Worst-case, average-case & amortized distinction
+TH6 Randomization, probability-of-failure & derandomization assumptions
+TH7 Approximation, relaxation & guarantee
+TH8 Algorithmic correctness invariant
+TH9 Data-structure invariant & operation bound
+TH10 Adversary, security game & hardness reduction
+TH11 Cryptographic assumption & composition boundary
+TH12 Privacy definition, neighboring relation & leakage bound
+
+Hopcroft–Ullman *Introduction to Automata Theory, Languages, and Computation*
+Cormen–Leiserson–Rivest–Stein *Introduction to Algorithms*
+Papadimitriou *Computational Complexity*
+Arora–Barak *Computational Complexity*
+Goldreich *Foundations of Cryptography*
+
+
+COMP-SY — Systems, Architecture & Networks
+
+SY1 Architecture, memory hierarchy & hardware-resource model
+SY2 Workload, benchmark & traffic characterization
+SY3 Performance metric, bottleneck & attribution
+SY4 Capacity, utilization & scaling regime
+SY5 Concurrency, ordering & race model
+SY6 Topology, communication, routing & synchrony assumptions
+SY7 Failure, fault-tolerance & recovery model
+SY8 Consistency, durability & replicated-state semantics
+SY9 Protocol correctness & interoperability
+SY10 Threat model, attack surface & implementation leakage
+SY11 Composition across components, layers & administrative domains
+SY12 Identity, trust, key & privilege architecture
+
+Hennessy–Patterson *Computer Architecture*
+Saltzer–Kaashoek *Principles of Computer System Design*
+Tanenbaum–van Steen *Distributed Systems*
+Kurose–Ross *Computer Networking*
+Anderson *Security Engineering*
+
+
+COMP-SW — Software, Languages & Data Systems
+
+SW1 Program-semantics–execution correspondence
+SW2 Type–contract soundness
+SW3 Transformation–proof preservation
+SW4 Requirement–implementation traceability
+SW5 Architecture–dependency coherence
+SW6 Data-model–schema integrity
+SW7 Query–optimization correctness
+SW8 Transaction–isolation semantics validity
+SW9 Verification–test adequacy
+SW10 Change-impact traceability
+
+Reynolds *Theories of Programming Languages*
+Pierce *Types and Programming Languages*
+Date *Introduction to Database Systems*
+Meyer *Object-Oriented Software Construction*
+Sommerville *Software Engineering*
+
+
+COMP-AI — Artificial Intelligence & Machine Learning
+
+AI1 Task, environment & capability specification
+AI2 Objective, reward, loss & evaluation alignment
+AI3 Train–tune–test separation, leakage & benchmark integrity
+AI4 Distribution shift, uncertainty & calibration
+AI5 Representation, model class & inductive-bias specification
+AI6 Search, planning, inference & decision procedure
+AI7 Agent–environment feedback & closed-loop evaluation
+AI8 Perception, sensor & ground-truth correspondence
+AI9 Robustness, adversarial sensitivity & failure-region coverage
+AI10 Baseline, ablation & model-selection accounting
+AI11 Data, compute, scale & efficiency dependence
+AI12 Predictive success–mechanism, reasoning & capability inference
+
+Pearl *Probabilistic Reasoning in Intelligent Systems*
+Russell–Norvig *Artificial Intelligence*
+Sutton–Barto *Reinforcement Learning*
+Hastie–Tibshirani–Friedman *Elements of Statistical Learning*
+Szeliski *Computer Vision*
+
+
+COMP-HM — Human-Centered & Visual Computing
+
+HM1 User, task, population & context alignment
+HM2 Interaction protocol, instrumentation & study design
+HM3 Usability, experience & behavioral-construct validity
+HM4 Learning, familiarity, expertise & adaptation
+HM5 Ecological task validity & deployment context
+HM6 Interaction-induced behavior & feedback effects
+HM7 Accessibility, exclusion & user heterogeneity
+HM8 Qualitative–quantitative evidence convergence
+HM9 Geometric, scene & rendering representation
+HM10 Visual encoding, perception & display assumptions
+HM11 Visualization interaction–inference correspondence
+HM12 Device, input/output & rendered-result correspondence
+
+Card–Moran–Newell *Psychology of Human-Computer Interaction*
+Suchman *Plans and Situated Actions*
+Lazar–Feng–Hochheiser *Research Methods in Human-Computer Interaction*, 2nd ed.
+Foley et al *Computer Graphics: Principles and Practice*
+Munzner *Visualization Analysis and Design*
+
+
+LING — LINGUISTICS
+
+Antecedents
+Pāṇini *Aṣṭādhyāyī*
+Port-Royal *General and Rational Grammar*
+Humboldt *On Language*
+Saussure *Course in General Linguistics*
+Bloomfield *Language*
+
+LING-GE — General Linguistics
+
+GE1 Linguistic unit & level specification
+GE2 Description–analysis–theory separation
+GE3 Competence–performance relation
+GE4 Acceptability–frequency–attestation distinction
+GE5 Speaker, population & variety specification
+GE6 Cross-linguistic comparability
+GE7 Form–meaning–use alignment
+GE8 Gradient–categorical claim calibration
+
+Hockett *Course in Modern Linguistics*
+Chomsky *Aspects of the Theory of Syntax*
+Lyons *Introduction to Theoretical Linguistics*
+Croft *Typology and Universals*
+Labov *Principles of Linguistic Change*
+
+
+LING-PN — Phonetics & Phonology
+
+PN1 Articulatory–acoustic–perceptual correspondence
+PN2 Segment & feature representation
+PN3 Contrast–allophony distinction
+PN4 Segmentation & boundary definition
+PN5 Prosodic hierarchy & timing
+PN6 Phonotactic & syllable-structure assumptions
+PN7 Production–perception asymmetry
+PN8 Speaker & contextual variation
+
+Jones *Outline of English Phonetics*
+Trubetzkoy *Principles of Phonology*
+Ladefoged–Johnson *Course in Phonetics*
+Goldsmith *Autosegmental and Metrical Phonology*
+Hayes *Metrical Stress Theory*
+
+
+LING-MR — Morphology
+
+MR1 Morpheme, word & lexeme definition
+MR2 Allomorphy & conditioning
+MR3 Inflection–derivation distinction
+MR4 Productivity & blocking
+MR5 Morphology–phonology interaction
+MR6 Paradigm & inflectional-system structure
+MR7 Lexicalization & idiomaticity
+MR8 Cross-linguistic morphological comparability
+
+Matthews *Morphology*
+Aronoff *Word Formation in Generative Grammar*
+Bybee *Morphology*
+Booij *Grammar of Words*
+
+
+LING-SX — Syntax
+
+SX1 Constituency & dependency representation
+SX2 Grammaticality-evidence basis
+SX3 Argument structure & valency
+SX4 Long-distance dependency & locality
+SX5 Binding, anaphora & coreference
+SX6 Word order & information-structure interaction
+SX7 Syntax–semantics interface
+SX8 Cross-linguistic syntactic comparability
+
+Chomsky *Syntactic Structures*
+Chomsky *Aspects of the Theory of Syntax*
+Huddleston–Pullum *Cambridge Grammar of the English Language*
+Adger *Core Syntax*
+Everaert–van Riemsdijk *Wiley Blackwell Companion to Syntax*, 2nd ed.
+
+
+LING-SQ — Semantics & Pragmatics
+
+SQ1 Compositionality & semantic type
+SQ2 Reference, deixis & context dependence
+SQ3 Entailment, presupposition & implicature
+SQ4 Ambiguity & scope
+SQ5 Lexical meaning & coercion
+SQ6 Discourse coherence & common ground
+SQ7 Literal–speaker-meaning distinction
+SQ8 Judgment–usage evidence correspondence
+
+Montague *Formal Philosophy*
+Grice *Studies in the Way of Words*
+Levinson *Pragmatics*
+Heim–Kratzer *Semantics in Generative Grammar*
+Stalnaker *Context and Content*
+
+
+LING-SO — Sociolinguistics
+
+SO1 Speech-community & population definition
+SO2 Linguistic-variable definition
+SO3 Style, register & situation
+SO4 Social-category construction
+SO5 Variation–change inference
+SO6 Observer & accommodation effects
+SO7 Contact, code-switching & multilingual context
+SO8 Social-indexical interpretation
+
+Labov *Sociolinguistic Patterns*
+Trudgill *Sociolinguistics*
+Milroy *Language and Social Networks*
+Eckert *Linguistic Variation as Social Practice*
+Labov *Principles of Linguistic Change*
+
+
+LING-HI — Historical & Comparative Linguistics
+
+HI1 Cognate & correspondence identification
+HI2 Regular sound-change inference
+HI3 Reconstruction & uncertainty
+HI4 Inheritance–borrowing distinction
+HI5 Subgrouping & innovation sharing
+HI6 Chronology & relative ordering
+HI7 Semantic & grammatical change
+HI8 Written-record–spoken-language correspondence
+
+Meillet *Comparative Method in Historical Linguistics*
+Anttila *Historical and Comparative Linguistics*
+Hock–Joseph *Language History, Language Change, and Language Relationship*
+Campbell *Historical Linguistics*
+
+
+LING-TY — Linguistic Typology
+
+TY1 Language-sample construction
+TY2 Genealogical & areal non-independence
+TY3 Feature definition & coding
+TY4 Universal–tendency distinction
+TY5 Implicational-universal structure
+TY6 Rarity & attestation
+TY7 Diachronic stability & pathway
+TY8 Database coverage & missingness
+
+Greenberg *Universals of Language*
+Comrie *Language Universals and Linguistic Typology*
+Croft *Typology and Universals*
+Haspelmath et al *World Atlas of Language Structures*
+Song *Linguistic Typology*
+
+
+LING-FD — Field Linguistics & Documentation
+
+FD1 Consultant & speaker-sample representation
+FD2 Elicitation context & task effects
+FD3 Translation & contact-language mediation
+FD4 Naturalistic–elicited data balance
+FD5 Transcription & orthographic representation
+FD6 Corpus & genre coverage
+FD7 Metadata & recording provenance
+FD8 Community variation & speaker knowledge
+
+Boas *Handbook of American Indian Languages*
+Samarin *Field Linguistics*
+Newman–Ratliff *Linguistic Fieldwork*
+Bowern *Linguistic Fieldwork*
+Chelliah–de Reuse *Handbook of Descriptive Linguistic Fieldwork*
+
+
+LING-PS — Psycholinguistics
+
+PS1 Online–offline measure distinction
+PS2 Comprehension–production distinction
+PS3 Lexical frequency & predictability
+PS4 Task & response-strategy effects
+PS5 Temporal-process alignment
+PS6 Individual-difference structure
+PS7 Monolingual–multilingual language history
+PS8 Cognitive-model–linguistic-claim correspondence
+
+Miller *Language and Communication*
+Clark–Clark *Psychology and Language*
+Levelt *Speaking*
+Rueschemeyer–Gaskell *Oxford Handbook of Psycholinguistics*, 2nd ed.
+Harley *Psychology of Language*
+
+
+LING-CL — Computational Linguistics
+
+CL1 Tokenization & representation choice
+CL2 Corpus provenance & leakage
+CL3 Annotation scheme & agreement
+CL4 Model-output–linguistic-construct alignment
+CL5 Evaluation metric & linguistic adequacy
+CL6 Domain & register generalization
+CL7 Multilingual & low-resource comparability
+CL8 Error-analysis & phenomenon coverage
+
+Winograd *Understanding Natural Language*
+Manning–Schütze *Foundations of Statistical Natural Language Processing*
+Jurafsky–Martin *Speech and Language Processing*
+Goldberg *Neural Network Methods for Natural Language Processing*
+Eisenstein *Introduction to Natural Language Processing*
+
+
+MATH — MATHEMATICS
+
+Antecedents
+Euclid *Elements*
+Archimedes *Sphere and Cylinder*
+Newton *Principia*
+Euler *Introductio*
+Gauss *Disquisitiones*
+Hilbert *Foundations of Geometry*
+
+MATH-GE — General Mathematics
+
+GE1 Hypothesis minimality
+GE2 Sharpness & optimality
+GE3 Constructive & effective content
+GE4 Exceptional & pathological cases
+GE5 Representation & invariance
+GE6 Local–global passage
+
+Pólya *Mathematics and Plausible Reasoning*
+Lakatos *Proofs and Refutations*
+Mac Lane *Mathematics: Form and Function*
+Courant–Robbins *What Is Mathematics?*
+
+
+MATH-AN — Analysis
+
+AN1 Function-space & topology choice
+AN2 Interchange of limits, sums, integrals & derivatives
+AN3 Compactness & completeness dependence
+AN4 Singularities & boundary behavior
+AN5 Regularity gain & loss
+
+Cauchy *Cours d'Analyse*
+Banach *Théorie des opérations linéaires*
+Rudin *Functional Analysis*
+Folland *Real Analysis*
+Evans *Partial Differential Equations*
+
+
+MATH-AL — Algebra
+
+AL1 Algebraic structure preservation
+AL2 Morphism & functoriality
+AL3 Universal-property use
+AL4 Exactness
+AL5 Generators, relations & presentations
+AL6 Extension, restriction & descent
+AL7 Base change & characteristic dependence
+
+van der Waerden *Modern Algebra*
+Artin *Algebra*
+Lang *Algebra*
+Dummit–Foote *Abstract Algebra*
+Mac Lane *Categories for the Working Mathematician*
+
+
+MATH-NT — Number Theory
+
+NT1 Uniformity in parameters
+NT2 Exceptional sets
+NT3 Effective & ineffective bounds
+NT4 Arithmetic normalization & local factors
+NT5 Density & distribution claims
+
+Hardy–Wright *Introduction to the Theory of Numbers*
+Serre *Course in Arithmetic*
+Neukirch *Algebraic Number Theory*
+Iwaniec–Kowalski *Analytic Number Theory*
+
+
+MATH-GT — Geometry & Topology
+
+GT1 Category & regularity level
+GT2 Equivalence notion
+GT3 Boundary, orientation & singularity structure
+GT4 Compactness & completeness dependence
+GT5 Intrinsic–extrinsic distinction
+GT6 Gluing & descent
+
+Poincaré *Analysis Situs*
+Munkres *Topology*
+Hatcher *Algebraic Topology*
+Lee *Smooth Manifolds*
+do Carmo *Riemannian Geometry*
+
+
+MATH-PR — Probability
+
+PR1 Probability space & filtration specification
+PR2 Measurability & adaptedness
+PR3 Dependence structure
+PR4 Tightness & uniform integrability
+PR5 Stopping-time validity
+PR6 Tail & rare-event control
+PR7 Path regularity & modification
+
+Kolmogorov *Foundations of Probability*
+Doob *Stochastic Processes*
+Kallenberg *Foundations of Modern Probability*
+Durrett *Probability: Theory and Examples*
+Revuz–Yor *Continuous Martingales*
+
+
+MATH-NA — Numerical Analysis
+
+NA1 Discretization consistency
+NA2 Conditioning
+NA3 A priori & a posteriori error control
+NA4 Stability regions & stiffness
+NA5 Mesh & discretization dependence
+NA6 Floating-point & roundoff effects
+NA7 Structure preservation
+
+Wilkinson *Rounding Errors*
+Dahlquist–Björck *Numerical Methods*
+Higham *Accuracy and Stability*
+Trefethen–Bau *Numerical Linear Algebra*
+Quarteroni–Sacco–Saleri *Numerical Mathematics*
+
+
+MATH-OR — Optimization & Operations Research
+
+OR1 Feasible-set geometry
+OR2 Constraint qualifications
+OR3 Convexity structure
+OR4 Local–global optimality
+OR5 Primal–dual correspondence
+OR6 Duality gap
+OR7 Optimality conditions
+OR8 Relaxation tightness
+
+Dantzig *Linear Programming*
+Rockafellar *Convex Analysis*
+Boyd–Vandenberghe *Convex Optimization*
+Nocedal–Wright *Numerical Optimization*
+Nemhauser–Wolsey *Integer and Combinatorial Optimization*
+Shapiro–Dentcheva–Ruszczyński *Lectures on Stochastic Programming: Modeling and Theory*, 3rd ed.
+
+
+PHIL — PHILOSOPHY
+
+Antecedents
+Plato *Republic*
+Aristotle *Organon*
+Descartes *Meditations*
+Hume *Enquiry*
+Kant *Critique of Pure Reason*
+
+PHIL-GE — General Philosophy
+
+GE1 Philosophical question, claim type & burden specification
+GE2 Concept, distinction & definition discipline
+GE3 Necessary–sufficient condition & counterexample discipline
+GE4 Argument reconstruction & premise-dependence exposure
+GE5 Alternative steelmanning & dialectical completeness
+GE6 Modal discipline
+GE7 Thought-experiment, case selection & analogy discipline
+GE8 Intuition, judgment & method dependence
+GE9 Reflective-equilibrium & theory-revision discipline
+GE10 Historical exegesis–contemporary reconstruction separation
+
+Wittgenstein *Philosophical Investigations*
+Quine *Word and Object*
+Sellars *Science, Perception and Reality*
+Williamson *Philosophy of Philosophy*
+Cappelen–Gendler–Hawthorne *Oxford Handbook of Philosophical Methodology*
+
+
+PHIL-ES — Epistemology & Philosophy of Science
+
+ES1 Epistemic status, warrant & knowledge-condition distinction
+ES2 Defeater, undercutting & rebutting structure
+ES3 Epistemic luck, safety & sensitivity
+ES4 Closure, transmission & higher-order evidence
+ES5 Testimony, expertise & epistemic dependence
+ES6 Probabilistic coherence, updating & evidential support
+ES7 Confirmation, evidential relevance & auxiliary dependence
+ES8 Prediction, accommodation & severe-test distinction
+ES9 Explanation, causation & mechanism structure
+ES10 Model–world inference, idealization & abstraction
+ES11 Observation, measurement & operationalization dependence
+ES12 Underdetermination, theory choice & realism inference
+
+Chisholm *Theory of Knowledge*
+Goldman *Epistemology and Cognition*
+Popper *Logic of Scientific Discovery*
+van Fraassen *Scientific Image*
+
+
+PHIL-FM — Logic & Philosophy of Mathematics
+
+FM1 Formal vocabulary, formation rule & domain specification
+FM2 Syntax–semantics alignment
+FM3 Derivability, validity & consequence distinction
+FM4 Soundness, completeness & metatheoretic dependence
+FM5 Countermodel, independence & consistency argument
+FM6 Expressive adequacy, conservativity & interpretability
+FM7 Computability, decidability & effective-procedure assumptions
+FM8 Axiom, foundation & structural-assumption exposure
+FM9 Formal proof–informal mathematical reasoning correspondence
+FM10 Mathematical object, structure & identity criterion
+FM11 Mathematical explanation, representation & application
+FM12 Target-claim formalization fidelity
+
+Gödel *Collected Works*
+Enderton *Mathematical Logic*
+Shapiro *Thinking about Mathematics*
+Maddy *Naturalism in Mathematics*
+
+
+PHIL-MM — Metaphysics, Mind & Language
+
+MM1 Ontological commitment, primitive & category structure
+MM2 Identity, individuation & persistence
+MM3 Grounding, dependence & fundamentality
+MM4 Composition, part–whole & boundary claims
+MM5 Essence, necessity, possibility & counterfactual structure
+MM6 Mental–physical realization, reduction & emergence
+MM7 Representation, content & content individuation
+MM8 Phenomenal, intentional & functional distinction
+MM9 First-person, introspective & behavioral evidence
+MM10 Meaning, reference & compositionality
+MM11 Context sensitivity, presupposition, implicature & speaker meaning
+MM12 Agency, reasons, action causation & responsibility interface
+
+Kripke *Naming and Necessity*
+Lewis *Plurality of Worlds*
+Ryle *Concept of Mind*
+Fodor *Language of Thought*
+Grice *Studies in the Way of Words*
+
+
+PHIL-AX — Ethics & Aesthetics
+
+AX1 Normative premise, reason & value-source exposure
+AX2 Right, good, virtue, welfare & obligation distinction
+AX3 Partiality, demandingness & agent-relative reason
+AX4 Aggregation, distribution & person-affecting structure
+AX5 Moral uncertainty & action guidance
+AX6 Metaethical dependence, realism & debunking symmetry
+AX7 Aesthetic object, property & value specification
+AX8 Form, expression, representation & interpretation
+AX9 Intention, reception & context in aesthetic evaluation
+AX10 Aesthetic–moral–cognitive–instrumental value relation
+
+Sidgwick *Methods of Ethics*
+Parfit *Reasons and Persons*
+Scanlon *What We Owe*
+Kant *Critique of Judgment*
+Danto *Transfiguration of the Commonplace*
+
+
+PHIL-SF — Social & Political Philosophy
+
+SF1 Principle–institution mapping
+SF2 Feasibility, incentive & information constraints
+SF3 Authority, legitimacy, coercion & political obligation
+SF4 Liberty, rights, equality & claims of justice
+SF5 Distribution, recognition & institutional comparison
+SF6 Ideal–non-ideal transition
+SF7 Collective action, public goods & coordination
+SF8 Social ontology, group agency & category construction
+SF9 Power, domination, oppression & structural injustice
+SF10 Pluralism, disagreement, public reason & toleration
+
+Hobbes *Leviathan*
+Rawls *Theory of Justice*
+Nozick *Anarchy, State, and Utopia*
+Sen *Idea of Justice*
+Pettit *Republicanism*
+
+
+STAT — STATISTICS
+
+Antecedents
+Bernoulli *Ars Conjectandi*
+Quetelet *Treatise on Man and the Development of His Faculties*
+Laplace *Théorie analytique des probabilités*
+Gauss *Theoria Motus*
+Galton *Natural Inheritance*
+
+STAT-GE — General Statistics
+
+GE1 Target–procedure distinction
+GE2 Finite-sample properties
+GE3 Asymptotic regime
+GE4 Statistical identifiability
+GE5 Efficiency & information
+GE6 Inferential calibration
+GE7 Selective inference & multiplicity
+GE8 Nuisance-parameter treatment
+
+Fisher *Statistical Methods*
+Lehmann–Romano *Testing Statistical Hypotheses*
+Cox *Principles of Statistical Inference*
+Lehmann–Casella *Theory of Point Estimation*
+van der Vaart *Asymptotic Statistics*
+
+
+STAT-BA — Bayesian Statistics
+
+BA1 Prior specification & support
+BA2 Prior sensitivity
+BA3 Posterior propriety
+BA4 Prior–likelihood conflict
+BA5 Posterior approximation & computation
+BA6 Posterior predictive checking
+BA7 Marginal-likelihood & Bayes-factor sensitivity
+BA8 Decision–loss coherence
+
+Jeffreys *Theory of Probability*
+de Finetti *Theory of Probability*
+Bernardo–Smith *Bayesian Theory*
+Gelman et al *Bayesian Data Analysis*
+
+
+STAT-NP — Nonparametric & Semiparametric Statistics
+
+NP1 Function-class & regularity specification
+NP2 Smoothing & tuning
+NP3 Boundary & support effects
+NP4 Convergence rates
+NP5 Adaptivity
+NP6 Minimax optimality
+NP7 Dimensionality dependence
+NP8 Semiparametric nuisance & tangent structure
+
+Hájek–Šidák *Theory of Rank Tests*
+Bickel et al *Efficient and Adaptive Estimation*
+Tsybakov *Nonparametric Estimation*
+Wasserman *All of Nonparametric Statistics*
+
+
+STAT-DX — Design of Experiments
+
+DX1 Randomization scheme
+DX2 Allocation & balance
+DX3 Blocking & stratification
+DX4 Information & optimality criterion
+DX5 Power & precision design
+DX6 Sequential & adaptive design
+DX7 Stopping & adaptation validity
+
+Fisher *Design of Experiments*
+Cochran–Cox *Experimental Designs*
+Cox–Reid *Theory of Design of Experiments*
+Wu–Hamada *Experiments*
+Atkinson et al *Optimum Experimental Designs*
+
+
+STAT-SU — Survey & Sampling Statistics
+
+SU1 Frame–population alignment
+SU2 Inclusion probabilities
+SU3 Weighting & calibration
+SU4 Nonresponse mechanism
+SU5 Complex-design dependence
+SU6 Design-based–model-based distinction
+SU7 Design-consistent variance estimation
+SU8 Domain & small-area inference
+
+Kish *Survey Sampling*
+Cochran *Sampling Techniques*
+Särndal–Swensson–Wretman *Model Assisted Survey Sampling*
+Lohr *Sampling*
+
+
+STAT-TS — Time Series & Stochastic-Process Statistics
+
+TS1 Index & timescale specification
+TS2 Stationarity & regime assumptions
+TS3 Temporal dependence structure
+TS4 Causality & invertibility
+TS5 Structural breaks & nonstationarity
+TS6 Long-memory structure
+TS7 Forecast horizon & evaluation
+TS8 Time–frequency correspondence
+
+Wold *Study in the Analysis of Stationary Time Series*
+Box–Jenkins *Time Series Analysis*
+Brockwell–Davis *Time Series*
+Hamilton *Time Series Analysis*
+Shumway–Stoffer *Time Series Analysis*
+
+
+STAT-ML — Statistical Learning
+
+ML1 Prediction–estimation distinction
+ML2 Training–tuning–evaluation separation
+ML3 Regularization & inductive bias
+ML4 Hyperparameter selection
+ML5 High-dimensional regime
+ML6 Generalization guarantees
+ML7 Calibration–discrimination distinction
+ML8 Distribution-shift assumptions
+
+Vapnik *Statistical Learning Theory*
+Breiman *Classification and Regression Trees*
+Shalev-Shwartz–Ben-David *Understanding Machine Learning*
+Hastie–Tibshirani–Friedman *Elements of Statistical Learning*
+Bühlmann–van de Geer *High-Dimensional Statistics*
+
+
+STAT-CT — Computational Statistics
+
+CT1 Random-number generation
+CT2 Monte Carlo error
+CT3 MCMC convergence & mixing
+CT4 Importance-weight degeneracy
+CT5 Approximation bias
+CT6 Resampling validity
+CT7 Simulation design & fidelity
+CT8 Stochastic-optimization diagnostics
+
+Fishman *Monte Carlo: Concepts, Algorithms, and Applications*
+Gentle *Random Number Generation and Monte Carlo Methods*
+Efron–Tibshirani *Bootstrap*
+Robert–Casella *Monte Carlo Statistical Methods*
+Givens–Hoeting *Computational Statistics*
+
+
+STAT-DT — Statistical Decision Theory
+
+DT1 Action-space specification
+DT2 Loss-function specification
+DT3 Risk criterion
+DT4 Admissibility & dominance
+DT5 Bayes–minimax correspondence
+DT6 Complete-class & invariance arguments
+
+Blackwell–Girshick *Theory of Games and Statistical Decisions*
+Berger *Statistical Decision Theory*
+Lehmann–Casella *Theory of Point Estimation*
+
+
+E HOME DISCIPLINES
+
+
+AGRI — AGRICULTURAL SCIENCES
+
+Antecedents
+Columella *On Agriculture*
+Tull *Horse-Hoeing Husbandry*
+Liebig *Organic Chemistry in Its Applications to Agriculture and Physiology*
+Darwin *Variation of Animals and Plants under Domestication*
+King *Farmers of Forty Centuries*
+Russell *Soil Conditions and Plant Growth*
+
+AGRI-GE — General Agricultural Sciences
+
+GE1 Production system, commodity & management objective
+GE2 Genotype–environment–management interaction
+GE3 Site, season, year & weather variability
+GE4 Yield, quality, profitability, welfare & ecosystem tradeoff
+GE5 Biological timing, phenology & lifecycle dependence
+GE6 Plot, field, farm & landscape scale separation
+GE7 Water, nutrient, energy & material balance
+GE8 Pest, pathogen, weed & other biotic-pressure context
+GE9 Management treatment, compliance & implementation fidelity
+GE10 Experimental plot–pilot–commercial farm transfer
+
+Spedding *Introduction to Agricultural Systems*
+Altieri *Agroecology*
+Gliessman *Agroecology*
+National Research Council *Toward Sustainable Agricultural Systems in the 21st Century*
+Alexander *Encyclopedia of Agriculture and Food Systems*, 3rd ed.
+
+
+AGRI-CP — Crop & Plant Systems
+
+CP1 Crop, genotype, cultivar & stand definition
+CP2 Phenology, developmental stage & harvest timing
+CP3 Establishment, density, competition & canopy structure
+CP4 Soil fertility, irrigation & plant-water status
+CP5 Integrated biotic-threat management
+CP6 Breeding, selection & genotype-by-environment response
+CP7 Yield component, product quality & harvest-index interpretation
+CP8 Rotation, residue, cover crop & multiseason carryover
+
+Evans *Crop Evolution, Adaptation and Yield*
+Loomis–Connor *Crop Ecology*
+Acquaah *Principles of Plant Genetics and Breeding*
+Agrios *Plant Pathology*
+Taiz et al *Plant Physiology and Development*
+
+
+AGRI-AV — Animal & Veterinary Systems
+
+AV1 Herd, flock, population & production-unit definition
+AV2 Breed, genotype & genetic-improvement structure
+AV3 Feed composition, intake, nutrition & conversion efficiency
+AV4 Physiology, growth, reproduction & lifecycle stage
+AV5 Housing, behavior, welfare & environmental stress
+AV6 Disease, transmission, biosecurity & veterinary intervention
+AV7 Production, product quality & health-outcome correspondence
+AV8 Individual-animal–herd–production-system transfer
+
+McDonald et al *Animal Nutrition*
+Bourdon *Understanding Animal Breeding*
+Reece *Dukes' Physiology of Domestic Animals*
+Thrusfield *Veterinary Epidemiology*
+Grandin *Improving Animal Welfare*
+
+
+AGRI-FS — Food & Postharvest Systems
+
+FS1 Raw-material composition, maturity & quality
+FS2 Harvest, slaughter, storage & postharvest-chain conditions
+FS3 Processing operation, transformation & process control
+FS4 Microbial, chemical & physical safety hazard
+FS5 Shelf life, spoilage & quality degradation
+FS6 Sensory, nutritional, safety & processing tradeoff
+FS7 Packaging, transport, cold chain & handling
+FS8 Laboratory–pilot–industrial process transfer
+
+Fennema *Food Chemistry*
+Fellows *Food Processing Technology*
+Jay *Modern Food Microbiology*
+Heldman–Lund *Handbook of Food Engineering*
+Potter–Hotchkiss *Food Science*
+
+
+AGRI-NR — Soil, Water & Agroecosystems
+
+NR1 Soil profile, land unit & management-zone definition
+NR2 Soil–water–nutrient interaction
+NR3 Erosion, compaction, salinity & degradation process
+NR4 Biodiversity, ecosystem service & production relation
+NR5 Watershed, landscape & off-site effect
+NR6 Weather, climate, drought, flood & disturbance exposure
+NR7 Sustainability, resilience & regenerative-performance claim
+NR8 Long-term experiment, baseline & legacy-effect interpretation
+
+Brady–Weil *Nature and Properties of Soils*
+Hillel *Environmental Soil Physics*
+Odum *Fundamentals of Ecology*
+Gliessman *Agroecology*
+Lal *Soil Carbon Sequestration and the Greenhouse Effect*
+
+
+AGRI-AG — Agricultural Systems & Technology
+
+AG1 Agricultural task, operation & machinery-system definition
+AG2 Field variability, sensing & measurement support
+AG3 Automation, control, robotics & autonomy
+AG4 Precision-management prescription & decision-rule validity
+AG5 Energy, power, efficiency & traction requirement
+AG6 Harvest, handling, storage & logistics-system integration
+AG7 Operator, ergonomics, safety & human–machine interaction
+AG8 Technology performance–adoption–farm-scale correspondence
+
+Srivastava et al *Engineering Principles of Agricultural Machines*
+Hunt *Farm Power and Machinery Management*
+Peart–Curry *Agricultural Systems Modeling and Simulation*
+Zhang *Precision Agriculture Technology for Crop Farming*
+CIGR *Handbook of Agricultural Engineering*
+
+
+AGRI-AE — Agricultural Economics & Rural Systems
+
+AE1 Farm-household boundary validity
+AE2 Land-tenure–use-rights correspondence
+AE3 Labor-allocation–seasonality coherence
+AE4 Production-risk–livelihood-exposure alignment
+AE5 Credit–insurance constraint validity
+AE6 Market-access–transaction-cost correspondence
+AE7 Price-formation–contract correspondence
+AE8 Commodity-chain value attribution
+AE9 Rural-institution–collective-action adequacy
+AE10 Structural-change–livelihood-transition coherence
+
+Chayanov *The Theory of Peasant Economy*
+Schultz *Transforming Traditional Agriculture*
+Hayami–Ruttan *Agricultural Development: An International Perspective*
+Ellis *Peasant Economics*
+Bardhan–Udry *Development Microeconomics*
+Norton–Alwang–Masters *Economics of Agricultural Development*
+
+
+BIOL — BIOLOGY
+
+Antecedents
+Aristotle *History of Animals*
+Harvey *On the Motion of the Heart and Blood*
+Linnaeus *Systema Naturae*
+Morgan et al *The Mechanism of Mendelian Heredity*
+
+BIOL-GE — General Biology
+
+GE1 Organism–population–lineage level alignment
+GE2 Mechanism–function–history distinction
+GE3 Genotype–phenotype–environment mapping
+GE4 Biological variation & heterogeneity
+GE5 Homology–analogy distinction
+GE6 Model-organism–target correspondence
+GE7 Scale & hierarchy dependence
+GE8 Laboratory–natural-context correspondence
+
+Mayr *The Growth of Biological Thought*
+Alberts et al *Molecular Biology of the Cell*
+Futuyma–Kirkpatrick *Evolution*
+Schmidt-Nielsen *Scaling*
+
+
+BIOL-MO — Molecular & Cell Biology
+
+MO1 Molecular-entity & state validity
+MO2 Regulatory-mechanism specificity
+MO3 Binding–stoichiometry correspondence
+MO4 Perturbation–mechanism specificity
+MO5 Compartment–localization–trafficking coherence
+MO6 Network-context completeness
+MO7 Cell-identity & proliferation-state specification
+MO8 Cell-architecture–microenvironment correspondence
+MO9 Imaging–structure correspondence
+MO10 Culture–substrate context validity
+
+Watson et al *Molecular Biology of the Gene*
+Jacob *The Logic of Life*
+Ptashne *A Genetic Switch*
+Lodish et al *Molecular Cell Biology*
+Pollard et al *Cell Biology*
+Lewin *Genes*
+
+
+BIOL-GN — Genetics & Genomics
+
+GN1 Inheritance-model specification
+GN2 Linkage & recombination structure
+GN3 Penetrance & expressivity
+GN4 Epistasis & gene–environment interaction
+GN5 Population structure & ancestry
+GN6 Variant annotation & reference dependence
+GN7 Genotype–phenotype attribution
+GN8 Genomic multiplicity & polygenicity
+
+Fisher *Genetical Theory of Natural Selection*
+Falconer–Mackay *Introduction to Quantitative Genetics*
+Hartl–Clark *Principles of Population Genetics*
+Griffiths et al *Introduction to Genetic Analysis*
+Lynch–Walsh *Genetics and Analysis of Quantitative Traits*
+
+
+BIOL-DB — Developmental Biology
+
+DB1 Developmental stage & timing
+DB2 Cell lineage & fate mapping
+DB3 Induction & signaling context
+DB4 Morphogen-gradient & positional-information claims
+DB5 Maternal & environmental effects
+DB6 Heterochrony & developmental-rate variation
+DB7 Regeneration–development correspondence
+DB8 Cross-species developmental homology
+
+Waddington *Organisers and Genes*
+Wolpert et al *Principles of Development*
+Gilbert–Barresi *Developmental Biology*
+Davidson *Genomic Regulatory Systems*
+Nuño de la Rosa–Müller *Evolutionary Developmental Biology: A Reference Guide*
+
+
+BIOL-EV — Evolution, Systematics & Biodiversity
+
+EV1 Selection-target specification
+EV2 Selection–drift discrimination
+EV3 Adaptation–history inference validity
+EV4 Frequency-dependent & coevolutionary context
+EV5 Species–taxon circumscription
+EV6 Character-definition & coding validity
+EV7 Nomenclatural validity
+EV8 Phylogenetic-model adequacy
+EV9 Taxon-sampling completeness
+EV10 Biogeographic-reconstruction coherence
+
+Mayr *Systematics and the Origin of Species*
+Hennig *Phylogenetic Systematics*
+Maynard Smith *Evolutionary Genetics*
+Felsenstein *Inferring Phylogenies*
+Wiley–Lieberman *Phylogenetics*
+Lomolino et al *Biogeography*
+Darwin *On the Origin of Species*
+
+
+BIOL-EC — Ecology
+
+EC1 Ecological system boundary
+EC2 Spatial & temporal scale alignment
+EC3 Abundance, occupancy & detectability
+EC4 Interaction-network specification
+EC5 Diversity & community metric interpretation
+EC6 Disturbance, succession & baseline
+EC7 Metapopulation & dispersal structure
+EC8 Ecosystem stock–flow closure
+
+Elton *Animal Ecology*
+Odum *Fundamentals of Ecology*
+MacArthur *Geographical Ecology*
+Begon–Townsend–Harper *Ecology*
+
+
+BIOL-PH — Physiology
+
+PH1 Homeostatic set point & control loop
+PH2 Organ–system integration
+PH3 Dose–response & saturation
+PH4 Compensation & reserve capacity
+PH5 Acute–chronic distinction
+PH6 Whole-organism–isolated-preparation correspondence
+PH7 Allometric & body-size scaling
+PH8 Environmental & circadian state dependence
+
+Cannon *Wisdom of the Body*
+Prosser *Comparative Animal Physiology*
+Schmidt-Nielsen *Scaling*
+Guyton–Hall *Textbook of Medical Physiology*
+Hill–Wyse–Anderson *Animal Physiology*
+
+
+BIOL-MB — Microbiology
+
+MB1 Strain, species & lineage specification
+MB2 Culture-state & growth-phase dependence
+MB3 Laboratory–natural-community correspondence
+MB4 Host–microbe context
+MB5 Virulence–fitness distinction
+MB6 Horizontal gene transfer
+MB7 Community interaction & competition
+MB8 Contamination & mixed-population control
+
+Pasteur *Studies on Fermentation*
+Stanier et al *Microbial World*
+Madigan et al *Brock Biology of Microorganisms*
+Brock *Milestones in Microbiology*
+
+
+BIOL-IY — Immunology
+
+IY1 Antigen & epitope specification
+IY2 Innate–adaptive distinction
+IY3 Immune-cell subset & activation state
+IY4 Activation–effector-function distinction
+IY5 Tolerance, autoimmunity & self-reactivity
+IY6 Immunological memory & exposure history
+IY7 Assay readout–immune function correspondence
+IY8 Species & model-system translation
+
+Burnet *Clonal Selection Theory of Acquired Immunity*
+Paul *Fundamental Immunology*
+Janeway et al *Immunobiology*
+Abbas–Lichtman–Pillai *Cellular and Molecular Immunology*
+
+
+CHEM — CHEMISTRY
+
+Antecedents
+Boyle *Sceptical Chymist*
+Lavoisier *Elements of Chemistry*
+Dalton *New System of Chemical Philosophy*
+Mendeleev *Principles of Chemistry*
+
+CHEM-GE — General Chemistry
+
+GE1 Chemical identity & speciation
+GE2 Stoichiometric & material-balance closure
+GE3 Purity, impurity & contamination profile
+GE4 Thermodynamic–kinetic distinction
+GE5 Temperature, pressure, solvent & pH dependence
+GE6 Structure–property–reactivity correspondence
+GE7 Mechanism–rate-law distinction
+GE8 Chemical state & phase specification
+
+Pauling *Nature of the Chemical Bond*
+Atkins–de Paula *Physical Chemistry*
+Greenwood–Earnshaw *Chemistry of the Elements*
+March *Advanced Organic Chemistry*
+Skoog–Holler–Crouch *Principles of Instrumental Analysis*
+
+
+CHEM-AC — Analytical Chemistry
+
+AC1 Analyte & measurand specification
+AC2 Calibration & metrological traceability
+AC3 Selectivity & interference
+AC4 Detection & quantification limits
+AC5 Recovery & matrix effects
+AC6 Sampling & sample preparation
+AC7 Instrument drift & stability
+AC8 Reference-material & uncertainty chain
+
+Kolthoff–Sandell *Textbook of Quantitative Inorganic Analysis*
+Skoog–Holler–Crouch *Principles of Instrumental Analysis*
+Harris *Quantitative Chemical Analysis*
+Christian *Analytical Chemistry*
+Miller–Miller *Statistics and Chemometrics for Analytical Chemistry*
+
+
+CHEM-OC — Organic Chemistry
+
+OC1 Constitutional & stereochemical structure assignment
+OC2 Reaction-condition specification
+OC3 Mechanistic correspondence
+OC4 Chemo-, regio- & stereoselectivity
+OC5 Yield, mass balance & by-product accounting
+OC6 Purification & characterization sufficiency
+OC7 Substrate-scope representation
+OC8 Scale & concentration sensitivity
+
+Ingold *Structure and Mechanism in Organic Chemistry*
+Eliel–Wilen *Stereochemistry of Organic Compounds*
+March *Advanced Organic Chemistry*
+Carey–Sundberg *Advanced Organic Chemistry*
+Clayden et al *Organic Chemistry*
+
+
+CHEM-IN — Inorganic & Organometallic Chemistry
+
+IN1 Oxidation state & electron count
+IN2 Coordination geometry & ligand environment
+IN3 Bonding-model applicability
+IN4 Solution–solid speciation correspondence
+IN5 Crystal phase & polymorphism
+IN6 Organometallic catalytic-cycle closure
+IN7 Air, moisture & redox sensitivity
+IN8 Spectroscopic & structural assignment
+
+Pauling *Nature of the Chemical Bond*
+Cotton–Wilkinson *Advanced Inorganic Chemistry*
+Greenwood–Earnshaw *Chemistry of the Elements*
+Miessler–Fischer–Tarr *Inorganic Chemistry*
+Elschenbroich *Organometallics*
+
+
+CHEM-PC — Physical Chemistry
+
+PC1 Thermodynamic-state & ensemble specification
+PC2 Equilibrium–nonequilibrium distinction
+PC3 Rate law & kinetic regime
+PC4 Spectroscopic state assignment
+PC5 Quantum-model & approximation regime
+PC6 Transport & diffusion regime
+PC7 Phase behavior & transition identification
+PC8 Statistical-mechanical coarse graining
+
+McQuarrie *Statistical Mechanics*
+Atkins–de Paula *Physical Chemistry*
+Levine *Quantum Chemistry*
+Steinfeld–Francisco–Hase *Chemical Kinetics and Dynamics*
+Gibbs *Elementary Principles in Statistical Mechanics*
+
+
+CHEM-BC — Biochemistry & Chemical Biology
+
+BC1 Biomolecule identity & molecular state
+BC2 Concentration, activity & stoichiometry
+BC3 Enzyme-kinetic regime
+BC4 Binding affinity–cellular efficacy distinction
+BC5 Buffer, ionic-strength & cofactor dependence
+BC6 Folding, aggregation & conformational state
+BC7 Post-translational modification
+BC8 Chemical-probe specificity & perturbation
+
+Stryer *Biochemistry*
+Fersht *Structure and Mechanism in Protein Science*
+Nelson–Cox *Lehninger Principles of Biochemistry*
+Walsh *Posttranslational Modification of Proteins*
+
+
+CHEM-TC — Theoretical & Computational Chemistry
+
+TC1 Electronic-structure method & Hamiltonian choice
+TC2 Basis-set & representation dependence
+TC3 Correlation & functional approximation
+TC4 Geometry & stationary-point verification
+TC5 Solvent & environmental model
+TC6 Free-energy sampling & convergence
+TC7 Reference & benchmark hierarchy
+TC8 Computed–experimental observable mapping
+
+Szabo–Ostlund *Modern Quantum Chemistry*
+Leach *Molecular Modelling*
+Jensen *Introduction to Computational Chemistry*
+Cramer *Essentials of Computational Chemistry*
+Frenkel–Smit *Understanding Molecular Simulation*
+
+
+CHEM-MP — Materials & Polymer Chemistry
+
+MP1 Composition & phase specification
+MP2 Synthesis–processing history
+MP3 Molecular-weight & dispersity structure
+MP4 Morphology & microstructure
+MP5 Defect, interface & surface state
+MP6 Structure–property attribution
+MP7 Aging, degradation & environmental stability
+MP8 Batch, scale & processing transfer
+
+Flory *Principles of Polymer Chemistry*
+de Gennes *Scaling Concepts in Polymer Physics*
+Sperling *Introduction to Physical Polymer Science*
+Callister–Rethwisch *Materials Science and Engineering*
+Woodward–Karen–Evans–Vogt *Solid State Materials Chemistry*
+
+
+COGN — COGNITIVE SCIENCE
+
+Antecedents
+Aristotle *De Anima*
+Descartes *Treatise on Man*
+Locke *Essay Concerning Human Understanding*
+Helmholtz *Physiological Optics*
+James *Principles of Psychology*
+Wundt *Principles of Physiological Psychology*
+
+COGN-GE — General Cognitive Science
+
+GE1 Task–construct mapping
+GE2 Level-of-analysis alignment
+GE3 Behavioral–cognitive inference
+GE4 Process identifiability
+GE5 Cognitive architecture assumptions
+GE6 Learning, adaptation & strategy change
+GE7 Convergent-operation coherence
+
+Marr *Vision*
+Newell *Unified Theories of Cognition*
+Anderson *Rules of the Mind*
+Hutchins *Cognition in the Wild*
+Bermúdez *Cognitive Science: An Introduction to the Science of the Mind*, 4th ed.
+
+
+COGN-PA — Perception & Action
+
+PA1 Stimulus-space specification
+PA2 Psychophysical scale & threshold definition
+PA3 Sensory–decisional separation
+PA4 Perceptual constancy & invariance
+PA5 Perception–action coupling
+PA6 Response criterion & bias
+PA7 Adaptation & sequential effects
+PA8 Active-sampling dependence
+
+Fechner *Elements of Psychophysics*
+Gibson *Ecological Approach*
+Green–Swets *Signal Detection Theory*
+Palmer *Vision Science*
+
+
+COGN-LM — Memory & Learning
+
+LM1 Encoding–storage–retrieval distinction
+LM2 Learning–performance distinction
+LM3 Interference & forgetting
+LM4 Consolidation & reconsolidation
+LM5 Retention interval & timescale
+LM6 Transfer & generalization
+LM7 Prior knowledge & exposure
+LM8 Memory-system attribution
+
+Ebbinghaus *Memory*
+Bartlett *Remembering*
+Tulving *Elements of Episodic Memory*
+Baddeley *Working Memory*
+Squire *Memory and Brain*
+
+
+COGN-LC — Language & Communication
+
+LC1 Competence–performance distinction
+LC2 Representation–processing distinction
+LC3 Lexical–syntactic–semantic–pragmatic separation
+LC4 Ambiguity & disambiguation
+LC5 Frequency & exposure
+LC6 Cross-linguistic comparability
+LC7 Production–comprehension relation
+LC8 Compositional & incremental processing
+
+Miller *Language and Communication*
+Chomsky *Aspects*
+Levelt *Speaking*
+Jackendoff *Foundations of Language*
+Tomasello *Constructing a Language*
+
+
+COGN-DR — Decision & Reasoning
+
+DR1 Preference & belief elicitation
+DR2 Process–outcome distinction
+DR3 Framing & reference dependence
+DR4 Stochasticity & response noise
+DR5 Search & stopping rules
+DR6 Feedback & learning
+DR7 Heuristic & strategy attribution
+DR8 Rational-model benchmark dependence
+
+Simon *Administrative Behavior*
+Newell–Simon *Human Problem Solving*
+Kahneman–Slovic–Tversky *Judgment under Uncertainty*
+Gigerenzer *Adaptive Thinking*
+Oaksford–Chater *Bayesian Rationality*
+
+
+COGN-CN — Cognitive Neuroscience
+
+CN1 Neural–cognitive inference
+CN2 Reverse-inference control
+CN3 Spatial–temporal resolution alignment
+CN4 Neural-measurement coupling
+CN5 Localization–network distinction
+CN6 Perturbation & lesion inference
+CN7 Anatomical–functional correspondence
+CN8 Cross-level convergence
+
+Hebb *Organization of Behavior*
+Gazzaniga *Cognitive Neuroscience*
+Friston *Statistical Parametric Mapping*
+Poldrack–Mumford–Nichols *Handbook of Functional MRI Data Analysis*
+
+
+COGN-CX — Computational Cognition
+
+CX1 Representational commitments
+CX2 Algorithmic–process correspondence
+CX3 Parameter recovery & identifiability
+CX4 Model mimicry
+CX5 Flexibility & complexity control
+CX6 Fit–prediction separation
+CX7 Learning objective & training environment
+CX8 Simulation–cognition correspondence
+CX9 Emergent-behavior interpretation
+
+Pylyshyn *Computation and Cognition*
+Newell–Simon *Human Problem Solving*
+Marr *Vision*
+Sutton–Barto *Reinforcement Learning*
+Lewandowsky–Farrell *Computational Modeling*
+
+
+COGN-DN — Development
+
+DN1 Age–stage mapping
+DN2 Maturation–learning separation
+DN3 Longitudinal–cohort distinction
+DN4 Developmental measurement invariance
+DN5 Cross-age task comparability
+DN6 Developmental continuity & discontinuity
+DN7 Experience & caregiver dependence
+DN8 Sensitive-period claims
+
+Piaget *Origins of Intelligence*
+Vygotsky *Mind in Society*
+Karmiloff-Smith *Beyond Modularity*
+Siegler *Emerging Minds*
+Johnson *Developmental Cognitive Neuroscience*
+Goswami *Cognitive Development and Cognitive Neuroscience: The Learning Brain*, 2nd ed.
+
+
+COGN-CC — Social & Cultural Cognition
+
+CC1 Individual–group inference
+CC2 Mental-state attribution
+CC3 Shared knowledge & common ground
+CC4 Cultural comparability
+CC5 Norm & context dependence
+CC6 Coordination & emergence
+CC7 Dyadic–group generalization
+CC8 Social learning & transmission
+
+Vygotsky *Mind in Society*
+Heider *Psychology of Interpersonal Relations*
+Tomasello *Cultural Origins*
+Hutchins *Cognition in the Wild*
+Clark *Using Language*
+Carlston–Hugenberg–Johnson *Oxford Handbook of Social Cognition*, 2nd ed.
+
+
+COMM — COMMUNICATION & MEDIA STUDIES
+
+Antecedents
+Quintilian *Institutes of Oratory*
+Campbell *Philosophy of Rhetoric*
+Burke *Grammar of Motives*
+Shannon–Weaver *Mathematical Theory of Communication*
+Mead *Mind, Self, and Society*
+
+COMM-GE — General Communication & Media Studies
+
+GE1 Communicative-system specification
+GE2 Participant-role validity
+GE3 Message–code separation
+GE4 Medium–affordance correspondence
+GE5 Interpretation–effect separation
+GE6 Power-context adequacy
+GE7 Exposure–response sequence
+GE8 Feedback-sequence validity
+GE9 Intention–uptake separation
+GE10 Transfer validity
+
+Littlejohn–Foss *Theories of Human Communication*
+Carey *Communication as Culture*
+Habermas *Theory of Communicative Action*
+Rogers *Diffusion of Innovations*
+Goffman *Interaction Ritual*
+
+
+COMM-IP — Interpersonal & Group Communication
+
+IP1 Relational-unit interdependence
+IP2 Role–history alignment
+IP3 Turn–repair reconstruction
+IP4 Multimodal-signal convergence
+IP5 Relational-process adequacy
+IP6 Group-structure validity
+IP7 Coordination-process adequacy
+IP8 Evidence-mode convergence
+
+Watzlawick–Bavelas–Jackson *Pragmatics of Human Communication*
+Goffman *Behavior in Public Places*
+Baxter–Montgomery *Relating*
+Knapp–Vangelisti *Interpersonal Communication and Human Relationships*
+Poole–Hollingshead *Theories of Small Groups*
+
+
+COMM-RH — Rhetoric & Public Communication
+
+RH1 Rhetorical-situation specification
+RH2 Argument-structure fidelity
+RH3 Genre-constraint validity
+RH4 Symbolic-strategy reconstruction
+RH5 Persuasion-effect identification
+RH6 Contestation completeness
+RH7 Public-circulation traceability
+RH8 Evaluation-mode separation
+
+Perelman–Olbrechts-Tyteca *New Rhetoric*
+Toulmin *Uses of Argument*
+Burke *Rhetoric of Motives*
+Habermas *Structural Transformation of the Public Sphere*
+Aristotle *Rhetoric*
+
+
+COMM-MD — Media & Mass Communication
+
+MD1 Market–platform correspondence
+MD2 Production-regime specification
+MD3 Distribution-mechanism validity
+MD4 Audience-measure validity
+MD5 Media-effect identification
+MD6 Platform-feedback specification
+MD7 Ownership–regulation alignment
+MD8 Media-ecology completeness
+
+McLuhan *Understanding Media*
+McQuail *Mass Communication Theory*
+Hall et al *Culture, Media, Language*
+Castells *Communication Power*
+Bryant–Oliver *Media Effects*
+
+
+COMM-JN — Journalism & News
+
+JN1 News-event–claim correspondence
+JN2 Source-identity–access validity
+JN3 Evidence–attribution traceability
+JN4 Verification–corroboration adequacy
+JN5 Editorial-selection transparency
+JN6 Newsroom-independence validity
+JN7 Fact–analysis–opinion separation
+JN8 Uncertainty–timeliness calibration
+JN9 Correction–version traceability
+
+Tuchman *Making News*
+Gans *Deciding What's News*
+Fishman *Manufacturing the News*
+Schudson *The Sociology of News*
+Wahl-Jorgensen–Hanitzsch *The Handbook of Journalism Studies*, 2nd ed.
+Carlson *Journalistic Authority*
+
+
+COMM-OS — Organizational & Strategic Communication
+
+OS1 Stakeholder-network completeness
+OS2 Formal–informal separation
+OS3 Organizational-voice attribution
+OS4 Crisis-context adequacy
+OS5 Strategy–response correspondence
+OS6 Diffusion–coordination coherence
+OS7 Legitimacy-measure validity
+OS8 Campaign-effect identification
+
+Weick *Sensemaking in Organizations*
+Cheney et al *Organizational Communication in an Age of Globalization*
+Putnam–Nicotera *Building Theories of Organization*
+Grunig *Excellence in Public Relations and Communication Management*
+Coombs *Ongoing Crisis Communication*
+
+
+COMM-ID — Communication, Culture & Identity
+
+ID1 Community-membership validity
+ID2 Code–context reconstruction
+ID3 Identity-performance validity
+ID4 Intercultural-equivalence validity
+ID5 Power–representation adequacy
+ID6 Ritual–formation correspondence
+ID7 Cultural-circulation traceability
+ID8 Practice–claim transfer validity
+
+Hall *Beyond Culture*
+Hymes *Foundations in Sociolinguistics*
+Philipsen *Speaking Culturally*
+Carbaugh *Cultures in Conversation*
+Ting-Toomey *Communicating Across Cultures*
+
+
+ECON — ECONOMICS
+
+Antecedents
+Smith *Wealth of Nations*
+Ricardo *Principles*
+Mill *Principles of Political Economy*
+Marshall *Principles*
+Walras *Elements*
+Keynes *General Theory*
+
+ECON-GE — General Economics
+
+GE1 Economic unit, boundary & decision problem
+GE2 Scarcity, resource constraint & opportunity cost
+GE3 Mechanism & behavioral response
+GE4 Equilibrium, aggregation & closure
+GE5 General-equilibrium, displacement & spillover effects
+GE6 Institutional & contractual fit
+GE7 Welfare mapping to primitives & incidence
+GE8 Policy invariance, expectations & regime dependence
+
+Samuelson *Foundations of Economic Analysis*
+Hicks *Value and Capital*
+Debreu *Theory of Value*
+Arrow–Hahn *General Competitive Analysis*
+Mas-Colell–Whinston–Green *Microeconomic Theory*
+
+
+ECON-MI — Microeconomics, Industrial Organization & Strategic Interaction
+
+MI1 Preferences, objectives & choice domain
+MI2 Technology, feasibility & production set
+MI3 Information structure & belief formation
+MI4 Timing, commitment & dynamic incentives
+MI5 Market boundary, demand & substitution structure
+MI6 Market power, entry & competitive response
+MI7 Contract, mechanism & allocation rule
+MI8 Strategic interaction & equilibrium concept
+MI9 Equilibrium selection, refinement & multiplicity
+MI10 Comparative statics & counterfactual market structure
+
+Tirole *Theory of Industrial Organization*
+Fudenberg–Tirole *Game Theory*
+Laffont–Martimort *Theory of Incentives*
+Milgrom *Putting Auction Theory to Work*
+Kreps *Microeconomic Foundations I*
+
+
+ECON-MA — Macroeconomics & Monetary Economics
+
+MA1 Aggregate accounting & resource consistency
+MA2 Intertemporal structure & state dynamics
+MA3 Expectations & information formation
+MA4 Aggregation, heterogeneity & distribution
+MA5 Nominal–real linkage & price adjustment
+MA6 Financial frictions & intermediary transmission
+MA7 Policy rule, regime & credibility
+MA8 Transition dynamics & long-run consistency
+MA9 Open-economy closure & external balance
+MA10 Shock identification & propagation mechanism
+
+Lucas–Stokey *Recursive Methods in Economic Dynamics*
+Ljungqvist–Sargent *Recursive Macroeconomic Theory*
+Woodford *Interest and Prices*
+Galí *Monetary Policy, Inflation, and the Business Cycle*
+Obstfeld–Rogoff *Foundations of International Macroeconomics*
+
+
+ECON-LP — Labor & Public Economics
+
+LP1 Employment-population alignment
+LP2 Participation-margin specification
+LP3 Labor-demand–wage-setting coherence
+LP4 Search–matching–mobility adequacy
+LP5 Human-capital–household-response attribution
+LP6 Tax-base–benefit-eligibility correspondence
+LP7 Take-up–compliance completeness
+LP8 Public-budget–resource-cost closure
+LP9 Public-good provision adequacy
+LP10 Distributional-measure comparability
+
+Musgrave *The Theory of Public Finance*
+Becker *Human Capital*
+Atkinson–Stiglitz *Lectures on Public Economics*
+Cahuc–Carcillo–Zylberberg *Labor Economics*
+Boeri–van Ours *The Economics of Imperfect Labor Markets*
+Salanié *The Economics of Taxation*
+
+
+ECON-DE — Development & International Economics
+
+DE1 Country–period institutional comparability
+DE2 Development-baseline specification
+DE3 Structural-transformation coherence
+DE4 Informality–subsistence measurement validity
+DE5 State-capacity–implementation correspondence
+DE6 Poverty-line–price-level comparability
+DE7 Trade-flow–value-added measurement validity
+DE8 Comparative-advantage–specialization coherence
+DE9 Trade-policy–market-access specification
+DE10 External-finance composition validity
+
+Meade *The Theory of International Economic Policy*
+Lewis *The Theory of Economic Growth*
+Hirschman *The Strategy of Economic Development*
+Ray *Development Economics*
+Feenstra *Advanced International Trade*
+Uribe–Schmitt-Grohé *Open Economy Macroeconomics*
+
+
+ECON-FN — Financial Economics
+
+FN1 Asset, claim & state-contingent payoff definition
+FN2 Valuation kernel, discounting & horizon
+FN3 No-arbitrage, spanning & market completeness
+FN4 Risk exposure, premium & factor structure
+FN5 Information, beliefs & price discovery
+FN6 Liquidity, trading mechanism & transaction cost
+FN7 Leverage, intermediary balance sheet & amplification
+FN8 Term, default & contingent-claim structure
+FN9 Efficiency–arbitrage–instability relation
+FN10 Corporate decision–capital-market equilibrium interface
+
+Merton *Continuous-Time Finance*
+Duffie *Dynamic Asset Pricing Theory*
+Cochrane *Asset Pricing*
+Campbell–Lo–MacKinlay *Econometrics of Financial Markets*
+Shleifer *Inefficient Markets*
+
+
+ECON-ME — Econometrics & Quantitative Economics
+
+ME1 Economic estimand & model–parameter mapping
+ME2 Sampling scheme, stochastic process & dependence
+ME3 Identification support, rank & observational equivalence
+ME4 Estimator–objective & loss-function correspondence
+ME5 Finite-sample behavior, asymptotic regime & inference
+ME6 Panel, time-series & repeated-cross-section structure
+ME7 Structural estimation, calibration & simulation discipline
+ME8 Model selection, regularization & dimensionality
+ME9 Generated equilibrium objects & estimated first stages
+ME10 Counterfactual & policy-simulation validity
+
+Koopmans *Statistical Inference in Dynamic Economic Models*
+Goldberger *Econometric Theory*
+Davidson–MacKinnon *Estimation and Inference in Econometrics*
+Hayashi *Econometrics*
+Wooldridge *Econometric Analysis of Cross Section and Panel Data*
+Greene *Econometric Analysis*
+
+
+EDUC — EDUCATION
+
+Antecedents
+Comenius *Great Didactic*
+Rousseau *Emile*
+Pestalozzi *How Gertrude Teaches Her Children*
+Montessori *Montessori Method*
+
+EDUC-GE — General Education
+
+GE1 Educational aim, learner population & setting
+GE2 Learning target, competence & progression
+GE3 Comparator–provision alignment
+GE4 Opportunity to learn, exposure & instructional dosage
+GE5 Curriculum–instruction–assessment–outcome alignment
+GE6 Learner–teacher–classroom–institution level separation
+GE7 Selection, placement, tracking & attrition
+GE8 Implementation fidelity, adaptation & local enactment
+GE9 Cohort–calendar-time alignment
+GE10 Access, accommodation, differential opportunity & equity
+
+National Research Council *How People Learn*
+Shulman *Wisdom of Practice*
+Biesta *Good Education in an Age of Measurement*
+Dewey *Democracy and Education*
+Bruner *Process of Education*
+
+
+EDUC-CI — Curriculum & Instruction
+
+CI1 Curriculum scope, sequence & prerequisite structure
+CI2 Intended, enacted, assessed & learned curriculum distinction
+CI3 Instructional method–learning mechanism correspondence
+CI4 Task, example, explanation & practice design
+CI5 Scaffolding–independence progression
+CI6 Pedagogical-representation fidelity
+CI7 Differentiation, adaptation & learner heterogeneity
+CI8 Curriculum coherence across lessons, courses & programs
+CI9 Fidelity–teacher adaptation–local context relation
+
+Tyler *Basic Principles of Curriculum and Instruction*
+Bruner *Toward a Theory of Instruction*
+Gagné et al *Principles of Instructional Design*
+Eisner *Educational Imagination*
+Wiggins–McTighe *Understanding by Design*
+
+
+EDUC-LS — Learning Sciences & Educational Psychology
+
+LS1 Prior-knowledge representation validity
+LS2 Knowledge-change attribution
+LS3 Memory-process specification
+LS4 Cognitive-load–capacity alignment
+LS5 Motivation–engagement construct validity
+LS6 Metacognitive-monitoring calibration
+LS7 Self-regulation process validity
+LS8 Feedback–learning attribution
+LS9 Learning–performance–retention separation
+LS10 Transfer-boundary validity
+
+Ausubel *Educational Psychology: A Cognitive View*
+Newell–Simon *Human Problem Solving*
+Vygotsky *Mind in Society*
+Schutz–Muis *Handbook of Educational Psychology*, 4th ed.
+Sawyer *The Cambridge Handbook of the Learning Sciences*, 3rd ed.
+Sweller–Ayres–Kalyuga *Cognitive Load Theory*
+
+
+EDUC-EA — Assessment & Educational Evaluation
+
+EA1 Assessment-purpose specification
+EA2 Construct, content domain & opportunity-to-learn alignment
+EA3 Item/task sampling & domain representation
+EA4 Scoring, standard setting & performance-level interpretation
+EA5 Reliability, measurement error & decision consistency
+EA6 Stakes, incentives, teaching-to-test & gaming effects
+EA7 Growth, progress & change-score interpretation
+EA8 Fairness, accommodation & subgroup comparability
+EA9 Program theory, implementation & outcome evaluation
+EA10 Assessment result–educational decision validity
+
+Brennan *Educational Measurement*
+AERA–APA–NCME *Standards for Educational and Psychological Testing*
+Cronbach *Essentials of Psychological Testing*
+Nitko–Brookhart *Educational Assessment of Students*
+Pellegrino–Chudowsky–Glaser *Knowing What Students Know*
+
+
+EDUC-TE — Teaching & Teacher Education
+
+TE1 Subject-matter, pedagogical & pedagogical-content knowledge
+TE2 Teacher noticing, diagnosis & instructional decision
+TE3 Classroom interaction, management & participation structure
+TE4 Teacher learning, professional development & practice change
+TE5 Practicum, mentoring, supervision & clinical preparation
+TE6 Observation, rating & teacher-performance inference
+TE7 Teacher implementation variability & adaptation
+TE8 Teacher effect–student selection–school context separation
+
+Lortie *Schoolteacher*
+Schön *Reflective Practitioner*
+Shulman *Wisdom of Practice*
+Darling-Hammond–Bransford *Preparing Teachers for a Changing World*
+Gitomer–Bell *Handbook of Research on Teaching*
+
+
+EDUC-EL — Educational Organizations, Leadership & Policy
+
+EL1 Educational organization, governance & authority structure
+EL2 Resource, staffing, time & capacity constraint
+EL3 Leadership action–organizational condition–student outcome chain
+EL4 School climate, culture, norm & institutional practice
+EL5 Accountability, incentive, metric & gaming response
+EL6 Policy adoption, interpretation, implementation & feedback
+EL7 Sorting, segregation, catchment & institutional selection
+EL8 Organization effect–student composition–community context separation
+
+Tyack–Cuban *Tinkering toward Utopia*
+Fullan *New Meaning of Educational Change*
+Spillane *Distributed Leadership*
+March–Simon *Organizations*
+Meyer–Rowan *New Institutionalism in Education*
+
+
+EDUC-HE — Higher & Professional Education
+
+HE1 Admissions, selection, preparation & entering-cohort definition
+HE2 Program structure, curriculum sequence & progression
+HE3 Disciplinary, professional & transferable competence
+HE4 Experiential, clinical, workplace & practice-based learning
+HE5 Persistence, completion, stop-out & credential attainment
+HE6 Faculty–organization–mission alignment
+HE7 Credential, assessment & professional-readiness correspondence
+HE8 Education–practice outcome correspondence
+
+Clark *Higher Education System*
+Kerr *Uses of the University*
+Ramsden *Learning to Teach in Higher Education*
+Biggs–Tang *Teaching for Quality Learning at University*
+Bok *Universities in the Marketplace*
+
+
+GEOG — GEOGRAPHY
+
+Antecedents
+Humboldt *Cosmos*
+Reclus *Earth and Its Inhabitants*
+Vidal de la Blache *Principles of Human Geography*
+Hartshorne *Nature of Geography*
+Sauer *Land and Life*
+
+GEOG-GE — General Geography
+
+GE1 Spatial unit, extent & scale
+GE2 Place, region & boundary construction
+GE3 Location–process correspondence
+GE4 Spatial heterogeneity & context
+GE5 Human–environment relation
+GE6 Landscape & spatial-pattern interpretation
+GE7 Cross-scale inference
+GE8 Spatial representation–territorial reality distinction
+
+Tuan *Space and Place*
+Massey *For Space*
+Livingstone *Geographical Tradition*
+Harvey *Explanation in Geography*
+Cresswell *Geographic Thought: A Critical Introduction*, 2nd ed.
+
+
+GEOG-FG — Physical Geography
+
+FG1 Land-surface unit & process domain
+FG2 Process rate–landform correspondence
+FG3 Climate–surface–vegetation coupling
+FG4 Threshold, disturbance & recovery
+FG5 Catchment & terrain boundary effects
+FG6 Field-observation–remote-sensing correspondence
+FG7 Contemporary process–historical landform inference
+FG8 Scale transfer in surface processes
+
+Chorley–Kennedy *Physical Geography: A Systems Approach*
+Huggett *Fundamentals of Geomorphology*
+Gregory *Changing Nature of Physical Geography*
+Anderson–Anderson *Geomorphology: The Mechanics and Chemistry of Landscapes*
+Knighton *Fluvial Forms and Processes*
+
+
+GEOG-GI — Geographic Information Science & Cartography
+
+GI1 Spatial data model & ontology
+GI2 Coordinate reference & projection
+GI3 Feature extraction & classification
+GI4 Positional, thematic & temporal accuracy
+GI5 Generalization & scale dependence
+GI6 Cartographic symbol & visual inference
+GI7 Geoprocessing lineage & reproducibility
+GI8 Map–territory claim calibration
+
+Robinson et al *Elements of Cartography*
+Longley et al *Geographic Information Systems and Science*
+Burrough–McDonnell–Lloyd *Principles of Geographical Information Systems*
+Monmonier *How to Lie with Maps*
+Kraak–Ormeling *Cartography*
+
+
+GEOG-EG — Economic Geography
+
+EG1 Economic activity & spatial-unit definition
+EG2 Location choice & market-access mechanism
+EG3 Agglomeration & dispersion process
+EG4 Firm, cluster & region level separation
+EG5 Transport cost & network dependence
+EG6 Global production-network boundary
+EG7 Regional specialization & path dependence
+EG8 Spatial inequality & adjustment
+
+Clark–Feldman–Gertler–Wójcik *New Oxford Handbook of Economic Geography*
+Dicken *Global Shift*
+Storper *Regional World*
+Scott *Regions and the World Economy*
+Coe–Kelly–Yeung *Economic Geography*
+
+
+GEOG-GP — Political Geography
+
+GP1 Territory, jurisdiction & sovereignty distinction
+GP2 Border & boundary construction
+GP3 Scale of political authority
+GP4 Electoral geography & spatial aggregation
+GP5 Geopolitical representation & strategic framing
+GP6 Territorial identity & nationalism
+GP7 State space–network relation
+GP8 Conflict, control & spatial access
+
+Taylor–Flint *Political Geography*
+Agnew *Geopolitics*
+Ó Tuathail *Critical Geopolitics*
+Paasi *Territories, Boundaries and Consciousness*
+Painter–Jeffrey *Political Geography*
+
+
+GEOG-CG — Cultural Geography
+
+CG1 Place meaning & cultural landscape
+CG2 Representation–practice relation
+CG3 Identity & spatial belonging
+CG4 Landscape reading & material trace
+CG5 Mobility, diaspora & cultural circulation
+CG6 Heritage, memory & place construction
+CG7 Cultural boundary & internal heterogeneity
+CG8 Researcher gaze & representational power
+
+Tuan *Topophilia*
+Cosgrove *Social Formation and Symbolic Landscape*
+Jackson *Maps of Meaning*
+Mitchell *Cultural Geography*
+Anderson *Understanding Cultural Geography*
+
+
+GEOG-UG — Urban Geography
+
+UG1 Urban-region & neighborhood boundary
+UG2 Land-use pattern & spatial sorting
+UG3 Accessibility & urban-network structure
+UG4 Residential, employment & service geography
+UG5 Segregation & neighborhood change
+UG6 Metropolitan scale & polycentricity
+UG7 Built form–social process correspondence
+UG8 Urban restructuring & displacement
+
+Harvey *Social Justice and the City*
+Knox–Pinch *Urban Social Geography*
+Soja *Postmetropolis*
+Pacione *Urban Geography*
+Hall *Cities in Civilization*
+
+
+GEOG-DG — Development Geography
+
+DG1 Development indicator & spatial scale
+DG2 Region, locality & livelihood unit
+DG3 Formal–informal economy relation
+DG4 Center–periphery & network dependence
+DG5 Intervention geography & uneven effects
+DG6 Mobility, migration & remittance space
+DG7 Environmental constraint & livelihood adaptation
+DG8 Local trajectory–general development claim
+
+Peet–Hartwick *Theories of Development*
+Escobar *Encountering Development*
+Potter et al *Geographies of Development*
+Willis *Theories and Practices of Development*
+
+
+GEOG-EN — Environment & Human–Environment Geography
+
+EN1 Coupled human–environment system boundary
+EN2 Exposure, vulnerability & adaptive capacity
+EN3 Resource use & access regime
+EN4 Land-use & land-cover change
+EN5 Hazard–disaster distinction
+EN6 Political-ecological causal chain
+EN7 Adaptation, resilience & transformation
+EN8 Local environmental change–global driver relation
+
+Turner et al *Earth as Transformed by Human Action*
+Blaikie et al *At Risk*
+Robbins *Political Ecology*
+Zimmerer–Bassett *Political Ecology*
+Castree et al *Companion to Environmental Geography*
+
+
+GEOS — GEOSCIENCES
+
+Antecedents
+Hutton *Theory of the Earth*
+Lyell *Principles of Geology*
+Dana *Manual of Geology*
+Suess *Face of the Earth*
+Wegener *Origin of Continents and Oceans*
+Holmes *Principles of Physical Geology*
+
+GEOS-GE — General Geosciences
+
+GE1 Earth-system boundary & reservoir definition
+GE2 Deep-time chronology & rate inference
+GE3 Proxy–target calibration
+GE4 Field record–process interpretation
+GE5 Preservation, alteration & missing-record effects
+GE6 Spatial–temporal scale coupling
+GE7 Inverse problem & nonuniqueness
+GE8 Present-process–past-system transfer
+
+Condie *Earth as an Evolving Planetary System*, 4th ed.
+Turcotte–Schubert *Geodynamics*
+Kearey–Klepeis–Vine *Global Tectonics*
+Fowler *Solid Earth*
+
+
+GEOS-GL — Geology & Earth History
+
+GL1 Lithologic unit & contact definition
+GL2 Relative–absolute chronology integration
+GL3 Unconformity & missing-time recognition
+GL4 Facies & depositional-environment inference
+GL5 Fossil & proxy biostratigraphic control
+GL6 Basin & provenance reconstruction
+GL7 Diagenetic overprint
+GL8 Local section–regional history correlation
+
+Boggs *Principles of Sedimentology and Stratigraphy*
+Prothero–Schwab *Sedimentary Geology*
+Nichols *Sedimentology and Stratigraphy*
+Stanley–Luczaj *Earth System History*
+Gradstein et al *Geologic Time Scale*
+
+
+GEOS-GD — Solid-Earth Structure & Dynamics
+
+GD1 Observable–property correspondence
+GD2 Forward-model boundary adequacy
+GD3 Resolution–depth adequacy
+GD4 Signal-processing fidelity
+GD5 Instrument–sampling geometry adequacy
+GD6 Heterogeneity–method consistency
+GD7 Geometry–kinematics–restoration coherence
+GD8 Stress–strain–rheology coherence
+GD9 Fault-segmentation & recurrence validity
+GD10 Deformation-history discrimination
+
+Telford–Geldart–Sheriff *Applied Geophysics*
+Aki–Richards *Quantitative Seismology*
+Ramsay–Huber *The Techniques of Modern Structural Geology*
+Lowrie *Fundamentals of Geophysics*
+Davis–Reynolds–Kluth *Structural Geology of Rocks and Regions*
+Fossen *Structural Geology*
+
+
+GEOS-GC — Geochemistry
+
+GC1 Reservoir, phase & species definition
+GC2 Mass-balance closure
+GC3 Isotope fractionation & endmember choice
+GC4 Reaction path & equilibrium assumption
+GC5 Water–rock–melt interaction
+GC6 Contamination & alteration
+GC7 Geochemical proxy calibration
+GC8 Local composition–global cycle inference
+
+Faure *Principles and Applications of Geochemistry*
+Albarède *Geochemistry*
+White *Geochemistry*
+Sharp *Principles of Stable Isotope Geochemistry*
+Holland *Chemical Evolution of the Atmosphere and Oceans*
+
+
+GEOS-SE — Sedimentology & Stratigraphy
+
+SE1 Depositional unit & facies definition
+SE2 Transport process–sedimentary structure mapping
+SE3 Accommodation, supply & preservation
+SE4 Stratigraphic completeness & hiatus
+SE5 Correlation method & time equivalence
+SE6 Sequence boundary & stacking interpretation
+SE7 Diagenesis & burial alteration
+SE8 Core–outcrop–seismic correspondence
+
+Reading *Sedimentary Environments*
+Boggs *Principles of Sedimentology and Stratigraphy*
+Miall *Principles of Sedimentary Basin Analysis*
+Catuneanu *Principles of Sequence Stratigraphy*
+Nichols *Sedimentology and Stratigraphy*
+
+
+GEOS-HY — Hydrology
+
+HY1 Catchment & control-volume definition
+HY2 Water-balance closure
+HY3 Surface–subsurface exchange
+HY4 Storage, residence time & routing
+HY5 Hydraulic-property heterogeneity
+HY6 Recharge & boundary-condition inference
+HY7 Extreme-event & baseflow separation
+HY8 Model calibration, equifinality & transfer
+
+Chow–Maidment–Mays *Applied Hydrology*
+Dingman *Physical Hydrology*
+Freeze–Cherry *Groundwater*
+Beven *Rainfall-Runoff Modelling*
+Brutsaert *Hydrology*
+
+
+GEOS-AT — Atmospheric & Climate Science
+
+AT1 Atmospheric state & observation representativeness
+AT2 Radiation, dynamics & thermodynamic closure
+AT3 Weather–climate distinction
+AT4 Forcing, feedback & response separation
+AT5 Internal variability & trend attribution
+AT6 Reanalysis, proxy & model-data correspondence
+AT7 Resolution & parameterization dependence
+AT8 Regional–global climate transfer
+
+Wallace–Hobbs *Atmospheric Science*
+Holton–Hakim *Introduction to Dynamic Meteorology*
+Hartmann *Global Physical Climatology*
+Pierrehumbert *Principles of Planetary Climate*
+Trenberth *Climate System Modeling*
+
+
+GEOS-OA — Oceanography
+
+OA1 Water-mass & ocean-basin boundary
+OA2 Heat, salt & mass-budget closure
+OA3 Circulation–tracer correspondence
+OA4 Air–sea & land–ocean exchange
+OA5 Mixing, stratification & overturning
+OA6 Biological–chemical–physical coupling
+OA7 Sparse-observation & sampling bias
+OA8 Local process–basin-scale inference
+
+Sverdrup–Johnson–Fleming *Oceans*
+Talley et al *Descriptive Physical Oceanography*
+Sarmiento–Gruber *Ocean Biogeochemical Dynamics*
+Vallis *Atmospheric and Oceanic Fluid Dynamics: Fundamentals and Large-Scale Circulation*, 2nd ed.
+
+
+GEOS-PL — Planetary Geoscience
+
+PL1 Planetary surface unit & chronology
+PL2 Remote-sensing–material-property correspondence
+PL3 Crater chronology & resurfacing
+PL4 Interior–surface process linkage
+PL5 Comparative-planetology transfer
+PL6 Atmosphere–surface interaction
+PL7 Mission geometry & instrument limitation
+PL8 Earth-analogue applicability
+
+Melosh *Planetary Surface Processes*
+de Pater–Lissauer *Planetary Sciences*
+Faure–Mensing *Introduction to Planetary Science*
+Taylor *Solar System Evolution*
+Watters–Schultz *Planetary Tectonics*
+
+
+INFO — INFORMATION SCIENCE
+
+Antecedents
+Otlet *Traité de documentation*
+Ranganathan *Five Laws of Library Science*
+Shera *Foundations of Education for Librarianship*
+Shannon–Weaver *Mathematical Theory of Communication*
+Vickery–Vickery *Information Science in Theory and Practice*
+
+INFO-GE — General Information Science
+
+GE1 Information object, record, collection & domain definition
+GE2 User, task, need & use-context specification
+GE3 Representation, organization, access & use distinction
+GE4 Provenance, authenticity, version & identity control
+GE5 Collection scope, selection & coverage
+GE6 Relevance, usefulness, authority & trust distinction
+GE7 Human–information–system interaction
+GE8 Standard, interoperability & cross-system correspondence
+GE9 Information lifecycle from creation through disposition
+
+Bawden–Robinson *Introduction to Information Science*
+Rubin–Rubin *Foundations of Library and Information Science*
+Floridi *Philosophy of Information*
+Machlup–Mansfield *Study of Information*
+Buckland *Information and Information Systems*
+
+
+INFO-KO — Knowledge Organization & Metadata
+
+KO1 Entity, concept, subject & category definition
+KO2 Classification, taxonomy & ontology structure
+KO3 Metadata element, schema & semantic constraint
+KO4 Indexing, subject analysis & access-point assignment
+KO5 Authority control, identity resolution & entity disambiguation
+KO6 Hierarchy, facet, granularity & polyhierarchy
+KO7 Crosswalk, mapping & semantic interoperability
+KO8 Category bias, domain coverage & vocabulary evolution
+
+Ranganathan *Prolegomena to Library Classification*
+Svenonius *Intellectual Foundation of Information Organization*
+Taylor–Joudrey *Organization of Information*
+Broughton *Essential Classification*
+Smiraglia *Elements of Knowledge Organization*
+
+
+INFO-RD — Information Retrieval & Discovery
+
+RD1 Information need, search task & query representation
+RD2 Corpus, index, collection & retrieval boundary
+RD3 Relevance judgment, assessor & ground-truth construction
+RD4 Ranking, retrieval & recommendation objective
+RD5 Precision, recall, ranking quality & user-cost tradeoff
+RD6 Query reformulation, browsing & interactive search
+RD7 Personalization, filtering & contextual recommendation
+RD8 Offline metric–interactive use–real-world discovery correspondence
+
+Salton *Automatic Information Organization and Retrieval*
+van Rijsbergen *Information Retrieval*
+Manning–Raghavan–Schütze *Introduction to Information Retrieval*
+Baeza-Yates–Ribeiro-Neto *Modern Information Retrieval*
+Croft–Metzler–Strohman *Search Engines*
+
+
+INFO-IB — Information Behavior & Use
+
+IB1 Information need recognition & problem situation
+IB2 Seeking, avoiding, monitoring & non-seeking behavior
+IB3 Source selection, credibility & trust
+IB4 Search, browsing, sensemaking & stopping
+IB5 Information use, sharing, collaboration & reuse
+IB6 Cognitive, affective, social & organizational context
+IB7 Self-report, observation, trace & artifact evidence convergence
+IB8 Population, task & setting transfer
+
+Case–Given *Looking for Information*
+Kuhlthau *Seeking Meaning*
+Savolainen *Everyday Life Information Seeking*
+Fisher–Erdelez–McKechnie *Theories of Information Behavior*
+Dervin–Foreman-Wernet *Sense-Making Methodology Reader*
+
+
+INFO-RP — Records, Preservation & Curation
+
+RP1 Record, series, fonds, collection & archival-context definition
+RP2 Provenance, original order & custodial history
+RP3 Authenticity, integrity & evidentiary reliability
+RP4 Appraisal, selection, retention & disposition
+RP5 Digitization, migration, emulation & format transformation
+RP6 Preservation risk, dependency & technological obsolescence
+RP7 Significant-property continuity
+RP8 Metadata, audit trail & preservation-action traceability
+
+Schellenberg *Modern Archives*
+Duranti *Diplomatics*
+Harvey *Preserving Digital Materials*
+Owens *Theory and Craft of Digital Preservation*
+Gilliland *Conceptualizing 21st-Century Archives*
+
+
+INFO-IF — Scholarly Communication & Informetrics
+
+IF1 Publication, document, corpus & field boundary
+IF2 Authorship, contribution, institution & entity resolution
+IF3 Citation, reference, linkage & acknowledgment semantics
+IF4 Field, age, document-type & database normalization
+IF5 Coverage, indexing, language & publication bias
+IF6 Metric construct validity, manipulation & gaming
+IF7 Dissemination, access, visibility & uptake
+IF8 Metric pattern–quality, influence & research-performance inference
+
+Price *Little Science, Big Science*
+Merton *Sociology of Science*
+Borgman *Scholarship in the Digital Age*
+Moed *Citation Analysis in Research Evaluation*
+Cronin–Sugimoto *Beyond Bibliometrics*
+
+
+INFO-IG — Governance & Policy
+
+IG1 Governance-unit–authority specification
+IG2 Access-regime eligibility validity
+IG3 Privacy-purpose–use limitation alignment
+IG4 Consent–authority correspondence
+IG5 Ownership–control-right separation
+IG6 Sharing–reuse authorization validity
+IG7 Data-minimization–purpose alignment
+IG8 Platform-rule–enforcement correspondence
+IG9 Accountability-assignment completeness
+IG10 Jurisdiction–rule applicability
+
+Lessig *Code and Other Laws of Cyberspace*
+Benkler *The Wealth of Networks*
+Braman *Change of State: Information, Policy, and Power*
+Nissenbaum *Privacy in Context*
+DeNardis *The Global War for Internet Governance*
+Cohen *Between Truth and Power*
+
+
+MEDI — MEDICINE
+
+Antecedents
+Hippocrates *Hippocratic Corpus*
+Galen *Method of Medicine*
+Vesalius *Fabric of the Human Body*
+Harvey *On the Motion of the Heart and Blood*
+Osler *Principles and Practice of Medicine*
+
+MEDI-GE — General Medicine
+
+GE1 Diagnostic-construct stability
+GE2 Population–setting alignment
+GE3 Clinical-claim type separation
+GE4 Comparator relevance
+GE5 Endpoint-hierarchy validity
+GE6 Benefit–harm completeness
+GE7 Significance separation
+GE8 Post-assignment exposure control
+GE9 Follow-up & competing-risk adequacy
+GE10 Subgroup-inference credibility
+GE11 Time-zero & delay alignment
+GE12 Care-transition selection control
+
+Cochrane *Effectiveness and Efficiency*
+Feinstein *Clinical Epidemiology*
+Sackett et al *Clinical Epidemiology*
+Guyatt et al *Users' Guides to the Medical Literature*
+
+
+MEDI-IM — Internal Medicine & Medical Specialties
+
+IM1 Phenotype–stage classification
+IM2 Disease-course classification
+IM3 Mechanism–state correspondence
+IM4 Multimorbidity control
+IM5 Treatment-interaction accounting
+IM6 Physiologic-reserve calibration
+IM7 Host–agent attribution
+IM8 Heterogeneity–treatment alignment
+IM9 Event-process separation
+IM10 Outcome-scale coherence
+IM11 Escalation-context control
+IM12 Multimodal-care attribution
+
+Harrison *Principles of Internal Medicine*
+Goldman–Schafer *Goldman-Cecil Medicine*
+Mandell–Douglas–Bennett *Principles and Practice of Infectious Diseases*
+DeVita–Lawrence–Rosenberg *Cancer: Principles & Practice of Oncology*
+Braunwald *Heart Disease*
+
+
+MEDI-SG — Surgical & Procedural Medicine
+
+SG1 Indication-selection validity
+SG2 Procedural standardization
+SG3 Operator-volume control
+SG4 Periprocedural selection control
+SG5 Conversion & reintervention accounting
+SG6 Technical–clinical benefit separation
+SG7 Harm-definition consistency
+SG8 State–latency alignment
+SG9 Concurrent-support attribution
+SG10 Outcome-horizon alignment
+
+Sabiston *Textbook of Surgery*
+Schwartz *Principles of Surgery*
+Fischer *Mastery of Surgery*
+Tintinalli *Emergency Medicine*
+Hall–Schmidt–Wood *Principles of Critical Care*
+
+
+MEDI-DL — Diagnostic & Laboratory Medicine
+
+DL1 Acquisition-provenance integrity
+DL2 Reference-standard & spectrum control
+DL3 Processing-variability control
+DL4 Signal–state correspondence
+DL5 Sampling representativeness
+DL6 Reference-method calibration
+DL7 Decision-threshold stability
+DL8 Measurement-system agreement
+DL9 Verification & work-up control
+DL10 Performance–utility correspondence
+
+Robbins–Cotran *Pathologic Basis of Disease*
+McPherson–Pincus *Henry's Clinical Diagnosis and Management by Laboratory Methods*
+Grainger–Allison *Diagnostic Radiology*
+Bushberg et al *Essential Physics of Medical Imaging*
+McGee *Evidence-Based Physical Diagnosis*
+
+
+MEDI-NM — Neurologic & Psychiatric Medicine
+
+NM1 Syndrome–etiology separation
+NM2 Localization–network correspondence
+NM3 Case-definition stability
+NM4 Symptom–function separation
+NM5 Symptom attribution
+NM6 Multimodal concordance
+NM7 Disease-course classification
+NM8 Observer & informant calibration
+NM9 Expectancy & context control
+NM10 Recovery–compensation separation
+
+Jaspers *General Psychopathology*
+Adams–Victor *Principles of Neurology*
+Kandel et al *Principles of Neural Science*
+Bradley et al *Neurology in Clinical Practice*
+Sadock–Sadock–Ruiz *Kaplan and Sadock's Comprehensive Textbook of Psychiatry*
+
+
+MEDI-RM — Reproductive, Maternal & Child Medicine
+
+RM1 Life-stage classification
+RM2 Dependent-outcome separation
+RM3 Trajectory-stage coherence
+RM4 Maturation-dependent dosing
+RM5 Stage-appropriate endpoint validity
+RM6 Proxy–patient concordance
+RM7 Reproductive-state classification
+RM8 Perinatal-context control
+RM9 Rare-harm detection
+RM10 Cross-stage extrapolation validity
+
+Nelson *Textbook of Pediatrics*
+Avery *Diseases of the Newborn*
+Williams *Obstetrics*
+Berek *Berek and Novak's Gynecology*
+Speroff–Fritz *Clinical Gynecologic Endocrinology and Infertility*
+
+
+MGMT — MANAGEMENT
+
+Antecedents
+Taylor *Principles of Scientific Management*
+Fayol *General and Industrial Management*
+Barnard *Functions of the Executive*
+
+MGMT-GE — General Management
+
+GE1 Decision problem & accountable unit
+GE2 Objective, constraint & stakeholder specification
+GE3 Feasible action set & alternative completeness
+GE4 Information set, uncertainty & timing
+GE5 Action–outcome causal model
+GE6 Resource commitment & opportunity cost
+GE7 Decision rights, responsibility & escalation
+GE8 Implementation & execution traceability
+GE9 Performance metric, feedback & gaming
+GE10 Robustness, adaptation & unintended effects
+
+Cyert–March *Behavioral Theory of the Firm*
+Thompson *Organizations in Action*
+Simon *Administrative Behavior*
+March–Simon *Organizations*
+
+
+MGMT-AF — Accounting & Finance
+
+AF1 Reporting-entity–consolidation validity
+AF2 Claim-priority–contract correspondence
+AF3 Cash-flow–accrual–stock-flow reconciliation
+AF4 Measurement-basis–economic-construct correspondence
+AF5 Cost-allocation–transfer-pricing validity
+AF6 Investment–financing separation
+AF7 Cost-of-capital–liquidity coherence
+AF8 Capital-structure–payout coherence
+AF9 Risk–hedging–contingent-claim correspondence
+AF10 Assurance–decision-usefulness validity
+
+Paton–Littleton *An Introduction to Corporate Accounting Standards*
+Edwards–Bell *Theory and Measurement of Business Income*
+Ijiri *Theory of Accounting Measurement*
+Solomon *Theory of Financial Management*
+Tirole *Theory of Corporate Finance*
+Christensen–Demski *Accounting Theory: An Information Content Perspective*
+
+
+MGMT-MK — Marketing
+
+MK1 Market, customer & decision-unit definition
+MK2 Need, preference, willingness-to-pay & demand distinction
+MK3 Segmentation, targeting & selection
+MK4 Offer, product & assortment definition
+MK5 Price, value & cost correspondence
+MK6 Channel, distribution & availability
+MK7 Communication, persuasion & information effects
+MK8 Brand, reputation & intangible-asset measurement
+MK9 Incrementality, attribution & competitive response
+MK10 Acquisition, retention & customer-value dynamics
+
+Alderson *Marketing Behavior and Executive Action*
+Howard *Marketing Management: Analysis and Planning*
+Kotler–Keller–Chernev *Marketing Management*, 16th ed.
+Nicosia *Consumer Decision Processes*
+Levitt *Marketing Imagination*
+
+
+MGMT-OM — Operations
+
+OM1 Process boundary & flow unit
+OM2 Demand process & service-level definition
+OM3 Capacity, utilization & bottleneck structure
+OM4 Variability, queueing & congestion
+OM5 Inventory, pooling & replenishment policy
+OM6 Scheduling, sequencing & resource assignment
+OM7 Quality, yield, rework & process capability
+OM8 Supply-network dependency & disruption propagation
+OM9 Robustness, flexibility & recovery design
+OM10 Model–operating-system implementation correspondence
+
+Holt–Modigliani–Muth–Simon *Planning Production, Inventories, and Work Force*
+Buffa *Modern Production Management*
+Hopp–Spearman *Factory Physics*
+Cachon–Terwiesch *Matching Supply with Demand*
+Zipkin *Foundations of Inventory Management*
+
+
+MGMT-SR — Strategy
+
+SR1 Strategic objective, arena & time horizon
+SR2 Relevant market, ecosystem & actor boundary
+SR3 Value-creation or advantage mechanism
+SR4 Resource & capability causal role
+SR5 Complementarity & system coherence
+SR6 Commitment, reversibility & option structure
+SR7 Rival, partner & stakeholder response
+SR8 Uncertainty, scenario & robustness
+SR9 Scope, boundary & portfolio logic
+SR10 Strategy–resource allocation–execution correspondence
+
+Ansoff *Corporate Strategy*
+Andrews *Concept of Corporate Strategy*
+Rumelt *Strategy, Structure, and Economic Performance*
+Porter *Competitive Strategy*
+Chandler *Strategy and Structure*
+Grant *Contemporary Strategy Analysis*, 12th ed.
+
+
+MGMT-OG — Organization & Governance
+
+OG1 Task decomposition & interdependence
+OG2 Authority, decision-right & responsibility allocation
+OG3 Coordination mechanism & information flow
+OG4 Accountability, incentive & control alignment
+OG5 Formal–informal organization correspondence
+OG6 Interface, modularity & handoff design
+OG7 Centralization–decentralization fit
+OG8 Governance, oversight & stakeholder control
+OG9 Change mechanism, sequence & adoption
+OG10 Routine, capability & organizational learning
+OG11 Local adaptation–organization-wide transfer
+OG12 Structure–behavior–performance correspondence
+
+Lawrence–Lorsch *Organization and Environment*
+Galbraith *Designing Complex Organizations*
+Williamson *Economic Institutions of Capitalism*
+Argyris–Schön *Organizational Learning II*
+Mintzberg *Structuring of Organizations*
+
+
+PHYS — PHYSICS
+
+Antecedents
+Galileo *Two New Sciences*
+Newton *Principia*
+Faraday *Experimental Researches in Electricity*
+Maxwell *Treatise on Electricity and Magnetism*
+Boltzmann *Lectures on Gas Theory*
+Einstein *Relativity*
+
+PHYS-GE — General Physics
+
+GE1 Dimensional consistency
+GE2 Conservation & symmetry compatibility
+GE3 Physical realizability
+GE4 Regime & scale validity
+
+Feynman–Leighton–Sands *Feynman Lectures on Physics*
+Landau–Lifshitz *Mechanics*
+Jackson *Classical Electrodynamics*
+Callen *Thermodynamics and an Introduction to Thermostatistics*
+
+
+PHYS-QM — Quantum Physics
+
+QM1 State-space & operator-domain specification
+QM2 Observable & measurement model
+QM3 Commutation & compatibility structure
+QM4 Approximation & perturbative regime
+QM5 Open-system & decoherence treatment
+QM6 Entanglement & separability claims
+QM7 Semiclassical & classical limit
+QM8 State-preparation & readout correspondence
+
+Dirac *Principles of Quantum Mechanics*
+von Neumann *Mathematical Foundations of Quantum Mechanics*
+Sakurai–Napolitano *Modern Quantum Mechanics*
+Cohen-Tannoudji–Diu–Laloë *Quantum Mechanics*
+Nielsen–Chuang *Quantum Computation and Quantum Information*
+
+
+PHYS-CM — Condensed Matter Physics
+
+CM1 Phase identification
+CM2 Thermodynamic-limit dependence
+CM3 Finite-size scaling
+CM4 Order parameter & symmetry breaking
+CM5 Effective excitation & quasiparticle validity
+CM6 Disorder & inhomogeneity
+CM7 Topology–boundary correspondence
+CM8 Material-realization mapping
+
+Landau–Lifshitz *Statistical Physics*
+Kittel *Introduction to Solid State Physics*
+Ashcroft–Mermin *Solid State Physics*
+Anderson *Basic Notions of Condensed Matter Physics*
+Altland–Simons *Condensed Matter Field Theory*
+
+
+PHYS-PF — Particles & Fields
+
+PF1 Gauge consistency
+PF2 Lorentz & discrete-symmetry structure
+PF3 Renormalization scheme & scale
+PF4 Unitarity
+PF5 Anomaly cancellation
+PF6 Effective-field-theory power counting
+PF7 Infrared & ultraviolet safety
+PF8 Observable & event-definition correspondence
+
+Zee *Quantum Field Theory in a Nutshell*
+Itzykson–Zuber *Quantum Field Theory*
+Weinberg *Quantum Theory of Fields*
+Peskin–Schroeder *Introduction to Quantum Field Theory*
+Schwartz *Quantum Field Theory and the Standard Model*
+
+
+PHYS-NU — Nuclear Physics
+
+NU1 Nuclear interaction & Hamiltonian choice
+NU2 Many-body truncation
+NU3 Continuum & reaction-channel treatment
+NU4 Isospin & symmetry assumptions
+NU5 Finite-nucleus & finite-size effects
+NU6 Structure–reaction separation
+NU7 Interaction-model uncertainty
+NU8 Observable reconstruction from detector response
+
+Eisenberg–Greiner *Nuclear Theory*
+Blatt–Weisskopf *Theoretical Nuclear Physics*
+Bohr–Mottelson *Nuclear Structure*
+Ring–Schuck *Nuclear Many-Body Problem*
+Bertulani *Nuclear Physics in a Nutshell*
+
+
+PHYS-AM — Atomic, Molecular & Optical Physics
+
+AM1 Level & state-manifold specification
+AM2 Selection rules
+AM3 Light–matter coupling regime
+AM4 Line shape & broadening
+AM5 Collision & many-body effects
+AM6 Coherence & decoherence
+AM7 Trap, field & environmental systematics
+AM8 Spectroscopic assignment & calibration
+
+Bethe–Salpeter *Quantum Mechanics of One- and Two-Electron Atoms*
+Townes–Schawlow *Microwave Spectroscopy*
+Cohen-Tannoudji–Dupont-Roc–Grynberg *Atom–Photon Interactions*
+Foot *Atomic Physics*
+Metcalf–van der Straten *Laser Cooling and Trapping*
+
+
+PHYS-GR — Gravitation & Relativity
+
+GR1 Covariance & gauge choice
+GR2 Spacetime & global-structure assumptions
+GR3 Initial & boundary data
+GR4 Energy-condition dependence
+GR5 Horizon & singularity treatment
+GR6 Coordinate-artifact control
+GR7 Weak-field & Newtonian correspondence
+GR8 Backreaction & approximation consistency
+
+Einstein *Meaning of Relativity*
+Misner–Thorne–Wheeler *Gravitation*
+Hawking–Ellis *Large Scale Structure of Space-Time*
+Wald *General Relativity*
+Carroll *Spacetime and Geometry*
+
+
+PHYS-AS — Astrophysics & Cosmology
+
+AS1 Distance, redshift & luminosity inference
+AS2 Population & selection modeling
+AS3 Radiative-transfer treatment
+AS4 Stellar & galactic population assumptions
+AS5 Cosmological parameter degeneracy
+AS6 Cosmic variance
+AS7 Foreground & contamination separation
+AS8 Simulation–baryonic-physics dependence
+
+Chandrasekhar *Stellar Structure*
+Rybicki–Lightman *Radiative Processes in Astrophysics*
+Binney–Tremaine *Galactic Dynamics*
+Peebles *Principles of Physical Cosmology*
+Dodelson–Schmidt *Modern Cosmology*
+
+
+PHYS-FL — Fluid Dynamics
+
+FL1 Continuum-regime validity
+FL2 Boundary & initial conditions
+FL3 Dimensionless-regime classification
+FL4 Constitutive & closure assumptions
+FL5 Instability mechanism
+FL6 Turbulence & averaging treatment
+FL7 Compressibility & shock treatment
+FL8 Conservation-budget closure
+
+Lamb *Hydrodynamics*
+Landau–Lifshitz *Fluid Mechanics*
+Batchelor *Introduction to Fluid Dynamics*
+Pope *Turbulent Flows*
+Davidson *Turbulence*
+
+
+PHYS-PM — Plasma Physics
+
+PM1 Kinetic–fluid regime choice
+PM2 Distribution-function specification
+PM3 Collisionality & relaxation
+PM4 Quasineutrality & screening
+PM5 MHD applicability
+PM6 Wave & instability identification
+PM7 Sheath & boundary treatment
+PM8 Magnetic-topology & reconnection assumptions
+
+Nicholson *Introduction to Plasma Theory*
+Spitzer *Physics of Fully Ionized Gases*
+Krall–Trivelpiece *Principles of Plasma Physics*
+Chen *Introduction to Plasma Physics and Controlled Fusion*
+Ichimaru *Basic Principles of Plasma Physics*
+
+
+PHYS-SN — Statistical & Nonlinear Physics
+
+SN1 Ensemble choice & equivalence
+SN2 Ergodicity & mixing assumptions
+SN3 Thermodynamic-limit passage
+SN4 Order parameter & critical scaling
+SN5 Coarse-graining validity
+SN6 Nonequilibrium steady-state definition
+SN7 Fluctuation & rare-event treatment
+SN8 Dynamical-regime & bifurcation identification
+
+Gibbs *Elementary Principles in Statistical Mechanics*
+Pathria–Beale *Statistical Mechanics*
+Kardar *Statistical Physics of Fields*
+Goldenfeld *Lectures on Phase Transitions*
+Strogatz *Nonlinear Dynamics and Chaos*
+
+
+POLI — POLITICAL SCIENCE
+
+Antecedents
+Aristotle *Politics*
+Machiavelli *Discourses*
+Hobbes *Leviathan*
+Locke *Second Treatise of Government*
+Montesquieu *Spirit of the Laws*
+Tocqueville *Democracy in America*
+Weber *Economy and Society*
+
+POLI-GE — General Political Science
+
+GE1 Political unit, arena & system boundary
+GE2 Authority, power, legitimacy & coercion distinction
+GE3 Formal institution–informal rule–observed practice correspondence
+GE4 Actor preference, belief, strategy & endogenous response
+GE5 State capacity, implementation & enforcement
+GE6 Regime, institution & system comparability
+GE7 Political feedback, path dependence & institutional endogeneity
+GE8 Individual–organization–institution–state–system level separation
+GE9 Representation, aggregation & collective-action mechanism
+GE10 Descriptive, explanatory, predictive & normative claim separation
+
+Easton *Political System*
+Dahl *Polyarchy*
+March–Olsen *Rediscovering Institutions*
+Ostrom *Governing the Commons*
+
+
+POLI-CV — Comparative & Institutional Politics
+
+CV1 Case universe, comparison set & selection
+CV2 Cross-case conceptual & institutional equivalence
+CV3 Regime, state & political-order classification
+CV4 Electoral, party & representation-system structure
+CV5 Executive, legislative, judicial & bureaucratic relation
+CV6 Federal, territorial & intergovernmental structure
+CV7 Coalition, faction, organization & veto structure
+CV8 Within-case–cross-case inference
+CV9 Diffusion, interdependence & common-shock exposure
+CV10 Historical sequencing, path dependence & area-context validity
+
+Almond–Verba *Civic Culture*
+Sartori *Parties and Party Systems*
+Lijphart *Patterns of Democracy*
+Przeworski *Democracy and the Market*
+Tsebelis *Veto Players*
+
+
+POLI-IR — International Relations
+
+IR1 Actor, unit & level-of-analysis specification
+IR2 System structure, polarity & power distribution
+IR3 Alliance, deterrence & security-dilemma structure
+IR4 Signaling, information, perception & misperception
+IR5 Bargaining, commitment & audience-cost mechanism
+IR6 International institution, regime & compliance mechanism
+IR7 Domestic–international linkage
+IR8 Conflict-event, escalation & outcome definition
+IR9 Trade, finance & interdependence–political response linkage
+IR10 Foreign-policy decision process–systemic outcome separation
+
+Carr *Twenty Years' Crisis*
+Schelling *Strategy of Conflict*
+Waltz *Theory of International Politics*
+Keohane *After Hegemony*
+Wendt *Social Theory of International Politics*
+
+
+POLI-PB — Political Behavior & Communication
+
+PB1 Attitude, preference, intention & behavior distinction
+PB2 Preference stability, learning & updating
+PB3 Partisanship, ideology, identity & group attachment
+PB4 Political knowledge, attention & information exposure
+PB5 Message, frame, source & communication-channel definition
+PB6 Question wording, context, expressive & social-desirability response
+PB7 Campaign, media, interpersonal & elite-cue exposure
+PB8 Mobilization, contact, participation & vote-choice distinction
+PB9 Public-opinion aggregation, subgroup composition & temporal change
+PB10 Opinion–representation–policy responsiveness mapping
+
+Campbell et al *American Voter*
+Iyengar–Kinder *News That Matters*
+Zaller *Nature and Origins of Mass Opinion*
+Green–Palmquist–Schickler *Partisan Hearts and Minds*
+Achen–Bartels *Democracy for Realists*
+
+
+POLI-PE — Political Economy & Governance
+
+PE1 Political–economic actor, resource & institutional mapping
+PE2 Distributional coalition, interest & constituency structure
+PE3 Collective-action, organization & mobilization constraint
+PE4 Rent, redistribution & resource-allocation mechanism
+PE5 Institutional commitment, credibility & time consistency
+PE6 Bureaucratic delegation, discretion & administrative capacity
+PE7 Accountability, monitoring, performance metric & gaming
+PE8 Policy adoption–implementation–feedback distinction
+PE9 Economic shock, inequality & political-response mapping
+PE10 Political–economic equilibrium, incidence & governance-performance inference
+
+Polanyi *Great Transformation*
+Olson *Logic of Collective Action*
+North *Institutions, Institutional Change and Economic Performance*
+Evans *Embedded Autonomy*
+Hall–Soskice *Varieties of Capitalism*
+Persson–Tabellini *Political Economics: Explaining Economic Policy*
+
+
+POLI-PT — Political Theory
+
+PT1 Interpretive–descriptive–normative argument separation
+PT2 Concept genealogy, historical semantics & translation
+PT3 Normative premise & political-value architecture
+PT4 Ideal–non-ideal distinction
+PT5 Principle–institution & institution–practice mapping
+PT6 Feasibility, incentive, stability & transition
+PT7 Authority, legitimacy, liberty, equality & justice relation
+PT8 Political membership, exclusion & boundary construction
+PT9 Canon, reception, silencing & countertradition
+PT10 Contextual applicability & universalization discipline
+
+Arendt *Human Condition*
+Berlin *Four Essays on Liberty*
+Rawls *Theory of Justice*
+Skinner *Foundations of Modern Political Thought*
+Habermas *Between Facts and Norms*
+
+
+PSYC — PSYCHOLOGY
+
+Antecedents
+Wundt *Principles of Physiological Psychology*
+James *Principles of Psychology*
+Freud *Interpretation of Dreams*
+Watson *Behaviorism*
+Köhler *Gestalt Psychology*
+
+PSYC-GE — General Psychology
+
+GE1 Psychological construct–behavior mapping
+GE2 Task demand & response artifact
+GE3 State–trait separation
+GE4 Individual-difference structure
+GE5 Self-report–behavior–observer convergence
+GE6 Demand, expectancy & experimenter effects
+GE7 Cultural & population measurement comparability
+GE8 Laboratory–everyday-function transfer
+
+Boring *History of Experimental Psychology*
+Cronbach *Essentials of Psychological Testing*
+Meehl *Clinical versus Statistical Prediction*
+Danziger *Constructing the Subject*
+Cooper et al *APA Handbook of Research Methods in Psychology*
+
+
+PSYC-BL — Behavioral & Learning Psychology
+
+BL1 Reinforcer & contingency definition
+BL2 Acquisition, extinction & retention
+BL3 Stimulus control & discrimination
+BL4 Generalization across contexts
+BL5 Respondent–operant process distinction
+BL6 Schedule & timing effects
+BL7 Learning-history dependence
+BL8 Behavior–environment functional relation
+
+Pavlov *Conditioned Reflexes*
+Hull *Principles of Behavior*
+Mackintosh *Psychology of Animal Learning*
+Mazur *Learning and Behavior*
+Skinner *Behavior of Organisms*
+
+
+PSYC-DV — Developmental Psychology
+
+DV1 Age, cohort & period separation
+DV2 Developmental-stage specification
+DV3 Maturation–experience alternative
+DV4 Longitudinal attrition & selective survival
+DV5 Caregiver, peer & institutional context
+DV6 Measurement invariance across age
+DV7 Sensitive-period & timing claim
+DV8 Continuity–discontinuity inference
+
+Piaget *Origins of Intelligence in Children*
+Vygotsky *Mind in Society*
+Bowlby *Attachment*
+Bronfenbrenner *Ecology of Human Development*
+Baltes–Reese–Lipsitt *Life-Span Developmental Psychology*
+
+
+PSYC-SP — Social Psychology
+
+SP1 Person–situation contribution
+SP2 Social-context & audience effect
+SP3 Norm, role & group-boundary definition
+SP4 Manipulation strength & realism
+SP5 Social desirability & self-presentation
+SP6 Dyadic, group & network dependence
+SP7 Laboratory–field correspondence
+SP8 Cultural & institutional moderation
+
+Lewin *Field Theory in Social Science*
+Festinger *Theory of Cognitive Dissonance*
+Goffman *Presentation of Self in Everyday Life*
+Aronson *Social Animal*
+Gilbert–Fiske–Finkel–Mendes *Handbook of Social Psychology*, 6th ed.
+
+
+PSYC-PY — Personality Psychology
+
+PY1 Trait–state distinction
+PY2 Construct overlap & discriminant structure
+PY3 Self–informant discrepancy
+PY4 Cross-situational consistency
+PY5 Stability & personality change
+PY6 Hierarchical trait-model fit
+PY7 Ipsative–normative interpretation
+PY8 Incremental prediction beyond context
+
+Allport *Personality*
+Cattell *Personality: A Systematic Theoretical and Factual Study*
+Eysenck *Dimensions of Personality*
+McCrae–Costa *Personality in Adulthood*
+John–Robins *Handbook of Personality: Theory and Research*
+
+
+PSYC-CH — Clinical & Health Psychology
+
+CH1 Diagnostic-threshold stability
+CH2 Comorbidity attribution
+CH3 Case-formulation traceability
+CH4 Treatment fidelity & therapist control
+CH5 Expectancy & allegiance control
+CH6 Symptom–function separation
+CH7 Clinical-significance calibration
+CH8 Harm & relapse detection
+CH9 Mechanism-claim calibration
+CH10 Behavior-change adherence
+
+Beck *Cognitive Therapy and the Emotional Disorders*
+Rogers *Client-Centered Therapy*
+Matarazzo et al *Behavioral Health*
+Barlow *Clinical Handbook of Psychological Disorders*
+Kazdin *Research Design in Clinical Psychology*
+Taylor *Health Psychology*
+
+
+PSYC-IO — Industrial & Organizational Psychology
+
+IO1 Job & performance-criterion definition
+IO2 Selection-predictor validity
+IO3 Rating-source & halo effects
+IO4 Individual–team–organization level separation
+IO5 Leadership attribution & context
+IO6 Workplace intervention implementation
+IO7 Adverse-impact & subgroup validity
+IO8 Organizational transfer & persistence
+
+Campbell–Campbell *Productivity in Organizations*
+Spector *Industrial and Organizational Psychology: Research and Practice*, 9th ed.
+Schmidt–Hunter *Methods of Meta-Analysis*
+Cascio–Aguinis *Applied Psychology in Talent Management*, 9th ed.
+
+
+PSYC-EP — School & Educational Psychology
+
+EP1 Learning & developmental target definition
+EP2 Student–classroom–school level separation
+EP3 Teacher & classroom-context effects
+EP4 Educational intervention fidelity
+EP5 Testing accommodation & accessibility
+EP6 Referral & identification threshold
+EP7 Ecological validity in school settings
+EP8 Implementation & institutional adoption
+
+Thorndike *Educational Psychology*
+Bloom *Taxonomy of Educational Objectives*
+Gagné *Conditions of Learning*
+Harrison–Thomas *Best Practices in School Psychology*, 7th ed., three-volume set
+
+
+PUBH — PUBLIC HEALTH
+
+Antecedents
+Snow *On the Mode of Communication of Cholera*
+Farr *Vital Statistics*
+Rosen *History of Public Health*
+McKeown *Role of Medicine*
+
+PUBH-GE — General Public Health
+
+GE1 Population at risk & denominator
+GE2 Disease-burden measurement
+GE3 Prevention level & intervention target
+GE4 Individual-risk–population-risk distinction
+GE5 Surveillance–research–service-data separation
+GE6 Social, environmental & biological determinants
+GE7 Program reach, uptake & implementation
+GE8 Health equity & distribution
+GE9 Population benefit, individual harm & clinical boundary
+GE10 Cross-population comparability, coverage & context
+
+Turnock *Public Health*
+Detels et al *Oxford Textbook of Global Public Health*
+Friis–Sellers *Epidemiology for Public Health Practice*
+Birn–Pillay–Holtz *Textbook of International Health*
+Farmer *Pathologies of Power*
+Merson et al *Global Health*
+
+
+PUBH-EI — Epidemiology
+
+EI1 Case & outcome definition
+EI2 Population at risk & person-time
+EI3 Exposure definition & timing
+EI4 Incidence–prevalence distinction
+EI5 Selection, confounding & information bias
+EI6 Effect measure & target population
+EI7 Outbreak cluster & background-rate comparison
+EI8 Causal–descriptive epidemiology separation
+
+Rothman–Greenland–Lash *Modern Epidemiology*
+Hernán–Robins *Causal Inference: What If*
+Szklo–Nieto *Epidemiology: Beyond the Basics*
+
+
+PUBH-EO — Environmental & Occupational Health
+
+EO1 Hazard–exposure–dose separation
+EO2 Source & pathway attribution
+EO3 Mixture & cumulative-exposure coverage
+EO4 Exposure-classification validity
+EO5 Susceptibility coverage
+EO6 Toxicologic–epidemiologic convergence
+EO7 Healthy-worker selection control
+EO8 Job-exposure classification validity
+EO9 Injury & near-miss capture
+EO10 Control–production interaction
+
+Rosenstock et al *Textbook of Clinical Occupational and Environmental Medicine*
+Weeks et al *Preventing Occupational Disease and Injury*
+Moeller *Environmental Health*
+Frumkin *Environmental Health*
+Levy et al *Occupational and Environmental Health*
+LaDou–Harrison *Current Occupational & Environmental Medicine*
+
+
+PUBH-HP — Health Services & Policy
+
+HP1 Health-system & payer boundary
+HP2 Coverage, access & utilization distinction
+HP3 Provider incentive & organizational response
+HP4 Financing incidence & risk pooling
+HP5 Quality, cost & outcome measurement
+HP6 Regulation & market-structure interaction
+HP7 Policy implementation & local adaptation
+HP8 System reform–population health attribution
+HP9 Health-system capacity & resource constraint
+HP10 Local institution & intervention adaptation
+HP11 Aid, donor & implementing-actor incentives
+HP12 Global–local priority alignment
+
+Arrow *Essays in the Theory of Risk-Bearing*
+Fuchs *Who Shall Live?*
+Marmor *Politics of Medicare*
+Reinhardt *Priced Out*
+Buse–Mays–Colombini–Fraser–Khan–Walls *Making Health Policy*, 3rd ed.
+
+
+PUBH-SB — Social & Behavioral Health
+
+SB1 Behavioral target & population context
+SB2 Individual–social–structural level separation
+SB3 Health-belief & behavior correspondence
+SB4 Social network & norm effects
+SB5 Intervention mechanism & behavior-change theory
+SB6 Reach, adherence & sustained behavior
+SB7 Stigma, discrimination & structural constraint
+SB8 Behavior change–health outcome mediation
+
+Glanz–Rimer–Viswanath *Health Behavior*
+Berkman–Kawachi–Glymour *Social Epidemiology*
+Cockerham *Social Causes of Health and Disease*
+Marmot–Wilkinson *Social Determinants of Health*
+
+
+PUBH-MN — Maternal & Child Health
+
+MN1 Maternal, fetal, infant & child outcome separation
+MN2 Pregnancy & developmental timing
+MN3 Fertility, pregnancy & birth denominator
+MN4 Intergenerational & household context
+MN5 Perinatal care pathway
+MN6 Growth & developmental surveillance
+MN7 Maternal–child benefit & risk tradeoff
+MN8 Life-course & cumulative disadvantage
+
+Kotch *Maternal and Child Health*
+Wallace et al *Maternal and Child Health Practices*
+Halfon et al *Handbook of Life Course Health Development*
+
+
+PUBH-IC — Infectious Disease Epidemiology & Control
+
+IC1 Case definition & diagnostic sensitivity
+IC2 Source, reservoir & transmission route
+IC3 Contact structure & mixing assumption
+IC4 Generation interval & infectious period
+IC5 Reproduction measure & susceptible fraction
+IC6 Surveillance delay & under-ascertainment
+IC7 Intervention timing & coverage
+IC8 Pathogen evolution & control feedback
+
+Anderson–May *Infectious Diseases of Humans*
+Heymann *Control of Communicable Diseases Manual*
+Vynnycky–White *Introduction to Infectious Disease Modelling*
+Nelson–Williams *Infectious Disease Epidemiology*
+
+
+PUBH-DP — Chronic Disease & Prevention
+
+DP1 Risk-factor & disease-endpoint definition
+DP2 Long latency & cumulative exposure
+DP3 Competing risk & multimorbidity
+DP4 Screening benefit, lead time & overdiagnosis
+DP5 Population strategy–high-risk strategy distinction
+DP6 Prevention uptake & adherence
+DP7 Secular trend & cohort composition
+DP8 Risk-factor reduction–disease burden translation
+
+Remington–Brownson–Wegner *Chronic Disease Epidemiology and Control*
+Brownson et al *Evidence-Based Public Health*
+Rose *Strategy of Preventive Medicine*
+Kuh–Susser–Blodgett–Ben-Shlomo *A Life Course Approach to the Epidemiology of Chronic Diseases and Ageing*, 3rd ed.
+
+
+SOCI — SOCIOLOGY
+
+Antecedents
+Marx *Capital*
+Durkheim *Division of Labor in Society*
+Weber *Economy and Society*
+Simmel *Sociology*
+Du Bois *Philadelphia Negro*
+Parsons *Social System*
+
+SOCI-GE — General Sociology
+
+GE1 Social unit & level of analysis
+GE2 Structure–agency separation
+GE3 Institution, norm & role specification
+GE4 Composition–context distinction
+GE5 Selection into groups & settings
+GE6 Macro–micro linkage
+GE7 Historical & institutional contingency
+GE8 Category construction & social classification
+
+Merton *Social Theory and Social Structure*
+Mills *Sociological Imagination*
+Giddens *Constitution of Society*
+Bourdieu *Logic of Practice*
+Coleman *Foundations of Social Theory*
+
+
+SOCI-SI — Stratification & Inequality
+
+SI1 Stratification dimension & ordering rule
+SI2 Class, status & income distinction
+SI3 Opportunity–outcome separation
+SI4 Intergenerational mobility measurement
+SI5 Within–between group inequality
+SI6 Cumulative advantage & life-course process
+SI7 Institutional sorting & selection
+SI8 Distributional trend–mechanism inference
+
+Bourdieu *Distinction*
+Erikson–Goldthorpe *Constant Flux*
+Tilly *Durable Inequality*
+Piketty *Capital in the Twenty-First Century*
+Grusky *Social Stratification*
+
+
+SOCI-OW — Organizations, Occupations & Work
+
+OW1 Organization, occupation & labor-market boundary
+OW2 Job structure & occupational closure
+OW3 Formal rule–work practice correspondence
+OW4 Professionalization & jurisdiction
+OW5 Labor process & managerial control
+OW6 Workplace network & informal organization
+OW7 Career sequence & mobility
+OW8 Organizational change–worker outcome relation
+
+Blau–Scott *Formal Organizations*
+Braverman *Labor and Monopoly Capital*
+Abbott *System of Professions*
+Perrow *Complex Organizations*
+Burawoy *Manufacturing Consent*
+
+
+SOCI-FP — Family, Life Course & Population
+
+FP1 Household, family & kin unit
+FP2 Union, fertility & parenthood transition
+FP3 Gendered labor & intergenerational dependency
+FP4 Family-form heterogeneity & policy interaction
+FP5 Life-course sequence, linked lives & age–period–cohort separation
+FP6 Population at risk & denominator
+FP7 Fertility, mortality & migration decomposition
+FP8 Composition, standardization & life-table assumptions
+FP9 Migration stocks, flows & population projection
+FP10 Demographic event–social mechanism relation
+
+Goode *World Revolution and Family Patterns*
+Elder *Children of the Great Depression*
+Hareven *Family Time and Industrial Time*
+Keyfitz–Caswell *Applied Mathematical Demography*
+Preston–Heuveline–Guillot *Demography*
+Cherlin *Public and Private Families*
+
+
+SOCI-CU — Sociology of Culture
+
+CU1 Cultural object & carrier definition
+CU2 Production–reception distinction
+CU3 Meaning, classification & boundary work
+CU4 Taste, distinction & status signaling
+CU5 Institutional field & gatekeeping
+CU6 Cultural diffusion & circulation
+CU7 Discourse–practice correspondence
+CU8 Canon & visibility selection
+
+Bourdieu *Distinction*
+Becker *Art Worlds*
+Griswold *Cultures and Societies in a Changing World*
+Lamont *Money, Morals, and Manners*
+Alexander *Meaning of Social Life*
+
+
+SOCI-LD — Crime, Law & Deviance
+
+LD1 Behavior–label–legal category distinction
+LD2 Reporting & detection process
+LD3 Exposure & opportunity structure
+LD4 Policing, prosecution & sanction selection
+LD5 Individual–neighborhood context
+LD6 Deviance network & peer process
+LD7 Recidivism & desistance definition
+LD8 Institutional response–behavior feedback
+
+Becker *Outsiders*
+Goffman *Asylums*
+Sampson *Great American City*
+Garland *Culture of Control*
+Laub–Sampson *Shared Beginnings, Divergent Lives*
+
+
+SOCI-MV — Political Sociology & Social Movements
+
+MV1 State, organization & movement boundary
+MV2 Mobilization resource & constituency
+MV3 Political opportunity & institutional context
+MV4 Frame, identity & collective-action mechanism
+MV5 Repression, policing & tactical adaptation
+MV6 Elite–mass linkage
+MV7 Movement outcome & attribution
+MV8 Event cycle & long-run institutional change
+
+Lipset *Political Man*
+Tilly *From Mobilization to Revolution*
+McAdam *Political Process and the Development of Black Insurgency*
+Skocpol *States and Social Revolutions*
+Tarrow *Power in Movement*
+
+
+SOCI-MS — Medical Sociology
+
+MS1 Disease state–sick role–illness identity distinction
+MS2 Medicalization & diagnostic expansion
+MS3 Professional jurisdiction & authority
+MS4 Health-care institution & organizational context
+MS5 Social gradient & health inequality
+MS6 Patient pathway & access selection
+MS7 Treatment diffusion & social network
+MS8 Population process–clinical outcome relation
+
+Freidson *Profession of Medicine*
+Zola *Socio-Medical Inquiries*
+Conrad *Medicalization of Society*
+Berkman–Kawachi–Glymour *Social Epidemiology*
+Cockerham *Medical Sociology*
+
+
+SOCI-UC — Urban & Community Sociology
+
+UC1 Neighborhood & community boundary
+UC2 Residential selection & sorting
+UC3 Segregation & spatial concentration
+UC4 Local institution & collective efficacy
+UC5 Place effect–composition distinction
+UC6 Housing, labor & mobility linkage
+UC7 Urban change, displacement & succession
+UC8 Community network & resource access
+
+Park–Burgess *City*
+Whyte *Street Corner Society*
+Wilson *Truly Disadvantaged*
+Massey–Denton *American Apartheid*
+Sampson *Great American City*
+
+
+S HOME DISCIPLINES
+
+
+ANTH — ANTHROPOLOGY
+
+Antecedents
+Tylor *Primitive Culture*
+Morgan *Ancient Society*
+Boas *Race, Language and Culture*
+Malinowski *Argonauts of the Western Pacific*
+Mead *Coming of Age in Samoa*
+
+ANTH-GE — General Anthropology
+
+GE1 Comparative unit & commensurability
+GE2 Emic–etic distinction
+GE3 Culture–practice–material relation
+GE4 Biological–social explanation separation
+GE5 Historical & colonial embedding
+GE6 Internal heterogeneity & boundary construction
+GE7 Researcher position, access & mediation
+GE8 Cross-scale generalization
+
+Kroeber *Anthropology*
+Evans-Pritchard *Social Anthropology*
+Lévi-Strauss *Structural Anthropology*
+Eriksen *Small Places, Large Issues*
+
+
+ANTH-SC — Sociocultural Anthropology
+
+SC1 Fieldsite & social-world boundary
+SC2 Access, position & mediation
+SC3 Practice–statement correspondence
+SC4 Emic–analytic category separation
+SC5 Factional & temporal heterogeneity
+SC6 Authority, coercion & legitimacy separation
+SC7 Kinship–household reconstruction
+SC8 Exchange–labor category fit
+SC9 Formal–informal institution separation
+SC10 Event–enduring-order calibration
+
+Douglas *Purity and Danger*
+Geertz *Interpretation of Cultures*
+Polanyi *Great Transformation*
+Clifford–Marcus *Writing Culture*
+Scott *Weapons of the Weak*
+Hann–Hart *Economic Anthropology*
+Mauss *Gift*
+
+
+ANTH-BO — Biological Anthropology
+
+BO1 Biological sample & population definition
+BO2 Age, sex & life-history estimation
+BO3 Human variation & ancestry interpretation
+BO4 Adaptation–plasticity distinction
+BO5 Primate–human comparative transfer
+BO6 Skeletal & soft-tissue preservation effects
+BO7 Genetic–phenotypic correspondence
+BO8 Evolutionary inference across timescales
+
+Washburn *Social Life of Early Man*
+Larsen, ed. *A Companion to Biological Anthropology*, 2nd ed.
+Larsen *Bioarchaeology*
+Boyd–Silk *How Humans Evolved*
+Fuentes *Biological Anthropology*
+
+
+ANTH-AA — Anthropological Archaeology
+
+AA1 Provenience & context integrity
+AA2 Stratigraphic relation
+AA3 Site-formation & post-depositional process
+AA4 Chronology & dating convergence
+AA5 Typology & classification validity
+AA6 Assemblage & recovery bias
+AA7 Site-function & activity-area inference
+AA8 Ethnographic analogy discipline
+
+Childe *Piecing Together the Past*
+Binford *In Pursuit of the Past*
+Schiffer *Formation Processes of the Archaeological Record*
+Renfrew–Bahn *Archaeology*
+Trigger *History of Archaeological Thought*
+
+
+ANTH-LI — Linguistic Anthropology
+
+LI1 Speech-community & interaction-unit definition
+LI2 Transcription & representation fidelity
+LI3 Meaning–use–context relation
+LI4 Code-switching & repertoire structure
+LI5 Language ideology & metapragmatic evidence
+LI6 Indexicality & social-position inference
+LI7 Elicited–naturally occurring speech distinction
+LI8 Translation & category equivalence
+
+Hymes *Foundations in Sociolinguistics*
+Gumperz *Discourse Strategies*
+Duranti *Linguistic Anthropology*
+Silverstein *Language in Culture*
+Agha *Language and Social Relations*
+
+
+ANTH-MY — Medical Anthropology
+
+MY1 Disease–illness–sickness distinction
+MY2 Explanatory model reconstruction
+MY3 Embodiment & lived-experience inference
+MY4 Therapeutic system & healer-role context
+MY5 Clinical–local category translation
+MY6 Structural determinant–individual experience relation
+MY7 Treatment adherence & therapeutic pluralism
+MY8 Research–care relationship effects
+
+Kleinman *Patients and Healers in the Context of Culture*
+Good *Medicine, Rationality, and Experience*
+Farmer *Pathologies of Power*
+Scheper-Hughes *Death Without Weeping*
+Lock–Nguyen *Anthropology of Biomedicine*
+
+
+ANTH-AP — Applied Anthropology
+
+AP1 Client, community & stakeholder definition
+AP2 Problem framing & local-priority fit
+AP3 Community knowledge & expert-knowledge integration
+AP4 Participation & decision-right structure
+AP5 Intervention theory & cultural fit
+AP6 Intended–unintended consequence tracking
+AP7 Benefit, burden & representation
+AP8 Local adoption, feedback & exit
+
+Chambers *Rural Development*
+van Willigen *Applied Anthropology*
+Ervin *Applied Anthropology*
+Singer *Applied Anthropology*
+
+
+CLAS — CLASSICS
+
+Antecedents
+Wolf *Prolegomena to Homer*
+Bentley *Dissertation upon the Epistles of Phalaris*
+Niebuhr *History of Rome*
+Winckelmann *History of the Art of Antiquity*
+Mommsen *History of Rome*
+
+CLAS-GE — General Classics
+
+GE1 Greek, Latin & source-language control
+GE2 Text–artifact–context triangulation
+GE3 Ancient genre & convention
+GE4 Fragmentary-corpus reconstruction
+GE5 Mediterranean scope & regional calibration
+GE6 Ancient-category–modern-category discipline
+
+Pfeiffer *History of Classical Scholarship*
+Momigliano *Classical Foundations of Modern Historiography*
+Grafton *Defenders of the Text*
+Hornblower–Spawforth *Oxford Classical Dictionary*
+
+
+CLAS-LG — Philology & Textual Criticism
+
+LG1 Manuscript & witness genealogy
+LG2 Variant reading & contamination
+LG3 Conjectural emendation discipline
+LG4 Interpolation & authenticity claims
+LG5 Meter, dialect & linguistic dating
+LG6 Authorial-text & edition-model assumptions
+LG7 Commentary & parallel-passage relevance
+LG8 Translation–interpretation dependence
+
+Maas *Textual Criticism*
+Pasquali *Storia della tradizione e critica del testo*
+Reynolds–Wilson *Scribes and Scholars*
+West *Textual Criticism and Editorial Technique*
+Timpanaro *Genesis of Lachmann's Method*
+
+
+CLAS-AH — Ancient History
+
+AH1 Source-type weighting & independence
+AH2 Chronological synchronization
+AH3 Institutional reconstruction
+AH4 Prosopographic identity & linkage
+AH5 Demographic & economic reconstruction
+AH6 Narrative-event correspondence
+AH7 Regional–imperial generalization
+AH8 Literary–documentary evidence balance
+
+Finley *Ancient History: Evidence and Models*
+Hopkins *Conquerors and Slaves*
+Millar *Emperor in the Roman World*
+Garnsey–Saller *Roman Empire: Economy, Society and Culture*
+Scheidel–Morris–Saller *Cambridge Economic History of the Greco-Roman World*
+
+
+CLAS-AR — Classical Archaeology & Material Culture
+
+AR1 Stratigraphic integrity & context
+AR2 Provenance & findspot
+AR3 Typology & chronological seriation
+AR4 Assemblage formation & taphonomy
+AR5 Survey–excavation evidence relation
+AR6 Material–textual evidence correspondence
+AR7 Reconstruction & missing-fabric control
+AR8 Site–region extrapolation
+
+Wheeler *Archaeology from the Earth*
+Bintliff *The Complete Archaeology of Greece: From Hunter-Gatherers to the 20th Century A.D.*
+Hodder *Reading the Past*
+Trigger *History of Archaeological Thought*
+Orton–Hughes *Pottery in Archaeology*
+
+
+CLAS-DS — Documentary Sources: Epigraphy & Papyrology
+
+DS1 Provenance & context integrity
+DS2 Reading & restoration discipline
+DS3 Palaeographic dating calibration
+DS4 Formula & genre classification
+DS5 Documentary-context separation
+DS6 Prosopographic identification
+DS7 Reuse-context reconstruction
+DS8 Fragment & archive reconstruction
+DS9 Material–hand–date consistency
+DS10 Edition & translation control
+
+Guarducci *Epigrafia greca*
+Turner *Greek Papyri*
+Cooley *The Cambridge Manual of Latin Epigraphy*
+Bodel *Epigraphic Evidence*
+Bagnall *Reading Papyri, Writing Ancient History*
+Clarysse–Thompson *Counting the People in Hellenistic Egypt*
+
+
+CLAS-LR — Literature & Reception
+
+LR1 Genre & form classification
+LR2 Voice & focalization attribution
+LR3 Allusion & intertext calibration
+LR4 Performance-context reconstruction
+LR5 Corpus & authorship boundary
+LR6 Literary–historical referent separation
+LR7 Source–reception separation
+LR8 Transmission-chain completeness
+LR9 Adaptation-context reconstruction
+LR10 Reception–ancient-meaning separation
+
+Auerbach *Mimesis*
+Conte *Latin Literature: A History*
+Goldhill *Reading Greek Tragedy*
+Martindale *Redeeming the Text*
+Hardwick *Reception Studies*
+Greenwood *Afro-Greeks*
+
+
+CLAS-RL — Ancient Religion & Myth
+
+RL1 Cult practice–belief distinction
+RL2 Ritual-context reconstruction
+RL3 Local–pan-Mediterranean variation
+RL4 Myth–ritual relation
+RL5 Syncretism & interpretatio
+RL6 Literary–epigraphic–archaeological triangulation
+RL7 Divine identity & epithet structure
+RL8 Later theological projection control
+
+Frazer *Golden Bough*
+Burkert *Greek Religion*
+Beard–North–Price *Religions of Rome*
+Parker *Polytheism and Society at Athens*
+Versnel *Coping with the Gods*
+
+
+HIST — HISTORY
+
+Antecedents
+Herodotus *Histories*
+Thucydides *Peloponnesian War*
+Polybius *Histories*
+Ibn Khaldun *Muqaddimah*
+Gibbon *Decline and Fall of the Roman Empire*
+Ranke *Theory and Practice of History*
+
+HIST-GE — General History
+
+GE1 Chronology, sequence & temporal-resolution discipline
+GE2 Periodization & boundary construction
+GE3 Historical causation & mechanism
+GE4 Agency, structure & conjuncture attribution
+GE5 Continuity, rupture & path-dependence claim
+GE6 Event, process & long-duration scale separation
+GE7 Contingency, counterfactual & inevitability discipline
+GE8 Local case–broader historical process mapping
+GE9 Historical category stability & retrospective classification
+GE10 Present knowledge–historical possibility separation
+
+Bloch *Historian's Craft*
+Collingwood *Idea of History*
+Carr *What Is History?*
+Koselleck *Futures Past*
+Paul *Key Issues in Historical Theory*, 2nd ed.
+
+
+HIST-DH — Political, Diplomatic & Conflict History
+
+DH1 State, polity & institutional formation
+DH2 Authority, elite, coalition & faction reconstruction
+DH3 Election, representation & political-organization reconstruction
+DH4 Policy, administration & state-action attribution
+DH5 Diplomatic decision chain, treaty & commitment context
+DH6 Domestic–international political linkage
+DH7 War aim, strategy, operation & tactical-level separation
+DH8 Logistics, mobilization, technology & organizational capacity
+DH9 Secrecy, intelligence, declassification & archive asymmetry
+DH10 Intent, rhetoric, decision, implementation & outcome separation
+
+Tocqueville *Old Regime and the Revolution*
+Tilly *Coercion, Capital, and European States*
+Skocpol *States and Social Revolutions*
+Trachtenberg *Craft of International History*
+van Creveld *Supplying War*
+
+
+HIST-HS — Social & Economic History
+
+HS1 Historical population, household & social-group construction
+HS2 Class, status, occupation & stratification comparability
+HS3 Gender, family, sexuality & life-course category historicization
+HS4 Race, ethnicity, migration & membership-category reconstruction
+HS5 Labor, collective action & social-movement reconstruction
+HS6 Price, wage, income, output & real-value comparability
+HS7 Demographic–economic–institutional linkage
+HS8 Market, property, firm & economic-institution reconstruction
+HS9 Marginalized-population, informal-economy & source-visibility asymmetry
+HS10 Microhistory–population or macro-process inference
+
+Thompson *Making of the English Working Class*
+Polanyi *Great Transformation*
+Ariès *Centuries of Childhood*
+Scott *Gender and the Politics of History*
+Pomeranz *Great Divergence*
+
+
+HIST-IH — Cultural, Intellectual & Religious History
+
+IH1 Representation, discourse & practice distinction
+IH2 Historical vocabulary, concept & semantic-field reconstruction
+IH3 Text, image, ritual, object & performance medium dependence
+IH4 Author, producer, audience & reception relation
+IH5 Influence, transmission, appropriation & intertextuality
+IH6 Religion, belief, doctrine, ritual & institution distinction
+IH7 Canon, orthodoxy, heterodoxy & survival construction
+IH8 Elite, popular, vernacular & subcultural relation
+IH9 Material culture–meaning inference
+IH10 Retrospective systematization & anachronistic coherence control
+
+Lovejoy *Great Chain of Being*
+Huizinga *Autumn of the Middle Ages*
+Darnton *Great Cat Massacre*
+Chartier *Cultural History*
+Peter Brown *Rise of Western Christendom*
+
+
+HIST-SH — Science, Technology, Medicine & Environmental History
+
+SH1 Scientific, medical & technical concept historical translation
+SH2 Theory–practice–instrument–infrastructure relation
+SH3 Discovery, invention, priority & multiple-origin attribution
+SH4 Laboratory, clinic, workshop & institutional context
+SH5 Disease, diagnosis, health & normality category historicization
+SH6 Technology–organization–society interaction
+SH7 Environmental baseline, proxy & land/resource-use reconstruction
+SH8 Natural–anthropogenic driver and reciprocal-effect separation
+SH9 Retrospective correctness, progress & inevitability bias
+SH10 Scientific/medical/technical object stabilization & standardization
+
+Kuhn *Structure of Scientific Revolutions*
+Shapin–Schaffer *Leviathan and the Air-Pump*
+Daston–Galison *Objectivity*
+Rosenberg *Explaining Epidemics*
+McNeill *Something New Under the Sun*
+
+
+HIST-GH — Global, Imperial & Transnational History
+
+GH1 Spatial scale, region & world boundary
+GH2 Connection, circulation & parallel-development distinction
+GH3 Empire, colony, metropole & sovereignty relation
+GH4 Migration, diaspora & mobile-actor reconstruction
+GH5 Cross-regional commensurability & synchronization
+GH6 Center–periphery framing & asymmetric source density
+GH7 Commodity, capital, technology, idea & pathogen circulation
+GH8 Transfer, translation, adaptation & hybridization
+GH9 Global process–local outcome mapping
+GH10 Comparison, entanglement & causal-contact separation
+
+Braudel *Civilization and Capitalism*
+Wallerstein *Modern World-System*
+Bayly *Birth of the Modern World*
+Osterhammel *Transformation of the World*
+Cooper *Colonialism in Question*
+
+
+LAWS — LAW
+
+Antecedents
+Justinian *Digest*
+Coke *Institutes*
+Blackstone *Commentaries*
+Bentham *Introduction to Principles*
+Savigny *System of the Modern Roman Law*
+Austin *Province of Jurisprudence*
+
+LAWS-GE — General Law & Legal Theory
+
+GE1 Authority hierarchy & legal source weight
+GE2 Rule, principle, standard & exception structure
+GE3 Holding, ratio & dicta distinction
+GE4 Precedent applicability, extension & distinguishing
+GE5 Textual, purposive, structural & historical interpretation
+GE6 Fact–law mapping & legal characterization
+GE7 Analogy, classification & doctrinal synthesis
+GE8 Criteria of legal validity & institutional authority
+GE9 Determinacy, discretion & contestability
+GE10 Temporal validity, transition & doctrinal change
+GE11 Doctrinal, empirical & normative claim separation
+GE12 Remedy, enforceability & institutional competence
+
+Hart *Concept of Law*
+Dworkin *Law's Empire*
+Raz *Authority of Law*
+MacCormick *Legal Reasoning and Legal Theory*
+Llewellyn *Bramble Bush*
+
+
+LAWS-PU — Public & Regulatory Law
+
+PU1 Constitutional or statutory source of public power
+PU2 Rights scope, limitation & justificatory burden
+PU3 Horizontal & vertical allocation of governmental authority
+PU4 Delegation, subdelegation & administrative mandate
+PU5 Rulemaking, adjudication & procedural regularity
+PU6 Discretion, reason-giving & arbitrariness control
+PU7 Standard and intensity of judicial review
+PU8 Tax, regulatory & public-finance legal incidence
+PU9 Public participation, due process & institutional access
+PU10 Regulatory instrument–statutory purpose correspondence
+
+Dicey *Law of the Constitution*
+Jaffe *Judicial Control of Administrative Action*
+Davis *Discretionary Justice*
+Alexy *Theory of Constitutional Rights*
+Craig *Administrative Law*
+Baldwin–Cave–Lodge *Understanding Regulation: Theory, Strategy, and Practice*, 2nd ed.
+
+
+LAWS-PV — Private, Commercial & Business Law
+
+PV1 Private entitlement, duty & legal relationship
+PV2 Formation, acquisition, transfer & validity
+PV3 Contractual, proprietary, tortious & fiduciary classification
+PV4 Default, mandatory & waivable rule distinction
+PV5 Entity, agency, partnership & corporate personality
+PV6 Governance, fiduciary duty & control rights
+PV7 Priority, security, insolvency & creditor ordering
+PV8 Intellectual-property subject matter, scope & duration
+PV9 Commercial risk allocation & transaction structure
+PV10 Loss, restitution, damages & private remedy
+
+Holmes *Common Law*
+Atiyah *Rise and Fall of Freedom of Contract*
+Merrill–Smith *Property*
+Easterbrook–Fischel *Economic Structure of Corporate Law*
+Bently–Sherman *Intellectual Property Law*
+
+
+LAWS-CR — Criminal Law & Justice
+
+CR1 Offense element decomposition
+CR2 Conduct–culpability alignment
+CR3 Causation & result attribution
+CR4 Attempt, complicity & derivative liability
+CR5 Justification–excuse distinction
+CR6 Legality, fair notice & retroactivity
+CR7 Criminalization–regulation distinction
+CR8 Grading, sentencing & proportionality
+CR9 Police, prosecutorial & charging discretion
+CR10 Punishment rationale–sanction correspondence
+
+Beccaria *Crimes and Punishments*
+Hart *Punishment and Responsibility*
+Fletcher *Rethinking Criminal Law*
+Horder *Ashworth's Principles of Criminal Law*, 10th ed.
+Duff *Punishment, Communication, and Community*
+
+
+LAWS-PJ — Procedure, Evidence & Adjudication
+
+PJ1 Forum, jurisdiction & venue
+PJ2 Standing, party structure & joinder
+PJ3 Pleading, charging & claim sufficiency
+PJ4 Discovery, disclosure & information access
+PJ5 Relevance, admissibility & evidentiary foundation
+PJ6 Burden allocation & standard of proof
+PJ7 Factfinder role, inference & proof process
+PJ8 Preclusion, finality & repeated-adjudication limits
+PJ9 Appeal, preservation & standard of review
+PJ10 Procedure–substantive-right correspondence
+
+Wigmore *Treatise on the Anglo-American System of Evidence in Trials at Common Law*
+Friedenthal–Kane–Miller *Civil Procedure*
+Hazard–Taruffo *American Civil Procedure*
+Damaška *Faces of Justice and State Authority*
+Twining *Rethinking Evidence*
+
+
+LAWS-IL — International & Transnational Law
+
+IL1 International source formation & hierarchy
+IL2 Treaty interpretation, reservation & modification
+IL3 Customary-law formation & evidence of practice
+IL4 Prescriptive, adjudicative & enforcement jurisdiction
+IL5 Attribution, responsibility & nonstate-actor status
+IL6 Conflict-of-laws & applicable-law determination
+IL7 Domestic–international legal interface
+IL8 Recognition, enforcement & cross-border legal effect
+IL9 International institution, compliance & dispute settlement
+IL10 Human-rights, humanitarian & exception structure
+
+Grotius *Law of War and Peace*
+Dicey–Morris–Collins *Conflict of Laws*
+Crawford *Brownlie's Principles of Public International Law*
+Aust *Modern Treaty Law and Practice*
+Cassese *International Law*
+
+
+N HOME DISCIPLINES
+
+
+PPOL — PUBLIC POLICY
+
+Antecedents
+Bentham *Introduction to the Principles of Morals and Legislation*
+Mill *On Liberty*
+Pigou *Economics of Welfare*
+Lasswell *Politics: Who Gets What, When, How*
+
+PPOL-GE — General Public Policy
+
+GE1 Public-problem definition
+GE2 Objective hierarchy & value conflict
+GE3 Policy baseline & counterfactual
+GE4 Policy-instrument–mechanism mapping
+GE5 Incidence & distribution
+GE6 Implementation & administrative capacity
+GE7 Behavioral response & strategic adaptation
+GE8 Legal & political feasibility
+GE9 Policy interaction, substitution & displacement
+GE10 Adaptive revision, sunset & exit
+GE11 Evidence-to-recommendation bridge
+
+Majone *Evidence, Argument, and Persuasion in the Policy Process*
+Wildavsky *Speaking Truth to Power*
+Stone *Policy Paradox*
+Weimer–Vining *Policy Analysis*
+Dunn *Public Policy Analysis*
+
+
+PPOL-HL — Health Policy
+
+HL1 Coverage, access & eligibility
+HL2 Insurance risk pooling & selection
+HL3 Provider payment & behavioral response
+HL4 Utilization–need distinction
+HL5 Quality, access & cost trade-off
+HL6 Technology & benefit-package assessment
+HL7 Market power & provider consolidation
+HL8 Health-incidence & equity effects
+
+Fuchs *Who Shall Live?*
+Enthoven *Theory and Practice of Managed Competition in Health Care Finance*
+Cutler *Your Money or Your Life*
+Culyer–Newhouse *Handbook of Health Economics*
+Zweifel–Breyer–Kifmann *Health Economics*, 2nd ed.
+
+
+PPOL-EY — Education Policy
+
+EY1 Learning-outcome & attainment target
+EY2 Student, school & teacher selection
+EY3 Peer & classroom composition effects
+EY4 Teacher & school value-added attribution
+EY5 Incentive, accountability & gaming
+EY6 Tracking, assignment & access
+EY7 Short-term score–long-term outcome distinction
+EY8 Family, neighborhood & institutional context
+
+Jencks et al *Inequality*
+Coleman *Equality and Achievement in Education*
+Hanushek–Lindseth *Schoolhouses, Courthouses, and Statehouses*
+Hanushek–Machin–Woessmann *Handbook of the Economics of Education*
+Hoxby *Economics of School Choice*
+
+
+PPOL-SL — Social Policy
+
+SL1 Eligibility & targeting rule
+SL2 Take-up & administrative burden
+SL3 Benefit cliffs & program interaction
+SL4 Labor-supply & household response
+SL5 Family-structure & caregiving effects
+SL6 Poverty & material-hardship metric
+SL7 Intergenerational & lifecycle effects
+SL8 Universal–targeted design trade-off
+
+Titmuss *Essays on the Welfare State*
+Esping-Andersen *Three Worlds of Welfare Capitalism*
+Atkinson *Inequality: What Can Be Done?*
+Herd–Moynihan *Administrative Burden*
+Moffitt *Economics of Means-Tested Transfer Programs in the United States*
+
+
+PPOL-ER — Environmental & Energy Policy
+
+ER1 Externality & environmental baseline
+ER2 Instrument choice & abatement mechanism
+ER3 Leakage, rebound & displacement
+ER4 Irreversibility & option value
+ER5 Carbon, energy & resource price incidence
+ER6 Technology-transition & infrastructure lock-in
+ER7 Local–global environmental interaction
+ER8 Distributional transition & compensation
+
+Baumol–Oates *Theory of Environmental Policy*
+Ostrom *Governing the Commons*
+Tietenberg *Emissions Trading*
+Nordhaus *Climate Casino*
+Sterner–Coria *Policy Instruments for Environmental and Natural Resource Management*, 2nd ed.
+
+
+PPOL-UR — Urban, Housing & Transport Policy
+
+UR1 Land-use & housing-supply response
+UR2 Spatial equilibrium & location effects
+UR3 Transport-network & accessibility effects
+UR4 Agglomeration & congestion externalities
+UR5 Zoning, permitting & development constraint
+UR6 Displacement, sorting & neighborhood change
+UR7 Infrastructure incidence & capitalization
+UR8 Place-based-policy spillovers
+
+Jacobs *Death and Life of Great American Cities*
+Alonso *Location and Land Use*
+O'Sullivan *Urban Economics*
+Brueckner *Lectures on Urban Economics*
+Downs *Still Stuck in Traffic*
+
+
+PPOL-SK — Security & Crisis Policy
+
+SK1 Threat & adversary specification
+SK2 Deterrence & escalation mechanism
+SK3 Intelligence uncertainty & warning
+SK4 Preparedness–response–recovery distinction
+SK5 Resilience, redundancy & continuity
+SK6 Centralization–local discretion trade-off
+SK7 Emergency power & civil-liberty constraint
+SK8 Low-probability catastrophic-risk treatment
+
+Schelling *Arms and Influence*
+Allison–Zelikow *Essence of Decision*
+Jervis *Perception and Misperception in International Politics*
+Wildavsky *Searching for Safety*
+Posner *Catastrophe*
+
+
+PPOL-DI — Development & International Policy
+
+DI1 Country, institution & target-population context
+DI2 State capacity & implementation
+DI3 Aid fungibility & resource substitution
+DI4 General-equilibrium & market response
+DI5 Political-economy & elite-capture risk
+DI6 External validity across institutions
+DI7 Sustainability after external support
+DI8 Donor, implementer & recipient incentive alignment
+
+Hirschman *Strategy of Economic Development*
+Sen *Development as Freedom*
+Rodrik *One Economics, Many Recipes*
+Banerjee–Duflo *Poor Economics*
+Easterly *The Elusive Quest for Growth: Economists' Adventures and Misadventures in the Tropics*
+
+
+PPOL-MG — Public Management & Implementation
+
+MG1 Authority, delegation & accountability chain
+MG2 Administrative & implementation capacity
+MG3 Street-level discretion
+MG4 Performance-measure & target gaming
+MG5 Procurement, contracting & vendor incentives
+MG6 Interagency & intergovernmental coordination
+MG7 Organizational learning & adaptation
+MG8 Transparency, audit & answerability
+
+Weber *Economy and Society*
+Lipsky *Street-Level Bureaucracy*
+Wilson *Bureaucracy*
+Hood *Art of the State*
+Simon *Administrative Behavior*
+
+
+PPOL-FT — Fiscal & Tax Policy
+
+FT1 Tax base & statutory incidence
+FT2 Economic incidence & behavioral response
+FT3 Enforcement, avoidance & evasion
+FT4 Intertemporal budget constraint
+FT5 Automatic stabilizer & cyclical response
+FT6 Tax-expenditure & off-budget equivalence
+FT7 Tax–transfer interaction
+FT8 Fiscal-federalism & jurisdiction response
+
+Musgrave *Theory of Public Finance*
+Oates *Fiscal Federalism*
+Atkinson–Stiglitz *Lectures on Public Economics*
+Mirrlees et al *Tax by Design*
+Slemrod–Bakija *Taxing Ourselves*
+
+
+THEO — THEOLOGY
+
+Antecedents
+Origen *On First Principles*
+Augustine *City of God*
+Anselm *Proslogion*
+Aquinas *Summa Theologiae*
+Calvin *Institutes of the Christian Religion*
+Schleiermacher *Christian Faith*
+
+THEO-GE — General Theology
+
+GE1 Confessional & tradition scope
+GE2 Authority-source hierarchy
+GE3 Scripture–tradition–reason relation
+GE4 Doctrine–metaphor–analogy distinction
+GE5 Internal doctrinal coherence
+GE6 Historical development & continuity
+GE7 Dogmatic–philosophical inference distinction
+GE8 Universal–tradition-relative claim calibration
+GE9 Negative, apophatic & limit-claim discipline
+
+Tracy *Analogical Imagination*
+Lonergan *Method in Theology*
+Lindbeck *The Nature of Doctrine: Religion and Theology in a Postliberal Age*
+Dulles *Models of Revelation*
+Vanhoozer *The Drama of Doctrine: A Canonical-Linguistic Approach to Christian Theology*
+
+
+THEO-BI — Biblical Studies & Exegesis
+
+BI1 Text, canon & edition specification
+BI2 Source, redaction & compositional layer
+BI3 Genre & literary form
+BI4 Historical–canonical interpretation distinction
+BI5 Linguistic & semantic context
+BI6 Intertextual & scriptural reuse
+BI7 Manuscript & textual-variant dependence
+BI8 Ancient-context–later-doctrine distinction
+
+Wellhausen *Prolegomena to the History of Israel*
+Bultmann *History of the Synoptic Tradition*
+Childs *Introduction to the Old Testament as Scripture*
+Brown *Introduction to the New Testament*
+Alter *Art of Biblical Narrative*
+
+
+THEO-HT — Historical Theology
+
+HT1 Doctrine–period terminology alignment
+HT2 Council, creed & confessional context
+HT3 Development–innovation distinction
+HT4 Reception & transmission
+HT5 School, controversy & opponent reconstruction
+HT6 Text–practice–institution relation
+HT7 Orthodoxy–heresy category historicization
+HT8 Retrospective-systematization control
+
+Harnack *History of Dogma*
+Kelly *Early Christian Doctrines*
+Oberman *Harvest of Medieval Theology*
+Pelikan *Christian Tradition*
+McGrath *Historical Theology*
+
+
+THEO-ST — Systematic Theology
+
+ST1 Doctrinal locus & dependency structure
+ST2 Trinitarian & Christological coherence
+ST3 Creation–providence–eschatology relation
+ST4 Nature–grace relation
+ST5 Anthropology, sin & salvation structure
+ST6 Ecclesiology & sacramental integration
+ST7 Scriptural–dogmatic correspondence
+ST8 Systematic coherence across loci
+
+Barth *Church Dogmatics*
+Tillich *Systematic Theology*
+Rahner *Foundations of Christian Faith*
+Pannenberg *Systematic Theology*
+Jenson *Systematic Theology*
+
+
+THEO-TP — Philosophical Theology
+
+TP1 Divine-attribute coherence
+TP2 Necessity, contingency & modality
+TP3 Divine action & causal account
+TP4 Providence, freedom & responsibility
+TP5 Evil & suffering argument
+TP6 Revelation, faith & epistemic status
+TP7 Religious-language & analogy
+TP8 Metaphysical premise dependence
+
+Maimonides *Guide for the Perplexed*
+Swinburne *Coherence of Theism*
+Plantinga *Warranted Christian Belief*
+Adams *Finite and Infinite Goods*
+Leftow *God and Necessity*
+
+
+THEO-ET — Theological Ethics
+
+ET1 Theological–moral premise bridge
+ET2 Command, natural law, virtue & consequence relation
+ET3 Scripture–tradition–moral-reason interaction
+ET4 Individual–social moral scale
+ET5 Moral formation & agency
+ET6 Ecclesial–public norm distinction
+ET7 Casuistry & exception structure
+ET8 Eschatological–proximate good distinction
+
+Niebuhr *Responsible Self*
+Ramsey *Basic Christian Ethics*
+Hauerwas *Peaceable Kingdom*
+Gustafson *Ethics from a Theocentric Perspective*
+O'Donovan *Resurrection and Moral Order*
+
+
+THEO-CY — Comparative Theology
+
+CY1 Traditions & comparison unit
+CY2 Internal–external category translation
+CY3 Doctrinal commensurability
+CY4 Text, practice & lived-tradition balance
+CY5 Asymmetry of source competence
+CY6 Comparison–evaluation distinction
+CY7 Borrowing, analogy & syncretism
+CY8 Return-to-home-tradition inference
+
+Panikkar *Intrareligious Dialogue*
+Ward *Religion and Revelation*
+Fredericks *Faith among Faiths*
+Clooney *Comparative Theology*
+Nicholson *Comparative Theology and the Problem of Religious Rivalry*
+
+
+D HOME DISCIPLINES
+
+
+ARCH — ARCHITECTURE
+
+Antecedents
+Vitruvius *Ten Books on Architecture*
+Alberti *On the Art of Building*
+Palladio *Four Books on Architecture*
+Semper *Four Elements of Architecture*
+Viollet-le-Duc *Discourses on Architecture*
+
+ARCH-GE — General Architecture
+
+GE1 Program–spatial organization correspondence
+GE2 Site–building relation
+GE3 Spatial sequence & circulation
+GE4 Form–structure–enclosure integration
+GE5 Human scale & inhabitation
+GE6 Material–tectonic coherence
+GE7 Building–urban interface
+GE8 Representation–construction correspondence
+
+Le Corbusier *Towards a New Architecture*
+Venturi *Complexity and Contradiction in Architecture*
+Pallasmaa *Eyes of the Skin*
+Zumthor *Thinking Architecture*
+
+
+ARCH-AD — Architectural & Urban Design
+
+AD1 Program–spatial-order correspondence
+AD2 Circulation & access adequacy
+AD3 Orientation–environment fit
+AD4 Structure–space coherence
+AD5 Detail–whole coherence
+AD6 Intent–built outcome correspondence
+AD7 Parcel–district scale alignment
+AD8 Public–private interface adequacy
+AD9 Movement–infrastructure integration
+AD10 Phasing & externality control
+
+Sitte *City Planning According to Artistic Principles*
+Lynch *Image of the City*
+Alexander et al *Pattern Language*
+Ching *Architecture: Form, Space, and Order*
+Gehl *Cities for People*
+
+
+ARCH-BE — Building Performance & Environmental Design
+
+BE1 Structural-system adequacy
+BE2 Envelope & moisture integrity
+BE3 Environmental performance
+BE4 Mechanical-system integration
+BE5 Fire & life-safety adequacy
+BE6 Durability–constructability fit
+BE7 Climate-response fit
+BE8 Operational–embodied impact separation
+BE9 Model–occupancy correspondence
+BE10 Adaptation & lifecycle flexibility
+
+Banham *Architecture of the Well-Tempered Environment*
+Olgyay *Design with Climate*
+McHarg *Design with Nature*
+Allen–Iano *Fundamentals of Building Construction*
+Straube–Burnett *Building Science for Building Enclosures*
+Kibert *Sustainable Construction*
+
+
+ARCH-HB — History, Theory & Criticism
+
+HB1 Building–text–image source triangulation
+HB2 Historical program & use reconstruction
+HB3 Formal genealogy & precedent
+HB4 Style & category discipline
+HB5 Patronage, institution & production context
+HB6 Reception & critical history
+HB7 Canon & survival bias
+HB8 Retrospective design-intent attribution
+
+Wölfflin *Principles of Art History*
+Giedion *Space, Time and Architecture*
+Tafuri *Theories and History of Architecture*
+Frampton *Modern Architecture: A Critical History*
+Colquhoun *Modern Architecture*
+
+
+ARCH-PP — Professional Practice & Project Delivery
+
+PP1 Client brief & scope definition
+PP2 Consultant role & responsibility
+PP3 Contract & delivery-model alignment
+PP4 Cost plan & design-development correspondence
+PP5 Schedule & procurement dependencies
+PP6 Code, permit & approval pathway
+PP7 Construction-administration traceability
+PP8 Liability, risk & professional duty
+
+AIA *Architect's Handbook of Professional Practice*
+Cuff *Architecture: The Story of Practice*
+Gutman *Architectural Practice*
+Chappell–Willis *Architect in Practice*
+Ashworth–Perera *Cost Studies of Buildings*
+
+
+ARCH-HC — Heritage & Conservation
+
+HC1 Significance & value attribution
+HC2 Fabric chronology & stratigraphy
+HC3 Authenticity & integrity
+HC4 Intervention reversibility & distinguishability
+HC5 Material compatibility
+HC6 Adaptive-reuse compatibility
+HC7 Reconstruction & conjecture control
+HC8 Setting & associative-value preservation
+
+Muñoz Viñas *Contemporary Theory of Conservation*
+Riegl *Modern Cult of Monuments*
+Brandi *Theory of Restoration*
+Jokilehto *History of Architectural Conservation*
+Ruskin *Seven Lamps of Architecture*
+
+
+ARCH-CA — Computational Architecture
+
+CA1 Geometric representation & discretization
+CA2 Parametric dependency structure
+CA3 Constraint propagation
+CA4 Search-space & optimization formulation
+CA5 Fabrication-model correspondence
+CA6 Simulation–geometry coupling
+CA7 Algorithmic authorship & design-space bias
+CA8 Digital–physical tolerance transfer
+
+Mitchell *Computer-Aided Architectural Design*
+Eastman *Building Product Models*
+Kolarevic *Architecture in the Digital Age*
+Oxman *Theories of the Digital in Architecture*
+Terzidis *Algorithmic Architecture*
+
+
+ARTS — ART STUDIES
+
+Antecedents
+Cennino Cennini *Craftsman's Handbook*
+Alberti *On Painting*
+Vasari *Lives of the Artists*
+Reynolds *Discourses on Art*
+Ruskin *Modern Painters*
+Kandinsky *Concerning the Spiritual in Art*
+
+ARTS-GE — General Art Studies
+
+GE1 Medium–material correspondence
+GE2 Formal–expressive coherence
+GE3 Process–artifact correspondence
+GE4 Technical control & productive accident
+GE5 Work–display & site relation
+GE6 Series & body-of-work coherence
+GE7 Reference, appropriation & transformation
+GE8 Documentation of ephemeral & process work
+
+Dewey *Art as Experience*
+Arnheim *Art and Visual Perception*
+Berger *Ways of Seeing*
+Sullivan *Art Practice as Research: Inquiry in Visual Arts*
+Goodman *Languages of Art*
+
+
+ARTS-OB — Object & Material Practices
+
+OB1 Intent–material correspondence
+OB2 Material–process compatibility
+OB3 Support & structural adequacy
+OB4 Surface–color–form coherence
+OB5 Scale & bodily encounter
+OB6 Object–site correspondence
+OB7 Assembly & fabrication integrity
+OB8 Temporal & conservation resilience
+OB9 Tolerance & repeatability
+OB10 Tradition–innovation relation
+
+Mayer *Artist's Handbook of Materials and Techniques*
+Albers *Interaction of Color*
+Hildebrand *Problem of Form*
+Krauss *Passages in Modern Sculpture*
+Adamson *Thinking Through Craft*
+Sennett *Craftsman*
+
+
+ARTS-PG — Photography
+
+PG1 Capture process & exposure
+PG2 Lens, viewpoint & depth rendering
+PG3 Tonal, color & dynamic-range control
+PG4 Staging, observation & intervention
+PG5 Selection, sequencing & series construction
+PG6 Negative/file–print correspondence
+PG7 Manipulation & indexicality
+PG8 Display scale & reproduction context
+
+Adams *Camera*
+Adams *Negative*
+Adams *Print*
+Szarkowski *Photographer's Eye*
+Sontag *On Photography*
+Ritchin *After Photography*
+
+
+ARTS-IA — Moving Image & Media Art
+
+IA1 Temporal structure & duration
+IA2 Image–sound relation
+IA3 Capture–editing–display pipeline
+IA4 Montage & sequence logic
+IA5 Interface & interaction behavior
+IA6 Software, hardware & platform dependence
+IA7 Installation & exhibition conditions
+IA8 Preservation & technological obsolescence
+
+Eisenstein *Film Form*
+Manovich *Language of New Media*
+Rush *New Media in Art*
+Grau *Virtual Art*
+Rinehart–Ippolito *Re-Collection: Art, New Media, and Social Memory*
+
+
+ARTS-LA — Performance Art
+
+LA1 Body, action & event structure
+LA2 Score, instruction & improvisation
+LA3 Performer–audience relation
+LA4 Site & situational dependence
+LA5 Duration & repetition
+LA6 Risk, endurance & bodily constraint
+LA7 Documentation–event distinction
+LA8 Reperformance & work identity
+
+Goldberg *Performance Art*
+Phelan *Unmarked*
+Auslander *Liveness*
+Schechner *Performance Studies*
+Jones *Body Art/Performing the Subject*
+
+
+ARTS-HA — Art History & Criticism
+
+HA1 Object identity, attribution & dating
+HA2 Formal & iconographic analysis
+HA3 Material & technical evidence
+HA4 Patronage, workshop & production context
+HA5 Provenance & collection history
+HA6 Reception & critical history
+HA7 Style, school & category construction
+HA8 Visual claim–source record triangulation
+
+Wölfflin *Principles of Art History*
+Panofsky *Meaning in the Visual Arts*
+Gombrich *Art and Illusion*
+Baxandall *Painting and Experience in Fifteenth-Century Italy*
+Clark *Image of the People*
+
+
+ARTS-GM — Curatorial & Museum Studies
+
+GM1 Selection & exclusion rationale
+GM2 Object–display–interpretation relation
+GM3 Exhibition narrative & sequencing
+GM4 Provenance, ownership & restitution
+GM5 Conservation–access tradeoff
+GM6 Institutional & collection context
+GM7 Label, catalogue & interpretive mediation
+GM8 Audience, accessibility & public encounter
+
+O'Doherty *Inside the White Cube*
+Bennett *Birth of the Museum*
+Hooper-Greenhill *Museums and the Shaping of Knowledge*
+Karp–Lavine *Exhibiting Cultures*
+O'Neill *The Culture of Curating and the Curating of Culture(s)*
+
+
+DESI — DESIGN
+
+Antecedents
+Morris *Hopes and Fears for Art*
+Dresser *Principles of Decorative Design*
+Gropius *New Architecture and the Bauhaus*
+Moholy-Nagy *Vision in Motion*
+Loewy *Never Leave Well Enough Alone*
+
+DESI-GE — General Design
+
+GE1 Representation & externalization
+GE2 Prototype fidelity & epistemic role
+GE3 Form–use correspondence
+GE4 Material & medium affordance
+GE5 User appropriation & adaptation
+GE6 Aesthetic–functional integration
+GE7 Iteration & learning trace
+
+Nelson–Stolterman *The Design Way*, 2nd ed.
+Lawson *How Designers Think*
+Krippendorff *Semantic Turn*
+Dorst *Frame Innovation*
+
+
+DESI-PD — Product & Industrial Design
+
+PD1 Use scenario & task fit
+PD2 Ergonomic & anthropometric fit
+PD3 Form–function integration
+PD4 Material–process correspondence
+PD5 Assembly, disassembly & repair
+PD6 Tolerance & manufacturing variation
+PD7 Product–system & accessory interaction
+PD8 Lifecycle, obsolescence & end-of-life
+
+Dreyfuss *Designing for People*
+Papanek *Design for the Real World*
+Ulrich–Eppinger *Product Design and Development*
+Ashby–Johnson *Materials and Design*
+Roozenburg–Eekels *Product Design: Fundamentals and Methods*
+
+
+DESI-IX — Interaction Design
+
+IX1 Interaction-state & transition coherence
+IX2 Feedback, feedforward & system visibility
+IX3 Affordance, signifier & discoverability
+IX4 User mental-model alignment
+IX5 Error prevention & recovery
+IX6 Temporal & modal interaction
+IX7 Accessibility & interaction diversity
+IX8 Cross-device & context continuity
+
+Norman *The Design of Everyday Things*
+Winograd–Flores *Understanding Computers and Cognition*
+Löwgren–Stolterman *Thoughtful Interaction Design*
+Rogers–Sharp–Preece *Interaction Design*
+Buxton *Sketching User Experiences*
+
+
+DESI-SD — Service Design
+
+SD1 Service actor & role mapping
+SD2 Frontstage–backstage correspondence
+SD3 Touchpoint & channel coherence
+SD4 Service journey & temporal sequencing
+SD5 Handoff & responsibility continuity
+SD6 Capacity, queue & demand alignment
+SD7 Service recovery & exception handling
+SD8 Ecosystem & partner dependence
+
+Polaine–Løvlie–Reason *Service Design*
+Stickdorn et al *This Is Service Design Doing*
+Stickdorn–Schneider *This Is Service Design Thinking*
+Kimbell *Service Innovation Handbook*
+Penin *Introduction to Service Design*
+
+
+DESI-CD — Communication Design
+
+CD1 Message–audience alignment
+CD2 Information hierarchy
+CD3 Legibility & perceptual discriminability
+CD4 Semiotic & cultural interpretation
+CD5 Typography–image–layout integration
+CD6 Medium & reproduction dependence
+CD7 Information architecture & navigation
+CD8 Accessibility & multilingual robustness
+
+Tschichold *New Typography*
+Müller-Brockmann *Grid Systems*
+Bertin *Semiology of Graphics*
+Tufte *Visual Display of Quantitative Information*
+Lupton *Thinking with Type*
+
+
+DESI-SM — Strategic & Systemic Design
+
+SM1 System boundary & actor ecology
+SM2 Leverage-point identification
+SM3 Intervention portfolio coherence
+SM4 Transition-path & sequencing
+SM5 Governance & ownership structure
+SM6 Feedback, adaptation & rebound
+SM7 Local intervention–system effect correspondence
+SM8 Implementation coalition & institutional fit
+
+Ackoff *Redesigning the Future*
+Checkland *Systems Thinking, Systems Practice*
+Meadows *Thinking in Systems*
+Manzini *Design, When Everybody Designs*
+Sevaldson *Designing Complexity: The Methodology and Practice of Systems Oriented Design*
+
+
+DESI-DC — Participatory & Co-design
+
+DC1 Participant–stakeholder representation
+DC2 Participation role & decision rights
+DC3 Elicitation–co-creation distinction
+DC4 Power & agenda asymmetry
+DC5 Facilitation & framing effects
+DC6 Situated knowledge & experiential expertise
+DC7 Consent, ownership & attribution
+DC8 Adoption, appropriation & community control
+
+Sanoff *Community Participation Methods in Design and Planning*
+Freire *Pedagogy of the Oppressed*
+Ehn *Work-Oriented Design of Computer Artifacts*
+Schuler–Namioka *Participatory Design*
+Sanders–Stappers *Convivial Toolbox*
+
+
+DESI-DM — Design Research & Methods
+
+DM1 Research-for–through–about-design distinction
+DM2 Artifact-as-evidence role
+DM3 Research-through-design inference
+DM4 Reflective-practice traceability
+DM5 Generative–evaluative method alignment
+DM6 Design-process observation validity
+DM7 Visual & material evidence interpretation
+DM8 Practice–research generalization
+
+Archer *Systematic Method for Designers*
+Laurel *Design Research*
+Martin–Hanington *Universal Methods of Design*
+Koskinen et al *Design Research through Practice*
+
+
+ENGI — ENGINEERING
+
+Antecedents
+Vitruvius *Ten Books on Architecture*
+Agricola *De Re Metallica*
+Carnot *Reflections on the Motive Power of Fire*
+Rankine *Manual of Applied Mechanics*
+Taylor *Principles of Scientific Management*
+
+ENGI-GE — General Engineering
+
+GE1 Technical objective, requirement & operating-envelope specification
+GE2 Constraint, interface & boundary-condition completeness
+GE3 Safety margin, factor-of-safety & uncertainty allowance
+GE4 Manufacturability, constructability & operability
+GE5 Reliability, maintainability & lifecycle performance
+GE6 Requirement–design–test traceability
+GE7 Hazard, failure mode, misuse & graceful-degradation analysis
+GE8 Code, standard, certification & regulatory applicability
+GE9 Verification–validation–qualification separation
+GE10 Model–prototype–test–field correspondence
+
+Vincenti *What Engineers Know and How They Know It*
+Pahl–Beitz *Engineering Design*
+Suh *Principles of Design*
+Petroski *To Engineer Is Human*
+Koen *Discussion of the Method: Conducting the Engineer's Approach to Problem Solving*
+
+
+ENGI-MC — Mechanical, Civil & Aerospace Engineering
+
+MC1 Load-case–mission-profile completeness
+MC2 Geometry–constitutive-model validity
+MC3 Equilibrium–kinematic–dynamic consistency
+MC4 Limit-state coverage adequacy
+MC5 Fluid–thermal–aerodynamic transport coherence
+MC6 Vibration–aeroelastic response validity
+MC7 Support–connection–foundation system adequacy
+MC8 Propulsion–power–mass–energy closure
+MC9 Contact–wear–tolerance coherence
+MC10 Exposure–degradation correspondence
+MC11 Similarity-law validity
+MC12 Sequence-dependent state validity
+
+Timoshenko–Goodier *Theory of Elasticity*
+Terzaghi *Theoretical Soil Mechanics*
+White *Fluid Mechanics*
+Shigley *Mechanical Engineering Design*
+Anderson *Aircraft Performance and Design*
+
+
+ENGI-EE — Electrical, Computer & Control Engineering
+
+EE1 Circuit, device, signal & computation abstraction
+EE2 Reference, grounding, noise & signal-to-noise assumptions
+EE3 Bandwidth, sampling, quantization & aliasing
+EE4 Electromagnetic compatibility, power integrity & thermal limits
+EE5 Plant, state, sensor & actuator model
+EE6 Stability, controllability, observability & robustness margin
+EE7 Feedback, controller, estimator & reference architecture
+EE8 Discretization, latency, timing & real-time constraint
+EE9 Hardware–firmware–software interface
+EE10 Communication, synchronization & network dependence
+EE11 Robotics perception–estimation–control–mechanics correspondence
+EE12 Simulation–hardware-in-the-loop–field-test correspondence
+
+Bode *Network Analysis and Feedback Amplifier Design*
+Oppenheim–Willsky *Signals and Systems*
+Sedra–Smith *Microelectronic Circuits*
+Åström–Murray *Feedback Systems*
+Hennessy–Patterson *Computer Architecture*
+
+
+ENGI-CE — Chemical, Materials & Environmental Engineering
+
+CE1 Mass, energy, species & charge balance closure
+CE2 Thermodynamic model, phase equilibrium & chemical potential
+CE3 Reaction mechanism, kinetics & catalytic regime
+CE4 Heat, mass & momentum transport
+CE5 Mixing, residence time, separation & reactor model
+CE6 Process dynamics, control, hazard, runaway & relief
+CE7 Processing–structure–property–performance chain
+CE8 Phase, composition, defect, interface & microstructure identification
+CE9 Contaminant fate, transport, transformation & persistence
+CE10 Treatment, remediation & secondary-impact performance
+CE11 Laboratory–pilot–plant–field scale-up
+CE12 Lifecycle-constrained materials selection
+
+Bird–Stewart–Lightfoot *Transport Phenomena*
+Levenspiel *Chemical Reaction Engineering*
+Ashby *Materials Selection in Mechanical Design*
+Callister–Rethwisch *Materials Science and Engineering*
+Stumm–Morgan *Aquatic Chemistry*
+
+
+ENGI-BM — Biomedical & Biological Engineering
+
+BM1 Clinical or biological need–engineering target mapping
+BM2 Anatomy, physiology & population variability
+BM3 Biocompatibility, tissue response & host–device interaction
+BM4 Device–tissue, cell–material & device–drug interface
+BM5 Biosignal, biomarker, sensor & endpoint validity
+BM6 Bench–model–animal–human translation
+BM7 Sterilization, degradation, biofouling & biostability
+BM8 Dose, exposure, transport & physiological feedback
+BM9 Safety–benefit, failure mode & clinical risk
+BM10 Clinical workflow, human factors & use-environment integration
+
+Fung *Biomechanics*
+Webster *Medical Instrumentation*
+Ratner et al *Biomaterials Science*
+Saltzman *Biomedical Engineering*
+
+
+ENGI-IE — Industrial & Systems Engineering
+
+IE1 System boundary, stakeholder & process-flow definition
+IE2 Objective, performance measure & decision-variable specification
+IE3 Architecture, functional decomposition & interface allocation
+IE4 Capacity, bottleneck, queueing & variability structure
+IE5 Scheduling, allocation, inventory & control policy
+IE6 Optimization, trade-space & decision-analysis model validity
+IE7 Human factors, ergonomics & human–system integration
+IE8 Quality, yield, process capability & statistical control
+IE9 Risk, hazard, failure propagation & resilience
+IE10 Verification, validation & qualification architecture
+IE11 Configuration, change, version & lifecycle control
+IE12 Implementation, organizational adaptation & emergent system behavior
+
+Shewhart *Economic Control of Quality*
+Hillier–Lieberman *Introduction to Operations Research*
+Hopp–Spearman *Factory Physics*
+Blanchard–Fabrycky *Systems Engineering and Analysis*
+INCOSE *Systems Engineering Handbook*
+
+
+LITS — LITERARY STUDIES
+
+Antecedents
+Longinus *On the Sublime*
+Lessing *Laocoön*
+Schlegel *Lectures on Dramatic Art and Literature*
+Johnson *Lives of the Poets*
+Coleridge *Biographia Literaria*
+
+LITS-GE — General Literary Studies
+
+GE1 Genre & formal contract
+GE2 Voice, perspective & address
+GE3 Language, style & prosody
+GE4 Structure & temporal organization
+GE5 Intertextuality, allusion & transformation
+GE6 Fictionality, reference & world construction
+GE7 Work–text–edition distinction
+GE8 Audience, circulation & performance context
+
+Frye *Anatomy of Criticism*
+Said *World, the Text, and the Critic*
+Wellek–Warren *Theory of Literature*
+Felski *Uses of Literature*
+
+
+LITS-CW — Creative Writing
+
+CW1 Genre choice & reader contract
+CW2 Voice & point-of-view control
+CW3 Diction, syntax & image
+CW4 Scene, summary & exposition balance
+CW5 Character, speaker & motive coherence
+CW6 Structural pacing & development
+CW7 Constraint, experiment & deviation
+CW8 Revision & version coherence
+
+Gardner *Art of Fiction*
+Lodge *Art of Fiction*
+Le Guin *Steering the Craft*
+Bell *Plot and Structure*
+Butler *From Where You Dream*
+
+
+LITS-PO — Poetry & Poetics
+
+PO1 Line, meter & rhythmic organization
+PO2 Sound, stress & prosodic pattern
+PO3 Image, figure & compression
+PO4 Stanza & large-scale form
+PO5 Speaker & lyric situation
+PO6 Syntax–lineation interaction
+PO7 Fixed form, free verse & constraint
+PO8 Oral–written–performed relation
+
+Brooks–Warren *Understanding Poetry*
+Fussell *Poetic Meter and Poetic Form*
+Preminger–Brogan *New Princeton Encyclopedia of Poetry and Poetics*
+Vendler *Poems, Poets, Poetry*
+Attridge *Poetic Rhythm*
+
+
+LITS-FI — Fiction & Narrative
+
+FI1 Narrator & focalization
+FI2 Plot, event & causal sequence
+FI3 Characterization & agency
+FI4 Scene, setting & world construction
+FI5 Temporal order, duration & frequency
+FI6 Free indirect, reported & direct discourse
+FI7 Genre convention & deviation
+FI8 Closure & unresolved structure
+
+Forster *Aspects of the Novel*
+Booth *Rhetoric of Fiction*
+Bakhtin *Dialogic Imagination*
+Genette *Narrative Discourse*
+Fludernik *Towards a 'Natural' Narratology*
+
+
+LITS-DW — Drama & Performance Writing
+
+DW1 Dramatic action & conflict
+DW2 Character objective & scene structure
+DW3 Dialogue, silence & subtext
+DW4 Stageability & performative realization
+DW5 Space, entrance & blocking implication
+DW6 Temporal & act structure
+DW7 Text–performance openness
+DW8 Audience & theatrical convention
+
+Szondi *Theory of the Modern Drama*
+Esslin *Theatre of the Absurd*
+Pfister *Theory and Analysis of Drama*
+Pavis *Dictionary of the Theatre*
+Aristotle *Poetics*
+
+
+LITS-LT — Criticism & Theory
+
+LT1 Interpretive thesis–textual evidence relation
+LT2 Analytical vocabulary consistency
+LT3 Formal–historical–theoretical level separation
+LT4 Symptomatic–intentional reading distinction
+LT5 Hermeneutic scope & counterreading
+LT6 Theory–text fit
+LT7 Canon & selection effects
+LT8 Critical claim–evaluative claim separation
+
+Richards *Practical Criticism*
+Wimsatt *Verbal Icon*
+Barthes *Image-Music-Text*
+Derrida *Writing and Difference*
+Eagleton *Literary Theory*
+
+
+LITS-WH — World & Literary Histories
+
+WH1 Period, movement & continuity construction
+WH2 Genre evolution & cross-tradition equivalence
+WH3 Publication, circulation & world-literature movement
+WH4 Institution, patronage & readership
+WH5 Canon formation, survival & comparison
+WH6 Influence, reception & parallel development
+WH7 Literary–political–social context
+WH8 Comparison unit, scale & corpus symmetry
+WH9 Language & translation competence
+WH10 Center–periphery framing
+
+Curtius *European Literature and the Latin Middle Ages*
+Auerbach *Mimesis*
+Casanova *World Republic of Letters*
+Damrosch *What Is World Literature?*
+Moretti *Distant Reading*
+
+
+LITS-TX — Textual Scholarship & Editing
+
+TX1 Witness identification & genealogy
+TX2 Variant classification
+TX3 Copy-text & base-text rationale
+TX4 Emendation discipline
+TX5 Authorial revision & versioning
+TX6 Material bibliography
+TX7 Editorial apparatus completeness
+TX8 Edition–work distinction
+
+McKerrow *Introduction to Bibliography for Literary Students*
+Bowers *Principles of Bibliographical Description*
+Gaskell *New Introduction to Bibliography*
+McGann *Critique of Modern Textual Criticism*
+Tanselle *Textual Criticism and Scholarly Editing*
+
+
+LITS-TR — Translation Studies & Practice
+
+TR1 Source–target purpose
+TR2 Semantic & pragmatic equivalence
+TR3 Register, voice & style
+TR4 Formal & prosodic transfer
+TR5 Cultural reference & domestication
+TR6 Loss, compensation & explicitation
+TR7 Translator visibility & intervention
+TR8 Retranslation & version comparison
+
+Nida *Toward a Science of Translating*
+Steiner *After Babel*
+Bassnett *Translation Studies*
+Venuti *Translator's Invisibility*
+Bell *Translation and Translating*
+
+
+MUSI — MUSIC STUDIES
+
+Antecedents
+Boethius *Fundamentals of Music*
+Zarlino *Art of Counterpoint*
+C.P.E. Bach *Essay on the True Art of Playing Keyboard Instruments*
+Berlioz *Treatise on Instrumentation*
+
+MUSI-GE — General Music Studies
+
+GE1 Score–sound–performance relation
+GE2 Pitch, rhythm, timbre & form integration
+GE3 Style, idiom & repertory relation
+GE4 Notation–realization correspondence
+GE5 Instrumental & vocal affordance
+GE6 Ensemble & temporal coordination
+GE7 Work, version & performance identity
+GE8 Recording & mediation dependence
+
+Helmholtz *Sensations of Tone*
+Schoenberg *Theory of Harmony*
+Meyer *Emotion and Meaning in Music*
+Cook *Beyond the Score: Music as Performance*
+
+
+MUSI-PI — Performance, Improvisation & Conducting
+
+PI1 Technical control & consistency
+PI2 Score–interpretation correspondence
+PI3 Performance-practice fidelity
+PI4 Venue–instrument fit
+PI5 Ensemble coordination
+PI6 Improvisational-framework coherence
+PI7 Spontaneity–preparation separation
+PI8 Gesture–sound correspondence
+PI9 Rehearsal diagnosis & adaptation
+PI10 Leadership–ensemble balance
+
+Leopold Mozart *Treatise on the Fundamental Principles of Violin Playing*
+Wagner *On Conducting*
+Scherchen *Handbook of Conducting*
+Rink *Musical Performance*
+Berliner *Thinking in Jazz*
+Bowen *Cambridge Companion to Conducting*
+Quantz *On Playing the Flute*
+
+
+MUSI-CO — Composition
+
+CO1 Motivic & thematic development
+CO2 Harmonic & contrapuntal organization
+CO3 Rhythmic & temporal structure
+CO4 Large-scale form
+CO5 Instrumentation & orchestration
+CO6 Notation & performer realizability
+CO7 Idiom, quotation & stylistic reference
+CO8 Revision & version coherence
+
+Schoenberg *Fundamentals of Musical Composition*
+Hindemith *Craft of Musical Composition*
+Messiaen *Technique of My Musical Language*
+Piston *Orchestration*
+Adler *Study of Orchestration*
+
+
+MUSI-TA — Music Theory & Analysis
+
+TA1 Analytical-unit & segmentation choice
+TA2 Tonal, modal & pitch-class framework
+TA3 Voice-leading & contrapuntal structure
+TA4 Rhythm, meter & grouping
+TA5 Formal-function analysis
+TA6 Set, transformational & network representation
+TA7 Analytical hearing–notation correspondence
+TA8 Framework–repertoire fit
+
+Schenker *Free Composition*
+Forte *Structure of Atonal Music*
+Lerdahl–Jackendoff *Generative Theory of Tonal Music*
+Caplin *Classical Form*
+Rameau *Treatise on Harmony*
+
+
+MUSI-MH — Music History & Musicology
+
+MH1 Source, edition & work identity
+MH2 Dating, attribution & chronology
+MH3 Style & period construction
+MH4 Patronage, institution & production context
+MH5 Performance-practice reconstruction
+MH6 Reception & canon formation
+MH7 Technology, notation & instrument history
+MH8 Historical claim–musical evidence relation
+
+Dahlhaus *Foundations of Music History*
+Kerman *Contemplating Music*
+Goehr *Imaginary Museum of Musical Works*
+Taruskin *Oxford History of Western Music*
+Cook–Everist *Rethinking Music*
+
+
+MUSI-EM — Ethnomusicology
+
+EM1 Fieldsite & community definition
+EM2 Emic–etic category distinction
+EM3 Performance-context reconstruction
+EM4 Transcription & representation
+EM5 Researcher participation & positionality
+EM6 Repertoire, event & practice sampling
+EM7 Music–ritual–social relation
+EM8 Transmission, change & circulation
+
+Merriam *Anthropology of Music*
+Blacking *How Musical Is Man?*
+Nettl *Study of Ethnomusicology*
+Feld *Sound and Sentiment*
+Rice *Modeling Ethnomusicology*
+
+
+MUSI-MT — Music Technology & Production
+
+MT1 Signal chain & gain structure
+MT2 Microphone, room & source relation
+MT3 Editing, comping & temporal manipulation
+MT4 Synthesis & signal-processing architecture
+MT5 Mix balance, spatialization & dynamics
+MT6 Monitoring & playback translation
+MT7 Mastering & delivery format
+MT8 Software, hardware & version dependence
+
+Roads *Computer Music Tutorial*
+Eargle *Handbook of Recording Engineering*
+Izhaki *Mixing Audio*
+Katz *Mastering Audio*
+Collins–Schedel–Wilson *Electronic Music*
+
+
+URPL — URBAN & REGIONAL PLANNING
+
+Antecedents
+Howard *Garden Cities of To-morrow*
+Geddes *Cities in Evolution*
+Mumford *Culture of Cities*
+Abercrombie *Town and Country Planning*
+
+URPL-GE — General Urban & Regional Planning
+
+GE1 Planning problem & jurisdictional boundary
+GE2 Public objective & value-conflict exposure
+GE3 Existing-condition & trend diagnosis
+GE4 Alternative-plan generation
+GE5 Forecast–scenario–normative target separation
+GE6 Stakeholder & decision-right structure
+GE7 Plan–instrument–implementation traceability
+GE8 Monitoring, revision & adaptive planning
+
+Hall *Urban and Regional Planning*
+Healey *Collaborative Planning*
+Berke et al *Urban Land Use Planning*
+Levy *Contemporary Urban Planning*
+
+
+URPL-LU — Land Use & Development Control
+
+LU1 Parcel, district & jurisdiction scale
+LU2 Existing-use & legal-right baseline
+LU3 Zoning category & permitted-use logic
+LU4 Density, intensity & dimensional control
+LU5 Development-capacity & market-feasibility relation
+LU6 Variance, exception & discretionary review
+LU7 Infrastructure–development concurrency
+LU8 Regulation–land-value & displacement effect
+
+Kaiser–Godschalk–Chapin *Urban Land Use Planning*
+Cullingworth–Caves *Planning in the USA*
+Fischel *Zoning Rules!*
+Juergensmeyer–Roberts *Land Use Planning and Development Regulation Law*
+
+
+URPL-TT — Transportation Planning
+
+TT1 Travel market & trip-purpose definition
+TT2 Network & service-area boundary
+TT3 Demand model & induced-demand feedback
+TT4 Mode-choice & generalized-cost specification
+TT5 Capacity, congestion & reliability
+TT6 Accessibility–mobility distinction
+TT7 Land-use–transport interaction
+TT8 Project appraisal & distributional effects
+
+Meyer–Miller *Urban Transportation Planning*
+Ortúzar–Willumsen *Modelling Transport*
+Vuchic *Urban Transit Systems and Technology*
+Banister *Transport Planning*
+Cervero *Transit Metropolis*
+
+
+URPL-HO — Housing & Community Development
+
+HO1 Housing market & submarket definition
+HO2 Need, demand & affordability distinction
+HO3 Tenure, household & dwelling-unit relation
+HO4 Neighborhood change & displacement risk
+HO5 Subsidy targeting & take-up
+HO6 Development finance & feasibility
+HO7 Community asset & organizational capacity
+HO8 Housing intervention–social outcome attribution
+
+Gans *Urban Villagers*
+Schwartz *Housing Policy in the United States*
+Green–Haines *Asset Building and Community Development*
+Mallach *Divided City*
+
+
+URPL-ED — Economic Development Planning
+
+ED1 Local economy & labor-market boundary
+ED2 Base, traded & local-sector distinction
+ED3 Cluster & agglomeration diagnosis
+ED4 Business attraction–retention–formation separation
+ED5 Incentive counterfactual & displacement
+ED6 Workforce & firm-demand correspondence
+ED7 Place-based investment spillovers
+ED8 Growth–distribution & fiscal-effect distinction
+
+Blakely–Leigh *Planning Local Economic Development*
+Fitzgerald–Leigh *Economic Revitalization*
+Porter *Competitive Advantage of Nations*
+Storper *Keys to the City*
+Bartik *Who Benefits from State and Local Economic Development Policies?*
+
+
+URPL-RS — Regional, Environmental & Resilience Planning
+
+RS1 Hazard, exposure & vulnerability
+RS2 Ecological boundary & climate horizon
+RS3 Risk-reduction alternatives
+RS4 Green–gray infrastructure & adaptation tradeoff
+RS5 Resilience, recovery & maladaptation
+RS6 Functional region, jurisdiction & settlement hierarchy
+RS7 Spillover, network & core–periphery relation
+RS8 Regional forecast & scenario consistency
+RS9 Fiscal, housing & labor-market interdependence
+RS10 Regional governance & implementation capacity
+
+Isard *Location and Space-Economy*
+Friedmann *Regional Development Policy*
+Randolph *Environmental Land Use Planning and Management*
+Vale–Campanella *Resilient City*
+Beatley *Green Urbanism*
+McHarg *Design with Nature*
+
+
+URPL-UD — Urban Design
+
+UD1 Public-realm & block-scale objective
+UD2 Street, parcel, block & frontage relation
+UD3 Movement–place function balance
+UD4 Density, massing & spatial enclosure
+UD5 Human-scale experience & accessibility
+UD6 Public–private interface
+UD7 Design code–built-form correspondence
+UD8 Incremental development & morphological continuity
+
+Lynch *Image of the City*
+Gehl *Life Between Buildings*
+Carmona et al *Public Places, Urban Spaces*
+Marshall *Streets and Patterns*
+Jacobs *Death and Life of Great American Cities*
+
+
+URPL-GV — Planning Administration & Governance
+
+GV1 Statutory authority & institutional mandate
+GV2 Agency role & intergovernmental relation
+GV3 Planning process & decision sequence
+GV4 Participation, representation & deliberation
+GV5 Negotiation, mediation & conflict management
+GV6 Implementation actor & responsibility
+GV7 Monitoring, enforcement & compliance
+GV8 Administrative capacity & continuity
+
+Forester *Planning in the Face of Power*
+Hoch *Planning Practice*
+Innes–Booher *Planning with Complexity*
+Susskind–Cruikshank *Breaking Robert's Rules*
+Bryson *Strategic Planning for Public and Nonprofit Organizations*
+
+
+URPL-UH — Planning Theory & History
+
+UH1 Descriptive–prescriptive planning theory distinction
+UH2 Rationality model & decision assumptions
+UH3 Expertise–democratic legitimacy relation
+UH4 Communicative & collaborative claim
+UH5 Power, exclusion & procedural justice
+UH6 Historical plan–built outcome relation
+UH7 Planning doctrine & institutional context
+UH8 Theory–practice transfer
+
+Faludi *Planning Theory*
+Friedmann *Planning in the Public Domain*
+Hall *Cities of Tomorrow*
+Sandercock *Towards Cosmopolis*
+Campbell–Fainstein *Readings in Planning Theory*
+
+
+PORTABLE MODULES
+
+
+CIN — CAUSAL INFERENCE
+
+CIN1 Intervention & treatment-version specification
+CIN2 Causal estimand & target-population alignment
+CIN3 Consistency & positivity
+CIN4 Treatment timing & dynamic effects
+CIN5 Instrument, proxy & negative-control validity
+CIN6 Mediation & path decomposition
+CIN7 Spillover & interference mapping
+CIN8 Sensitivity to unmeasured confounding
+
+Rosenbaum *Observational Studies*
+Morgan–Winship *Counterfactuals and Causal Inference*
+Pearl *Causality*
+Imbens–Rubin *Causal Inference*
+Hernán–Robins *Causal Inference*
+
+
+DEC — DECISION ANALYSIS
+
+DEC1 Decision frame, decision maker & scope
+DEC2 Objective & value-hierarchy completeness
+DEC3 Alternative & feasible-action-set completeness
+DEC4 Uncertain event, state & probability-model coherence
+DEC5 Information structure, timing & decision sequence
+DEC6 Consequence model & action–outcome mapping
+DEC7 Preference, utility, risk & time-attitude representation
+DEC8 Multiattribute value, tradeoff & aggregation discipline
+DEC9 Dependence, correlation & common-uncertainty structure
+DEC10 Dominance, consistency & decision-rule validity
+DEC11 Sensitivity, robustness & value-of-information analysis
+DEC12 Recommendation–assumption–model traceability
+
+Raiffa *Decision Analysis*
+Keeney–Raiffa *Decisions with Multiple Objectives*
+von Winterfeldt–Edwards *Decision Analysis and Behavioral Research*
+Clemen–Reilly *Making Hard Decisions with DecisionTools*
+Howard–Abbas *Foundations of Decision Analysis*
+
+
+EXP — EXPERIMENTAL METHODS
+
+EXP1 Experimental-unit definition
+EXP2 Assignment mechanism
+EXP3 Manipulation fidelity
+EXP4 Blinding & masking
+EXP5 Compliance & crossover
+EXP6 Attrition & post-assignment missingness
+EXP7 Sequential adaptation & stopping
+EXP8 Demand, observer & Hawthorne effects
+EXP9 Treatment contamination
+
+Fisher *Design of Experiments*
+Cochran–Cox *Experimental Designs*
+Campbell–Stanley *Experimental and Quasi-Experimental Designs*
+Cox *Planning of Experiments*
+Shadish–Cook–Campbell *Experimental and Quasi-Experimental Designs*
+
+
+LEC — LAW & ECONOMICS
+
+LEC1 Legal rule–behavior mapping
+LEC2 Entitlement & payoff specification
+LEC3 Enforcement probability & sanction structure
+LEC4 Transaction & administrative costs
+LEC5 Avoidance, evasion & circumvention
+LEC6 Legal incidence–economic incidence distinction
+LEC7 Institutional substitution & forum choice
+LEC8 Efficiency–distribution separation
+LEC9 Legal feasibility of economic counterfactual
+LEC10 Doctrinal sensitivity of economic result
+
+Coase *Firm, Market, and the Law*
+Calabresi *Costs of Accidents*
+Posner *Economic Analysis of Law*
+Shavell *Foundations*
+Kaplow–Shavell *Fairness versus Welfare*
+
+
+MLR — MACHINE LEARNING RESEARCH
+
+MLR1 Train–tune–test separation
+MLR2 Benchmark & data leakage
+MLR3 Objective–metric alignment
+MLR4 Baseline & ablation adequacy
+MLR5 Hyperparameter & search-budget accounting
+MLR6 Calibration & predictive uncertainty
+MLR7 Distribution-shift assumptions
+MLR8 Scaling & compute dependence
+MLR9 Stochastic & reproducibility variance
+MLR10 Shortcut, robustness & adversarial sensitivity
+
+Vapnik *Statistical Learning Theory*
+Shalev-Shwartz–Ben-David *Understanding Machine Learning*
+Hastie–Tibshirani–Friedman *Elements of Statistical Learning*
+Goodfellow–Bengio–Courville *Deep Learning*
+Murphy *Probabilistic Machine Learning*
+
+
+NET — NETWORK ANALYSIS
+
+NET1 Node & edge definition
+NET2 Network boundary & sampling
+NET3 Dependence & interference
+NET4 Null-model choice
+NET5 Centrality & metric interpretation
+NET6 Community & resolution dependence
+NET7 Temporal-network structure
+NET8 Direction, weight & multiplex structure
+NET9 Generative-mechanism identification
+NET10 Causal interpretation of network structure
+
+Bollobás *Random Graphs*
+Barabási *Network Science*
+Wasserman–Faust *Social Network Analysis*
+Newman *Networks*
+Jackson *Social and Economic Networks*
+
+
+SIM — SIMULATION & COMPUTATIONAL MODELING
+
+SIM1 Target-system abstraction
+SIM2 Initial & boundary conditions
+SIM3 Discretization & time-step dependence
+SIM4 Verification–validation separation
+SIM5 Numerical & convergence error
+SIM6 Stochastic error & seed dependence
+SIM7 Parameter calibration
+SIM8 Finite-size & time-horizon effects
+SIM9 Sensitivity & uncertainty propagation
+SIM10 Code–model correspondence
+
+Law *Simulation Modeling and Analysis*
+Fishman *Monte Carlo: Concepts, Algorithms, and Applications*
+Banks et al *Discrete-Event System Simulation*
+Oberkampf–Roy *Verification and Validation in Scientific Computing*
+Winsberg *Science in the Age of Computer Simulation*
+
+
+SUR — SURVEY RESEARCH
+
+SUR1 Target population & sampling frame
+SUR2 Question wording & response categories
+SUR3 Survey-mode & interviewer effects
+SUR4 Question-order & context effects
+SUR5 Nonresponse mechanism
+SUR6 Weighting & calibration
+SUR7 Measurement invariance
+SUR8 Social-desirability & response-style effects
+SUR9 Panel conditioning & repeated measurement
+
+Kish *Survey Sampling*
+Fowler *Survey Research Methods*
+Cochran *Sampling Techniques*
+Groves et al *Survey Methodology*
+Tourangeau–Rips–Rasinski *Psychology of Survey Response*
+
+MES — MEASUREMENT & PSYCHOMETRICS
+
+MES1 Construct & domain definition
+MES2 Indicator & content coverage
+MES3 Scale formation & scoring rule
+MES4 Reliability & generalizability
+MES5 Dimensionality & latent structure
+MES6 Item functioning & local dependence
+MES7 Measurement invariance & differential functioning
+MES8 Validity argument & criterion relation
+MES9 Linking, equating & score comparability
+MES10 Score interpretation & decision use
+
+Lord–Novick *Statistical Theories of Mental Test Scores*
+Nunnally–Bernstein *Psychometric Theory*
+McDonald *Test Theory: A Unified Treatment*
+Embretson–Reise *Item Response Theory for Psychologists*
+Millsap *Statistical Approaches to Measurement Invariance*
+
+
+QLT — QUALITATIVE & ETHNOGRAPHIC METHODS
+
+QLT1 Research question–method fit
+QLT2 Case, site & participant selection
+QLT3 Access, role & field-position definition
+QLT4 Elicitation & observation context
+QLT5 Record, fieldnote & material provenance
+QLT6 Coding, category & theme formation
+QLT7 Negative-case & disconfirming-evidence search
+QLT8 Triangulation & source convergence
+QLT9 Reflexivity & positionality
+QLT10 Saturation & evidentiary sufficiency
+QLT11 Transferability & scope
+
+Glaser–Strauss *Discovery of Grounded Theory*
+Spradley *Participant Observation*
+Hammersley–Atkinson *Ethnography*
+Miles–Huberman–Saldaña *Qualitative Data Analysis*
+Denzin–Lincoln *SAGE Handbook of Qualitative Research*
+
+
+SPA — SPATIAL & GEOSPATIAL ANALYSIS
+
+SPA1 Spatial unit & support definition
+SPA2 Coordinate, projection & geocoding validity
+SPA3 Scale & resolution
+SPA4 Boundary & modifiable-areal-unit effects
+SPA5 Spatial dependence & autocorrelation
+SPA6 Neighborhood, distance & connectivity definition
+SPA7 Spatial sampling & coverage
+SPA8 Interpolation & extrapolation
+SPA9 Spatial heterogeneity & nonstationarity
+SPA10 Raster, vector & network representation
+SPA11 Spatial uncertainty propagation
+
+Cressie *Statistics for Spatial Data*
+Anselin *Spatial Econometrics: Methods and Models*
+Longley et al *Geographic Information Systems and Science*
+O'Sullivan–Unwin *Geographic Information Analysis*
+Haining *Spatial Data Analysis*
+
+
+SYN — EVIDENCE SYNTHESIS & META-ANALYSIS
+
+SYN1 Review question & eligibility definition
+SYN2 Search coverage & reproducibility
+SYN3 Study selection & duplicate-report handling
+SYN4 Outcome, contrast & effect-size harmonization
+SYN5 Within-study & cross-study dependence
+SYN6 Risk-of-bias integration
+SYN7 Heterogeneity & synthesis-model choice
+SYN8 Small-study, publication & selective-reporting bias
+SYN9 Moderator, subgroup & meta-regression discipline
+SYN10 Sensitivity, influence & robustness analysis
+SYN11 Direct, indirect & network evidence coherence
+SYN12 Evidence certainty & synthesis scope
+
+Hedges–Olkin *Statistical Methods for Meta-Analysis*
+Cooper *Research Synthesis and Meta-Analysis*
+Borenstein et al *Introduction to Meta-Analysis*
+Cooper–Hedges–Valentine *Handbook of Research Synthesis and Meta-Analysis*
+Higgins et al *Cochrane Handbook for Systematic Reviews of Interventions*
