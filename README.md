@@ -245,8 +245,7 @@ In other words, different houses may reach different fit judgments while still a
 - **Auditability:** structural and substantive catalogue changes should be explicit and reviewable.
 - **Human control:** PBPR is an aid to expert judgment, not a substitute for it.
 
-## Disclaimer
+## Disclaimer & Best Practices
 
-These tools are experimental research and review infrastructure. They do not guarantee correctness, completeness, publication outcomes, or freedom from model error.
-
-Use them alongside domain expertise, source verification, and traditional human review. Ultimate responsibility for editorial, research, and submission decisions remains with the human operator.
+* These tools are designed to **augment, not replace, human expertise**. It is highly recommended that this process be run in conjunction with traditional freeform human review. Pinpoint accuracy should simplify the location of flags in the original text.
+* No warranties are offered or implied regarding the accuracy, validity, or publication outcomes resulting from these outputs. Ultimate responsibility for any editorial or submission decisions rests entirely with the human operator.
