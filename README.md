@@ -21,6 +21,22 @@ The output of this initial run is an itemized, color-coded **Scorecard** of flag
 * **Process:** Feeds the Scorecard to a top-tier Managing Editor persona tasked with making a final publication call. 
 * **Output:** Offers a definitive editorial decision (Accept, Revise with path to acceptance, Revise, Reject) along with a synthesized rationale, a formal editorial letter, and a simulated pushback correspondence with the author.
 
+## Selecting the Review Criteria
+
+`criteria.txt` is an overall catalogue, not a checklist to apply in full. A review should select the **minimal sufficient route** needed to subject the publication's claims to the strongest relevant scrutiny.
+
+Selection proceeds compositionally:
+
+1. **Always apply Integrity (I) and Quality (Q).** These are universal.
+2. **Identify the precedence-bearing output.** Select the anchor according to what the publication asks reviewers to recognize as its successful contribution, not according to the type of warrant it happens to use: **F proves, E finds, S reconstructs, N justifies, D makes.**
+3. **Select the home discipline and field.** The home discipline provides the publication's native/default scrutiny; the field contributes residual tests specific to that claim family. Choose by the contribution being made, not simply by departmental affiliation, dataset, method, or vocabulary. Use the General field where no narrower field supplies a better residual fit.
+4. **Import auxiliary anchors and portable modules as required.** A publication may rely on several epistemic modes or specialized methods. Add the relevant auxiliary anchor(s) and portable modules—such as causal inference, decision analysis, experimental methods, measurement, machine learning, network analysis, optimization, qualitative methods, simulation, spatial analysis, survey research, or evidence synthesis—only where the claims actually require them.
+5. **Tailor the route to the publication.** Omit irrelevant field criteria; add an ad hoc criterion when a material failure mode is not represented. The catalogue is deliberately extensible, and users are invited to adjust the selection to the publication and review purpose.
+
+Selection changes the **kind** of scrutiny, not its rigor. No discipline, method, or publication type is entitled to a lower review standard, and routing should never be used to avoid an applicable test.
+
+The bookshelves attached to anchors and fields are reference pools for the relevant traditions of scrutiny, not mandatory reading lists and not citation requirements.
+
 ## Design Philosophy
 
 * **Pinpoint-accurate:** The workflows are engineered to extract specific, actionable critiques based on embedded academic literature, anchored in the submitted manuscript and the relevant literature, avoiding generic LLM summarization.
