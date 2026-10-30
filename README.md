@@ -2,22 +2,29 @@
 
 **PBPR: LLM-assisted adversarial academic peer review**
 
-This repository contains a modular peer-review architecture for running rigorous, repeatable, multi-role academic review with large language models. The framework separates the review process from the catalogue of standards used to scrutinize a publication.
+This repository contains a modular architecture for rigorous, repeatable, multi-role academic peer review with large language models.
 
-The central catalogue is **`criteria.txt`**. It is designed to support review across disciplines by combining universal integrity and quality standards, epistemic anchors, discipline and field criteria, portable methodological modules, and curated scholarly bookshelves.
+It separates two things that are often conflated:
 
-The current **`review.txt`** prompt remains calibrated primarily to top-tier economics review. The cross-disciplinary catalogue is the architectural basis for extending and revising that prompt.
+- the **review workflow**: how a paper is scrutinized; and
+- the **review catalogue**: which criteria, intellectual traditions, and reference works define adequate scrutiny for the task.
+
+The repository includes a deliberately broad cross-disciplinary catalogue in **`criteria.txt`**. That catalogue is useful as a reference implementation and as a routing source for heterogeneous work. It is **not** intended to imply that every review system should use one universal catch-all catalogue.
+
+In many applications, a **purpose-built catalogue with narrower scope is preferable**. A journal, discipline, field, conference, research program, or specialized review task can construct its own criteria and bookshelves using the recipe below. Narrowing the scope should allow greater precision and cleaner coverage, not lower the standard.
+
+The current **`review.txt`** workflow remains calibrated primarily to top-tier economics review. The catalogue architecture provides the basis for generalizing that workflow.
 
 ## Repository Contents
 
-- **`criteria.txt`** — the cross-disciplinary peer-review criteria catalogue and bookshelves.
-- **`review.txt`** — the core multi-agent review workflow. It produces a consolidated scorecard after repeated independent review runs.
-- **`preview.txt`** — a constructive pre-submission workflow that turns a completed scorecard into an actionable revision brief without issuing a publication verdict.
-- **`report.txt`** — an editorial decision workflow that turns a completed scorecard into a final verdict, report, and editorial letter.
+- **`criteria.txt`** — broad cross-disciplinary criteria catalogue and bookshelves.
+- **`review.txt`** — core multi-agent review workflow.
+- **`preview.txt`** — constructive pre-submission workflow using a completed scorecard.
+- **`report.txt`** — editorial-decision workflow using a completed scorecard.
 
 ## Core Review Principle
 
-PBPR is built around a simple calibration rule:
+PBPR is built around one calibration rule:
 
 > **The headline claim should be no stronger than the strongest claim that survives the strongest domain-appropriate adversarial scrutiny.**
 
@@ -27,222 +34,347 @@ In shorthand:
 
 where `C_h` is the publication's headline claim and `C_s` is the strongest surviving claim after review.
 
-Equality indicates strong calibration. A weaker headline can reflect epistemic restraint. A stronger headline indicates overclaiming.
-
-The catalogue is therefore not a taxonomy of topics. It is a map of recurrent ways claims can fail, become overstated, require narrowing, or require stronger warrant.
+The purpose of a criteria catalogue is therefore not to enumerate topics. It is to encode the recurrent ways in which claims within its scope can fail, become overstated, require narrowing, or require stronger warrant.
 
 The operating attitude is:
 
 > **Search broadly; flag carefully.**
 
-Reviewers should generate alternatives and steelmen aggressively, but issue a flag only when the concern is substantively correct and useful for adjudication or repair.
+Generate alternatives and steelmen aggressively. Flag only concerns that survive scrutiny themselves.
 
-## Catalogue Architecture
+## The Basic Architecture
 
-The catalogue is compositional. A paper is not reviewed against every listed criterion.
+A clean catalogue is compositional.
 
 ### Universal layers
 
-**Integrity (I)** asks whether the represented research record is trustworthy: conflicts, plagiarism, hallucination, citation manipulation, source or data honesty, fabrication, and selective reporting.
+**Integrity (I)** covers whether the represented research record is trustworthy.
 
-**Quality (Q)** asks whether the claim is well formed, adequately supported, robust, transparent, significant, novel, and properly calibrated.
+**Quality (Q)** covers whether claims are precise, significant, novel, adequately warranted, robust, transparent, and properly calibrated.
 
-I and Q apply universally.
+I and Q are universal.
 
 ### Epistemic anchors
 
-The five anchors classify the **precedence-bearing output** — what the publication asks reviewers to recognize as its successful contribution — rather than the type of warrant used to support it.
+The five anchors classify the **precedence-bearing output**: what the publication asks reviewers to recognize as its successful contribution.
 
 - **F — Formal:** proves.
-- **E — Empirical:** finds.
+- **E — Empirical:** evidences.
 - **S — Source:** reconstructs.
 - **N — Normative:** justifies.
 - **D — Design:** makes.
 
-A publication may use several kinds of warrant without changing its home anchor. An engineering contribution may be D while relying heavily on E; a historical reconstruction may use quantitative evidence while remaining S.
+The anchor classifies the contribution, not the type of material used to support it. A source-based reconstruction may use quantitative evidence and remain S; a design contribution may use experiments and remain D.
 
-### Home disciplines and fields
+### Disciplines and fields
 
-A **home discipline** supplies the publication's native or default residual scrutiny.
+Disciplines and fields supply **residual domain-specific scrutiny** after I/Q, anchors, and portable methods have done their work.
 
-A **field** supplies specialized scrutiny for a coherent family of claims within that discipline. Fields are defined by shared residual failure modes, not merely by subject labels or departmental boundaries.
-
-The controlling question for a field is:
-
-> **After I/Q, the relevant anchors, and portable modules are imported, do these publications still share a substantial residual scrutiny regime?**
-
-A field should not exist merely because a familiar subfield name exists. Conversely, distinct fields should not be merged merely to regularize counts if their surviving tests are genuinely different.
+A field is justified when a recognizable class of publications shares a substantial residual scrutiny regime. A familiar subject label by itself is not enough.
 
 ### Portable modules
 
-Portable modules capture specialized scrutiny that recurs across disciplines without belonging to one discipline.
+Portable modules capture specialized scrutiny that travels across disciplines: causal inference, experimental methods, measurement, optimization, simulation, machine learning, survey research, qualitative methods, and similar cross-disciplinary machinery.
 
-The current catalogue includes modules for causal inference, decision analysis, experimental methods, law and economics, measurement and psychometrics, machine learning, network analysis, optimization, qualitative and ethnographic methods, simulation, spatial analysis, survey research, and evidence synthesis.
+They are overlays, not substitutes for a home discipline or anchor.
 
-Portable modules are overlays. They do not replace the relevant home discipline or epistemic anchor.
+# Recipe: Build a Purpose-Built Criteria Catalogue
 
-## Selecting the Review Route
+The best starting point is usually **the narrowest scope that matches the actual review task**.
 
-`criteria.txt` is an overall catalogue, not a checklist to apply in full. A review should select the **minimal sufficient route** needed to expose the publication's claims to the strongest relevant scrutiny.
+Do not begin by copying the entire broad catalogue. Begin by defining what kinds of publications the catalogue must review well, then add only the scrutiny needed to cover that domain without blind spots.
 
-1. **Apply I and Q.**
-2. **Identify the precedence-bearing output** and select the appropriate F/E/S/N/D anchor.
-3. **Select the home discipline and field** by the contribution being made, not merely by author affiliation, dataset, method, or vocabulary. Use the General field when no narrower field provides a better residual fit.
-4. **Import auxiliary anchors and portable modules** where the claims actually require them.
-5. **Tailor the route to the publication.** Irrelevant criteria may be omitted; a genuinely missing test may be added ad hoc.
+## 1. Define the scope before writing criteria
 
-Selection changes the **kind** of scrutiny, not its rigor.
+State explicitly what the catalogue is for.
 
-> **No discipline is held to a lower standard.**
+Examples:
 
-The catalogue is intentionally an overall list. Users are invited to adapt the selected route to a manuscript, venue, or specialized review purpose.
+- a single field;
+- a discipline;
+- a family of methods;
+- a journal;
+- a conference;
+- a particular class of claims;
+- a review workflow focused on one problem such as causal claims.
 
-## Constructing and Curating the Catalogue
+Specify the intended scholarly level as well. A catalogue for frontier research should be calibrated to frontier scrutiny.
 
-The catalogue is curated rather than accumulated. Disciplines, fields, criteria, and bookshelves should be broad enough to span the relevant scholarly domain but compact enough that every retained element has a distinct function.
+Then test the boundary:
 
-There are useful compact ranges and proliferation checks, **not hard numerical quotas**.
+> **Which publications should this catalogue review directly, and which should require another catalogue or imported module?**
 
-### Coverage and neutrality
+A purpose-built catalogue should be complete **within its declared scope**, not artificially universal.
 
-Both the criteria set and the bookshelf for a discipline or field should provide **horizontal coverage** across its governing objects, methods, major traditions, and important forms of disagreement.
+## 2. Fix the invariant layers
 
-They should also provide a **vertical quality ceiling** high enough to support stringent review of frontier scholarship.
+Start with I and Q unless the application has a compelling reason to redefine them.
 
-Neutrality is an **aggregate property** of the catalogue, not a requirement imposed on every individual criterion or book. Individual works can represent strong, competing, or historically situated positions. The set as a whole should not systematically privilege one school, method, tradition, or substantive conclusion unless that bias is explicitly introduced as a separate journal or house-style overlay.
+Next identify the relevant precedence-bearing outputs and therefore the required F/E/S/N/D anchors.
 
-A useful test is:
+Do not infer the anchor from department, method, dataset, or vocabulary. Ask what successful new contribution the publication claims to make.
 
-> **Could a serious publication from any major tradition inside this discipline or field receive rigorous scrutiny from the selected criteria and bookshelf without first accepting a rival tradition's conclusions?**
+If the scope contains only one or two anchors, include only those. A narrow catalogue need not reproduce unused architecture.
 
-Coverage does not mean equal representation by count. It means that the major live and field-shaping forms of reasoning are available for scrutiny and comparison.
+## 3. Identify the residual fields
 
-### Selecting standing criteria
+For each candidate field, mentally import:
 
-A standing criterion belongs in the catalogue when it captures a **recurrent, material way in which a claim can fail, become overstated, or require narrowing**.
+1. I and Q;
+2. the relevant anchor or anchors; and
+3. any portable methods that would normally apply.
 
-A candidate criterion should satisfy these tests:
+Then ask:
 
-- **Residuality:** it adds scrutiny not already supplied by I/Q, the relevant anchor, a portable module, or a more general surviving criterion.
-- **Recurrence:** it applies to a recognizable class of publications, not one unusual paper.
-- **Materiality:** failure can change the surviving claim, its scope, or the publication's credibility.
-- **Specificity:** it identifies a relation, distinction, boundary, correspondence, or failure mode that a reviewer can actually inspect.
-- **Correct level of generality:** put the test at the highest level at which it is genuinely general, but no higher.
-- **Orthogonality:** it should not merely restate another criterion in different words.
-- **Compactness without semantic loss:** wording should be concise enough to scan without collapsing distinct tests into a vague umbrella.
-- **Promotability:** a missing paper-specific test can first be added ad hoc; repeated recurrence is evidence for promotion into the standing catalogue.
-- **Coverage contribution:** the resulting criterion set should span the discipline or field rather than cluster around the easiest, most fashionable, or most methodologically dominant publication types.
+> **What important scrutiny remains specific to this field?**
 
-Criterion proliferation is checked by asking:
+That remainder is the field's reason to exist.
 
-> **What material failure mode would become harder to detect or route if this criterion were removed?**
+A useful merge test is:
 
-If there is no distinct answer, merge, rewrite, or delete it. A criterion disappears only when another surviving test actually captures the same epistemic work; thematic similarity is not sufficient.
+> **After the shared layers are imported, do these publication types still share a substantial residual scrutiny regime?**
 
-### Selecting and maintaining fields
+If yes, they may belong together. If the resulting criteria merely interleave different subtype tests, keep them separate.
 
-Fields should correspond to **shared residual scrutiny regimes**, not convenient umbrella topics.
+Field counts are diagnostic, not quotas.
 
-Merge fields when their characteristic publications share most of the same residual failure modes. Keep them separate when a merger would produce an interleaved list of subtype-specific tests.
+## 4. Derive criteria from failure modes, not topic lists
 
-Field count is diagnostic only. A long field list invites a compression check; a short list invites a coverage check. Neither creates a mandatory target.
+A standing criterion should represent a **recurrent, material epistemic test**.
 
-### Selecting bookshelf works
+A candidate criterion should normally satisfy all of the following:
 
-A bookshelf is a compact set of **top-line synthetic works that materially support the scrutiny represented by the anchor or field**. It is not a bibliography, a citation leaderboard, or a display of famous names.
+- **Residuality:** not already owned by I/Q, an anchor, portable module, or higher-level criterion.
+- **Recurrence:** relevant to a recognizable class of publications, not one unusual paper.
+- **Materiality:** failure can change the surviving claim, its scope, or its credibility.
+- **Inspectability:** a reviewer can identify what relation, distinction, boundary, correspondence, or failure is being tested.
+- **Correct level:** the test sits at the highest level at which it is genuinely general, but no higher.
+- **Orthogonality:** it does not merely restate another test.
+- **Compactness without semantic loss:** it is easy to scan without becoming vague.
+- **Coverage contribution:** it helps the full set span the field rather than deepening only one favored corner.
 
-Bookshelves serve two purposes:
+A missing test may first appear as an **ad hoc criterion** during review. Repeated recurrence is evidence that it deserves promotion into the standing catalogue.
 
-- **Horizontal anchoring:** coverage across the field's governing objects, methods, and major traditions.
-- **Vertical anchoring:** a scholarly and technical quality ceiling against which frontier work can be reviewed.
+Use this deletion test:
 
-A candidate work should satisfy the following tests:
+> **What material failure mode would become harder to detect or route if this criterion disappeared?**
 
-- **Synthetic scope:** prefer books, monographs, advanced textbooks, handbooks, collected-paper volumes, or comparable synthetic works. Isolated papers, conference proceedings, chapters, narrow intervention reviews, public-facing polemics, and software-specific manuals normally belong at the research layer rather than on the standing shelf.
-- **Field fit:** the work should genuinely anchor the field whose claims it is meant to scrutinize.
-- **Criterion-generating relevance:** it should illuminate multiple recurring distinctions, standards, or failure modes represented by the field.
-- **Rigor:** it should be credible as advanced scholarly background for stringent review of frontier work.
-- **Coverage contribution:** it should add a distinct major tradition, mode of reasoning, class of failure, or technical synthesis.
-- **Complementarity:** it should add something not already supplied by a stronger retained work.
-- **Comparative superiority:** it should survive comparison with plausible alternatives for one of the limited shelf positions.
-- **Currency where required:** contemporary positions should synthesize current methods and live disputes.
-- **Lineage discipline:** the same work should not recur mechanically across antecedent and descendant shelves.
-- **No quota backfill:** deleting a weak or redundant work does not create an obligation to replace it merely to restore a preferred count.
+If there is no clear answer, the criterion probably does not deserve independent standing.
 
-For contemporary coverage, integrated authored or genuinely coauthored syntheses are preferred when they are comparably rigorous, current, comprehensive, and well fitted to the field. Edited handbooks remain appropriate when no authored treatment provides comparable coverage or when the field is inherently plural.
+## 5. Audit the criterion set for span and aggregate neutrality
 
-Bookshelf proliferation is checked by asking:
+A clean set of criteria should span the **discipline or field as actually practiced at the intended level**.
+
+Check horizontal coverage across:
+
+- major claim types;
+- governing objects;
+- characteristic inferential problems;
+- important methods where they create field-specific residual scrutiny;
+- major traditions and schools;
+- recurring sources of disagreement;
+- edge cases that expose weaknesses in the dominant framework.
+
+Do not confuse coverage with equal counts.
+
+Neutrality is an **aggregate property of the set**. Individual criteria can be demanding, asymmetric, or rooted in particular traditions. The full set should not force every publication to accept one contested school, method, ontology, or substantive conclusion merely to enter the review.
+
+A useful adversarial test is:
+
+> **Could strong work from each major tradition in scope be rigorously reviewed by this catalogue without first conceding the conclusions of a rival tradition?**
+
+If not, the set is not yet epistemically neutral enough for general use within that scope.
+
+A venue may deliberately add a **house-style overlay** after this neutral scholarly layer. House style can affect fit and interpretation; it should not erase underlying substantive defects.
+
+## 6. Build the bookshelf from the criteria and the domain
+
+Do not build a bookshelf by collecting famous books and then reverse-engineering criteria from them.
+
+The bookshelf should help reviewers understand and apply the scrutiny encoded by the catalogue.
+
+It has two jobs:
+
+- **horizontal anchoring:** span the domain's governing objects, methods, traditions, and important disagreements;
+- **vertical anchoring:** establish a technical and scholarly quality ceiling adequate for frontier review.
+
+A candidate work should earn its place by function.
+
+Useful tests include:
+
+- **Field fit:** does it genuinely belong to this field rather than an adjacent one?
+- **Synthetic scope:** does it provide enough integrated coverage to function as a standing reference?
+- **Criterion-generating relevance:** does it illuminate multiple recurring tests or distinctions?
+- **Rigor:** is it strong enough to support stringent review of frontier scholarship?
+- **Coverage contribution:** what major tradition, problem class, or mode of reasoning does it add?
+- **Complementarity:** does it add something not already supplied by a stronger retained work?
+- **Comparative superiority:** does it beat plausible alternatives for this role?
+- **Currency where needed:** does a contemporary work capture present methods and live disputes?
+- **Lineage discipline:** is the work being used for the right role rather than duplicated mechanically across levels?
+
+Prefer books, monographs, advanced textbooks, substantial authored syntheses, and strong handbooks where appropriate. Isolated articles, narrow reviews, practitioner manuals, software guides, and public-facing polemics normally belong at the research layer rather than on a standing shelf.
+
+For contemporary synthesis, prefer an integrated authored or genuinely coauthored treatment when it is comparably rigorous and comprehensive. Edited handbooks are entirely appropriate when no integrated treatment covers the field adequately or when plurality itself is part of the field.
+
+## 7. Distinguish antecedents, classics, and contemporaries
+
+These categories serve different epistemic functions.
+
+**Antecedents** identify the intellectual constructions that helped constitute the discipline or field. Their main role is genealogy: they explain where characteristic questions, distinctions, and traditions came from.
+
+**Classics** are field-shaping works whose principles remain operational for present adjudication. Their apparatus may be dated, but they still supply live concepts, propositions, distinctions, or modes of reasoning against which current work can be tested.
+
+**Contemporaries** provide the current technical synthesis: present methods, present standards of evidence or argument, live disputes, and the modern quality ceiling.
+
+The distinction is functional, not chronological.
+
+When one work appears eligible for more than one role:
+
+- retain it as an **antecedent** when its principal value is genealogical;
+- retain it as a **classic** at the narrowest appropriate level when it remains operational for current scrutiny;
+- retain it in neither role when it no longer wins the comparison for either function.
+
+Do not duplicate a title merely because it is important.
+
+A strong shelf usually combines classics and contemporaries so that durable intellectual traditions and current technical practice constrain one another.
+
+## 8. Audit the bookshelf for span and aggregate neutrality
+
+The bookshelf should span the same scope as the criteria.
+
+Check whether it covers:
+
+- the major intellectual traditions relevant to the field;
+- competing explanations or frameworks where the field contains durable disputes;
+- the principal technical approaches;
+- both durable and current modes of reasoning;
+- the major classes of claims represented by the criteria.
+
+Again, neutrality is aggregate. Individual books may advocate strong positions. The shelf as a whole should make serious rival positions available to the review rather than silently canonizing one side.
+
+Ask:
 
 > **What distinct scrutiny or intellectual coverage does this additional volume contribute that the existing shelf does not?**
 
-If that cannot be answered crisply, prune. Conversely, a short shelf should not remain artificially short when an important mature tradition or indispensable technical perspective is missing.
+If the answer is weak, prune.
+
+Also ask the inverse:
+
+> **What major mature tradition or technical perspective would be invisible if this shelf were the reviewer's starting point?**
+
+If the answer identifies a real gap, add or replace.
 
 The governing standard is:
 
 > **Enough to triangulate the field's strongest mature reasoning; no more than can be individually defended.**
 
-### Antecedents, classics, and contemporaries
+There is no mandatory number of books, classics, contemporaries, fields, or criteria.
 
-These roles are related but distinct.
+## 9. Stress-test the catalogue on representative publications
 
-**Antecedents** represent foundational viewpoints that helped constitute a discipline or characteristic mode of reasoning. Their role is intellectual genealogy. A work may be historically indispensable without remaining a good present-day review anchor.
+Before treating a catalogue as stable, route several very different publications through it.
 
-**Classics** are field-shaping works whose principles remain operational for current adjudication even when parts of their apparatus are dated. They function as durable referral guides for important traditions, distinctions, or governing propositions.
+Include:
 
-**Contemporaries** provide current technical synthesis: present methods, evidence standards, live disputes, and the modern quality ceiling of the field.
+- central cases;
+- boundary cases;
+- work from competing traditions;
+- hybrid-method papers;
+- unusually theoretical or unusually applied work;
+- strong papers that should mostly pass;
+- papers with known failure modes that the catalogue should catch.
 
-The distinction is functional rather than chronological. An old work can remain a classic; a relatively recent work can eventually become antecedent-like in role; and fame alone does not determine placement.
+Look for four kinds of defect:
 
-When the same work appears to qualify as both antecedent and bookshelf classic, placement is adjudicated rather than duplicated mechanically:
+1. **blind spots** — important failures with no natural criterion;
+2. **duplication** — the same failure repeatedly appears under different codes;
+3. **routing ambiguity** — multiple fields claim the same residual scrutiny without a principled distinction;
+4. **bias by construction** — one legitimate tradition is systematically forced to defend assumptions that rival traditions are allowed to leave implicit.
 
-- keep it as an **antecedent** when its main value is genealogical and stronger works govern present review;
-- keep it as a **classic** at the narrowest appropriate field when its principles remain directly operational for current scrutiny;
-- keep it in neither role when it fails the current standards for both.
+Repair the architecture, not just the test case.
 
-A strong shelf will often combine classics and contemporaries so that durable intellectual traditions and current technical practice constrain one another.
+## 10. Prefer purpose-built catalogues when the task is narrow
+
+The broad `criteria.txt` catalogue is useful when the reviewer may encounter work from many disciplines or when routing must happen dynamically.
+
+For a known domain, a narrower catalogue will often be better.
+
+A purpose-built version can:
+
+- remove irrelevant disciplines, anchors, and modules;
+- subdivide a field more finely where the application needs it;
+- merge distinctions that do no useful work at the chosen scope;
+- replace general bookshelves with stronger domain-specific ones;
+- add specialized criteria that would be too narrow for the broad catalogue;
+- encode venue-specific intellectual traditions as a separate house-style layer.
+
+The goal is not to reproduce the master catalogue at smaller scale. The goal is to reconstruct the **minimal sufficient scrutiny architecture for the declared scope**.
+
+Narrower should mean **more precise**, not less rigorous.
+
+## 11. Keep construction decisions auditable
+
+When changing a catalogue, distinguish:
+
+- topology changes;
+- criterion additions, deletions, and rewrites;
+- bookshelf additions, deletions, and moves;
+- antecedent/classic/contemporary role changes;
+- routing changes;
+- house-style overlays.
+
+For substantive changes, preserve the reason the old element was replaced and what epistemic function the new element serves.
+
+Do not let formatting cleanup, count normalization, or naming convenience silently make substantive decisions.
+
+## Selecting Criteria for an Individual Review
+
+Once a catalogue exists, an individual review should use the **minimal sufficient route** through it:
+
+1. apply I and Q;
+2. identify the precedence-bearing output and anchor;
+3. select the home discipline and residual field;
+4. import auxiliary anchors and portable modules as required;
+5. add an ad hoc criterion when a material paper-specific failure mode remains uncovered.
+
+Selection changes the **kind** of scrutiny, not its rigor.
+
+> **No discipline is held to a lower standard.**
 
 ## Review Workflow
 
-The current core workflow in `review.txt` uses repeated independent runs to reduce dependence on any single panel composition or search path.
+The current `review.txt` workflow uses repeated independent runs to reduce dependence on one panel composition or one search path.
 
 At a high level:
 
-1. A system pre-scans the paper and identifies likely areas of scrutiny.
-2. An assigning editor scopes the paper, selects reviewers, and assigns relevant literature.
-3. Reviewers independently search for flaws and alternative interpretations.
-4. A huddle performs depth review and attempts to resolve disputed flags.
-5. A deciding editor audits the panel and finalizes the scorecard.
-6. The process is repeated independently, and the union of surviving flags is carried into a final deciding run.
+1. a system pre-scans the paper and identifies likely areas of scrutiny;
+2. an assigning editor scopes the paper, selects reviewers, and assigns literature;
+3. reviewers independently search for flaws and alternative interpretations;
+4. a huddle performs depth review and attempts to resolve disputed flags;
+5. a deciding editor audits the panel and finalizes the scorecard;
+6. independent runs are consolidated into a final deciding run.
 
 The scorecard is the handoff object. It should identify what the issue is, where it occurs, why it matters, and how it changes the strongest surviving claim.
-
-The current prompt is economics-calibrated; the catalogue architecture is intended to support a later generalized routing stage using the selection logic above.
 
 ## Downstream Workflows
 
 ### Pre-submission mentorship: `preview.txt`
 
-Takes the paper, scorecard, and criteria used and produces a constructive improvement brief. It does not issue a verdict or severity labels. The goal is to convert the review into concrete revision guidance.
+Takes the paper, scorecard, and criteria used and produces a constructive improvement brief without a publication verdict.
 
 ### Editorial decision: `report.txt`
 
-Takes the paper and completed scorecard and produces a final publication decision, synthesized rationale, editorial letter, and short author–editor exchange.
-
-## Adaptation and House Style
-
-The universal catalogue defines the underlying scholarly scrutiny. A journal, conference, discipline, laboratory, or research group can add a **house-style overlay** to express particular intellectual traditions, priorities, or fit criteria.
-
-Such overlays may legitimately affect interpretation, emphasis, and venue fit. They should not change the underlying substantive scholarly standard or make a factual or methodological defect disappear.
-
-In other words, different houses may reach different fit judgments while still agreeing on what survives the common scrutiny.
+Takes the paper and completed scorecard and produces a final publication decision, synthesized rationale, editorial letter, and short author-editor exchange.
 
 ## Practical Principles
 
-- **Pinpoint accuracy:** flags should identify exactly what is wrong, where it occurs, and why it matters.
-- **Claim calibration:** review should narrow claims when necessary rather than treating every weakness as binary acceptance or rejection.
-- **Method pluralism with rigor:** different disciplines and epistemic modes require different tests, not weaker tests.
-- **Modularity:** anchors, fields, and portable modules can be recombined for hybrid work.
-- **Auditability:** structural and substantive catalogue changes should be explicit and reviewable.
+- **Pinpoint accuracy:** identify exactly what is wrong, where it occurs, and why it matters.
+- **Claim calibration:** narrow claims when necessary instead of treating every weakness as binary acceptance or rejection.
+- **Method pluralism with rigor:** different epistemic modes require different tests, not weaker tests.
+- **Minimal sufficient architecture:** include every scrutiny layer the task needs and no layer merely for completeness.
+- **Aggregate neutrality:** criteria and bookshelves should span the legitimate traditions inside their declared scope.
+- **Modularity:** anchors, fields, and portable modules should be recombinable.
+- **Auditability:** catalogue construction and revision should leave a visible substantive trail.
 - **Human control:** PBPR is an aid to expert judgment, not a substitute for it.
 
 ## Disclaimer & Best Practices
