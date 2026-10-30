@@ -365,6 +365,7 @@ At a high level:
 The scorecard is the principal handoff object. It records the issue, location, justification, disposition, claim impact, **precedence**, and relevant literature.
 
 The workflow is primarily an **epistemic quality-control process**: it asks what claims survive, what warrant they possess, what alternatives remain viable, and whether the claimed scholarly contribution establishes precedence over those alternatives. Integrity criteria are included, but the workflow does not convert an LLM review into a forensic integrity investigation.
+
 ## Downstream Workflows
 
 ### Pre-submission mentorship: `preview.txt`
