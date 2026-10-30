@@ -13,7 +13,7 @@ The repository includes a deliberately broad cross-disciplinary catalogue in **`
 
 In many applications, a **purpose-built catalogue with narrower scope is preferable**. A journal, discipline, field, conference, research program, or specialized review task can construct its own criteria and bookshelves using the recipe below. Narrowing the scope should allow greater precision and cleaner coverage, not lower the standard.
 
-The current **`review.txt`** workflow remains calibrated primarily to top-tier economics review. The catalogue architecture provides the basis for generalizing that workflow.
+The current **`review.txt`** workflow is criteria-driven and cross-disciplinary: it records the epistemic anchor, discipline, field and portable modules relevant to the paper, then applies the selected catalogue through independent preliminary runs and a deciding run.
 
 ## Repository Contents
 
@@ -24,7 +24,9 @@ The current **`review.txt`** workflow remains calibrated primarily to top-tier e
 
 ## Core Review Principle
 
-PBPR is built around one calibration rule:
+PBPR applies two distinct epistemic tests.
+
+First, **claim survival**:
 
 > **The headline claim should be no stronger than the strongest claim that survives the strongest domain-appropriate adversarial scrutiny.**
 
@@ -34,7 +36,13 @@ In shorthand:
 
 where `C_h` is the publication's headline claim and `C_s` is the strongest surviving claim after review.
 
-The purpose of a criteria catalogue is therefore not to enumerate topics. It is to encode the recurrent ways in which claims within its scope can fail, become overstated, require narrowing, or require stronger warrant.
+Second, **comparative precedence**:
+
+> **A scholarly claim must establish why it should take precedence over viable alternatives.**
+
+Survival is therefore necessary but not sufficient. A claim may be internally defensible yet still fail as a scholarly contribution if a viable alternative explains, reconstructs, justifies, proves, or makes the relevant result at least as well, or if the claimed contribution does not establish its novelty or comparative advance over existing scholarship. Absolute support adequacy and comparative precedence are separate tests.
+
+The purpose of a criteria catalogue is therefore not to enumerate topics. It is to encode the recurrent ways in which claims within its scope can fail, become overstated, require narrowing, require stronger warrant, or fail to establish precedence over viable alternatives.
 
 The operating attitude is:
 
@@ -343,19 +351,20 @@ Selection changes the **kind** of scrutiny, not its rigor.
 
 ## Review Workflow
 
-The current `review.txt` workflow uses repeated independent runs to reduce dependence on one panel composition or one search path.
+The current `review.txt` conducts **X fully independent preliminary runs** (default `X=10`) followed by one deciding run. Preliminary runs share no information with one another; only the System retains the resulting scorecards between runs. The full per-run protocol is retained for audit but is not exposed to later runs.
 
 At a high level:
 
-1. a system pre-scans the paper and identifies likely areas of scrutiny;
-2. an assigning editor scopes the paper, selects reviewers, and assigns literature;
-3. reviewers independently search for flaws and alternative interpretations;
-4. a huddle performs depth review and attempts to resolve disputed flags;
-5. a deciding editor audits the panel and finalizes the scorecard;
-6. independent runs are consolidated into a final deciding run.
+1. **S pre-scans** the paper, identifies focus and technical competencies, records anchor/discipline/field/portable routing, performs an integrity pre-check, and selects an assigning editor tradition.
+2. **A performs breadth search**, selects a mixed reviewer panel, assigns literature, and records confidential flaw pointers and candidate flags.
+3. **R1–RN review independently and flag-blind**, test alternatives, self-assign additional literature, and identify claim impact.
+4. **H performs depth search**, adjudicates flaws and alternatives, explicitly tests comparative precedence, and seeks consensus.
+5. **E audits the panel**, resolves disagreements, verifies material findings, and issues the scorecard.
+6. **The deciding run receives the concatenated preliminary scorecards**, but not the prior protocols, and independently adjudicates the accumulated findings.
 
-The scorecard is the handoff object. It should identify what the issue is, where it occurs, why it matters, and how it changes the strongest surviving claim.
+The scorecard is the principal handoff object. It records the issue, location, justification, disposition, claim impact, **precedence**, and relevant literature.
 
+The workflow is primarily an **epistemic quality-control process**: it asks what claims survive, what warrant they possess, what alternatives remain viable, and whether the claimed scholarly contribution establishes precedence over those alternatives. Integrity criteria are included, but the workflow does not convert an LLM review into a forensic integrity investigation.
 ## Downstream Workflows
 
 ### Pre-submission mentorship: `preview.txt`
@@ -380,4 +389,6 @@ Takes the paper and completed scorecard and produces a final publication decisio
 ## Disclaimer & Best Practices
 
 * These tools are designed to **augment, not replace, human expertise**. It is highly recommended that this process be run in conjunction with traditional freeform human review. Pinpoint accuracy should simplify the location of flags in the original text.
+* **Integrity review is signal-based, not forensic.** PBPR can probe potential integrity problems through inconsistencies, implausibilities, citation/source anomalies, reporting patterns, internal contradictions, and other signals available from the submitted materials and accessible scholarship. Absence of a signal is not evidence that misconduct or data problems are absent, and an integrity flag is not itself a finding of misconduct.
+* **PBPR is not a dedicated data audit, code audit, or replication exercise.** Unless such work is separately supplied and explicitly undertaken, the workflow does not independently verify raw data against source records, reproduce every transformation, rerun analysis code, or establish computational replicability. Missing materials that were simply not supplied for the review are not themselves a defect in the paper.
 * No warranties are offered or implied regarding the accuracy, validity, or publication outcomes resulting from these outputs. Ultimate responsibility for any editorial or submission decisions rests entirely with the human operator.
