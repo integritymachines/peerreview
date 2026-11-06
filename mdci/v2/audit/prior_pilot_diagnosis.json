@@ -1,0 +1,6 @@
+{
+  "source": "pilot/REPORT.md",
+  "sha256": "03af79044ed7c58f0e99e64f6b29991dd08c564253c98005effb72b49d933ae1",
+  "read_before_execution": true,
+  "diagnosis": "v1 measured identification-design compatibility rather than framework choice; apparent agreement did not establish incremental predictive value. Reclassified as failed operationalization."
+}

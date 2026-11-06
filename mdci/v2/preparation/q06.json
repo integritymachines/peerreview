@@ -1,0 +1,91 @@
+{
+  "id": "q06",
+  "bibliography": {
+    "title": "Moral Hazard versus Liquidity and Optimal Unemployment Insurance",
+    "authors": [
+      "Raj Chetty"
+    ],
+    "year": 2008,
+    "journal": "Journal of Political Economy",
+    "volume": "116",
+    "issue": "2",
+    "pages": "173\u2013234"
+  },
+  "doi": "10.1086/588585",
+  "source_urls": [
+    "https://dash.harvard.edu/server/api/core/bitstreams/7312037c-af38-6bd4-e053-0100007fdf3b/content",
+    "https://dash.harvard.edu/entities/publication/73120378-a3ac-6bd4-e053-0100007fdf3b",
+    "https://www.journals.uchicago.edu/doi/10.1086/588585"
+  ],
+  "published_version_verification": {
+    "status": "verified_final_published",
+    "evidence": "Harvard institutional repository specifies published DOI and citation; PDF contains repository cover followed by all journal pages 173\u2013234, journal running heads, copyright and final references.",
+    "pdf_contents": "Repository cover plus 62 printed journal pages.",
+    "erratum": {
+      "doi": "10.1086/597025",
+      "journal": "Journal of Political Economy",
+      "year": 2008,
+      "volume": "116",
+      "issue": "6",
+      "page": "1197",
+      "source_url": "https://www.journals.uchicago.edu/doi/full/10.1086/597025",
+      "description": "Corrects a reversed pair of percentages in a descriptive sentence on printed page 211. Original published paper retained; the dossier contains neither the mistaken nor corrected finding."
+    }
+  },
+  "scope_change": {
+    "decision": "Pre-assessment access-driven replacement authorized by parent task coordinator",
+    "original_paper": "Keane and Wolpin (1997), The Career Decisions of Young Men, DOI 10.1086/262080",
+    "reason": "Author UNSW original PDF repeatedly returned 503; Chicago publisher returned 403; Penn mirror unavailable. Wisconsin kw.pdf verified to be 2014 teaching slides, rejected. No working paper substituted. Replacement selected before any assessment output was accessed.",
+    "original_attempted_urls": [
+      "https://research.economics.unsw.edu.au/mkeane/career-decisions.pdf",
+      "https://www.journals.uchicago.edu/doi/pdf/10.1086/262080",
+      "https://users.ssc.wisc.edu/~taber2/751/kw.pdf"
+    ]
+  },
+  "pdf": {
+    "path": "mdci/v2/private/pdfs/q06.pdf",
+    "sha256": "85f9bf695fdcc882e622f89902add565d054691e7170ac57ad3855c3c3306755",
+    "page_count": 63
+  },
+  "extraction": {
+    "path": "mdci/v2/private/papers/q06.txt",
+    "every_pdf_page": true,
+    "page_markers": "===== PDF PAGE N =====",
+    "method": "pdftotext -layout per page",
+    "ocr_pdf_pages": []
+  },
+  "citation_count": {
+    "value": 542,
+    "provider": "Crossref REST",
+    "field": "is-referenced-by-count",
+    "source_url": "https://api.crossref.org/works/10.1086/588585",
+    "retrieved_date": "2026-11-06",
+    "limitations": "Crossref registered citing works, not all scholarly citations; changes over time."
+  },
+  "baseline": {
+    "domain": "Unemployment insurance, household liquidity, and job search",
+    "estimand": "Decomposition of benefit-induced unemployment-duration responses into resource and financial-incentive effects, and welfare consequences of benefit generosity"
+  },
+  "source_page_dossier_provenance": [
+    {
+      "printed_pages": "173\u2013177",
+      "pdf_pages": "2\u20136",
+      "content": "Research target and policy/decomposition quantities; methods and findings excluded"
+    },
+    {
+      "printed_pages": "194\u2013197, 208\u2013210",
+      "pdf_pages": "23\u201326, 37\u201339",
+      "content": "Household surveys, benefit rules, imperfect entitlement measures and severance data"
+    },
+    {
+      "printed_pages": "229\u2013232",
+      "pdf_pages": "58\u201361",
+      "content": "Sample construction, linkage, observed variables, survey weighting and exclusion rules"
+    }
+  ],
+  "dossier_word_count": 537,
+  "limitations": [
+    "Original published version has an erratum; only ex-ante material retained in blinded dossier.",
+    "No framework assessment or recommendation included."
+  ]
+}

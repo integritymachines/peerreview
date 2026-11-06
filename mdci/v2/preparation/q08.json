@@ -1,0 +1,208 @@
+{
+  "id": "q08",
+  "prepared_at": "2026-11-06",
+  "bibliography": {
+    "title": "Causal Protein-Signaling Networks Derived from Multiparameter Single-Cell Data",
+    "authors": [
+      {
+        "given": "Karen",
+        "family": "Sachs",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Biological Engineering Division, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Stanford University School of Medicine, The Baxter Laboratory of Genetic Pharmacology, Department of Microbiology and Immunology, Stanford, CA 94305, USA."
+          },
+          {
+            "name": "Harvard Medical School, Department of Genetics, Boston, MA 02115, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Omar",
+        "family": "Perez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Biological Engineering Division, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Stanford University School of Medicine, The Baxter Laboratory of Genetic Pharmacology, Department of Microbiology and Immunology, Stanford, CA 94305, USA."
+          },
+          {
+            "name": "Harvard Medical School, Department of Genetics, Boston, MA 02115, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dana",
+        "family": "Pe'er",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Biological Engineering Division, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Stanford University School of Medicine, The Baxter Laboratory of Genetic Pharmacology, Department of Microbiology and Immunology, Stanford, CA 94305, USA."
+          },
+          {
+            "name": "Harvard Medical School, Department of Genetics, Boston, MA 02115, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Douglas A.",
+        "family": "Lauffenburger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Biological Engineering Division, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Stanford University School of Medicine, The Baxter Laboratory of Genetic Pharmacology, Department of Microbiology and Immunology, Stanford, CA 94305, USA."
+          },
+          {
+            "name": "Harvard Medical School, Department of Genetics, Boston, MA 02115, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Garry P.",
+        "family": "Nolan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Biological Engineering Division, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Stanford University School of Medicine, The Baxter Laboratory of Genetic Pharmacology, Department of Microbiology and Immunology, Stanford, CA 94305, USA."
+          },
+          {
+            "name": "Harvard Medical School, Department of Genetics, Boston, MA 02115, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Science",
+    "year": [
+      [
+        2005,
+        4,
+        22
+      ]
+    ],
+    "volume": "308",
+    "issue": "5721",
+    "pages": "523-529",
+    "doi": "10.1126/science.1105809"
+  },
+  "doi": "10.1126/science.1105809",
+  "source_urls": {
+    "pdf": "https://www.esalq.usp.br/lepse/imgs/conteudo_thumb/Causal-Protein-Signaling-Networks-Derived-from-Multiparameter-Single-Cell-Data.pdf",
+    "doi": "https://doi.org/10.1126/science.1105809",
+    "bibliography": "https://api.crossref.org/works/10.1126/science.1105809"
+  },
+  "final_version_verification": "Publisher extended PDF reproduced on University of Sao Paulo host. Cover identifies Science 308,523 (2005) DOI; original typeset journal pages523–529 complete on PDF pages2–8; correction dated19 August2005 included on PDFpage9. Bibliography matched PubMed PMID15845847 and Crossref. No preprint substitution.",
+  "files": {
+    "pdf": "private/pdfs/q08.pdf",
+    "text": "private/papers/q08.txt",
+    "dossier": "private/dossiers/q08.txt"
+  },
+  "pdf_sha256": "11b90861dfdf6fa18cc2f75bc0dad388dd10883b0f26e05f49ecd9b2c17e5d64",
+  "text_sha256": "3c08f709d4d77f74a02cf3e896569b5b9e6a5790842084d29fc35905cc5bd176",
+  "dossier_sha256": "eaefdda7e0bc165d489670381b6cbb14e123112bada234918d882a605a8fed7a",
+  "page_count": 9,
+  "text_extraction": {
+    "method": "pdftotext -layout; every PDF page retained and labelled === PDF PAGE n ===",
+    "ocr_used": false,
+    "coverage": "Complete original final main article including references, tables and figure captions; extraction preserves typeset columns but diagrams are not exhaustively verbalized."
+  },
+  "citation_count": {
+    "value": 1328,
+    "field": "is-referenced-by-count",
+    "provider": "Crossref REST",
+    "url": "https://api.crossref.org/works/10.1126/science.1105809",
+    "retrieved_at": "2026-11-06",
+    "raw_metadata": "private/sources/q08-crossref.json",
+    "scope": "Crossref-linked citing works; not all possible citations"
+  },
+  "baseline": {
+    "domain": "Intracellular signalling in primary human immune cells",
+    "estimand": "Influences among measured protein and lipid activities under specified molecular perturbations in primary immune cells."
+  },
+  "dossier_word_count": 463,
+  "dossier_statement_provenance": [
+    {
+      "dossier_paragraph": 1,
+      "source": "pp523–525 introduction and experimental description",
+      "scope": "Cell-signalling target; distinction between influence and direct biochemical contact"
+    },
+    {
+      "dossier_paragraph": 2,
+      "source": "p525 Tables1–2 and collection/fixation paragraph; pp526–527 measurement discussion",
+      "scope": "Physical reagents and simultaneous phosphorylation/lipid measurement; no inferred network retained"
+    },
+    {
+      "dossier_paragraph": 3,
+      "source": "pp524–525 conceptual discussion; pp526–528 Discussion",
+      "scope": "Candidate dependencies/hidden intermediaries only, without source orientations or inferred edges"
+    },
+    {
+      "dossier_paragraph": 4,
+      "source": "p525 Table1; pp527–528 limitations and site-specific measurement discussion",
+      "scope": "Reagent specificity and scientific priors treated as negotiable"
+    },
+    {
+      "dossier_paragraph": 5,
+      "source": "p525 fixation and measurement procedures; pp527–528 limitations",
+      "scope": "Physical assay deductions and observation limits, no validation outcomes"
+    }
+  ],
+  "blinding_note": "Dossier excludes author/title/citation, selected method and estimator names, identifying equations, numerical signatures, empirical findings, conclusions, diagnostics and methodological justification. Domain priors are not presented as physical necessities. No framework assessment performed.",
+  "section_coverage": [
+    "PDFp1 publisher cover",
+    "PDFpp2–8 original article journalpp523–529 including all references/tables/captions",
+    "PDFp9 published erratum19August2005"
+  ],
+  "supplements": {
+    "status": "Supporting Online Material is referenced; direct publisher request returned403; not included.",
+    "url": "https://www.science.org/doi/suppl/10.1126/science.1105809/suppl_file/sachs.som.pdf",
+    "correction": "Included erratum corrects reference authors, supplementary URL and missing reference; no data/effect correction stated."
+  },
+  "limitations": [
+    "Published page523 includes preceding article tail and page529 includes following article beginning; retained in extraction for unambiguous full-page coverage.",
+    "Reagent catalogue is from main paper; supplementary raw measurements and procedures not retrieved."
+  ]
+}

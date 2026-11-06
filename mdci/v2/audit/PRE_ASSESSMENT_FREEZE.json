@@ -1,0 +1,112 @@
+{
+  "frozen_at_utc": "2026-11-06T17:20:20.489950+00:00",
+  "additional_files": {
+    "mdci/v2/PROTOCOL_v2.md": "1c24f722a5100d0205c0239c3967d82adc312c02126a401ed26a8cba0e6b414f",
+    "mdci/v2/selection.json": "945f564710d7d1f2ec8032a0e3fe950ba4a7f60341c8c28f708014cde916287e",
+    "mdci/v2/audit/pre_freeze_decisions.json": "26bb5cc50e27f45b4daa730420b61f470987f3d9c4df13a3790dfd4388dd53f7",
+    "mdci/v2_run.py": "d631d8c681f51c8ba7135709a6c065bd02f1fbb46bf840edfd1c78f9eca589b3",
+    "mdci/test_v2_run.py": "2fb72c62293bfa16e6657f3ac14c0aa29d27c18572b839f7433b2725975674f6",
+    "mdci/v2/preparation/q01.json": "dfc722f7b5fb6fccfc934f524595045d5693f0230a4a6257101c5cc5d13913d9",
+    "mdci/v2/preparation/q02.json": "22d3c08c5cbbcd6fe8f446b4d19d3f44bb2f63fe034dfca71a1e5fb19f2cafc0",
+    "mdci/v2/preparation/q03.json": "fef8c053183247272902b77ff0fd490a1eb699ed9c6576af7e97d1fe0628bac6",
+    "mdci/v2/preparation/q04.json": "9b9fd6aa37d48b7f8c42ae7560b4ae6e92391f1bb45d164f9919f528690fd993",
+    "mdci/v2/preparation/q05.json": "6c4661893b5007b11666b439849ad257d5670646b84d54ca8f27ad50b99aa7df",
+    "mdci/v2/preparation/q06.json": "f0bbe7744e3aac900a6814170b91bf119edc6eafe9d00067ff0efb4edb06baa7",
+    "mdci/v2/preparation/q07.json": "c4439c56feddc143195affcbc72daabcfb17fb64ac17852a675cd720abdef238",
+    "mdci/v2/preparation/q08.json": "d4a4d0ec71d0b30d322b5a723c0447e4263e9ed655d0b0361d13bed2bf1658de",
+    "mdci/v2/preparation/q09.json": "5968b71093f2c72ea552148aaf3b2698dfbe9978f9b38a735d00934cffd9fa78",
+    "mdci/v2/preparation/q10.json": "8d4ecc50039adcdee0e2d3b834a43f0e79602969085710cdd0aa3b1a21654da9",
+    "mdci/v2/preparation/q11.json": "27e289aa505620a9ae02795ce50d84aca5c2ef1f4fd93636cfd84a57033effa7",
+    "mdci/v2/preparation/q12.json": "34cb6d89ddbe0e7d4e82c9de80c9fc6270f71a57bc1d38671056627e2f46d9a8",
+    "mdci/v2/prompts/A.txt": "cc5b6f46ec31c0f3abde4f5a3372ff5f369a5061e5cf56737bc40a65b51fa672",
+    "mdci/v2/prompts/B.txt": "a6f242be441a6d1b053d83f6a107cfb560eac0290c4177379279ea7e9c97aa42",
+    "mdci/v2/prompts/C.txt": "7e21a0fa682d4a43318a823eb065a9dd42c4d9a68075b6d32cf23451880788c8",
+    "mdci/v2/prompts/COMMON_ASSESSMENT.txt": "a3bacc628783ee3014db9ae2ae94f55cf28536f8394cdea4c9a17155dc52aabd",
+    "mdci/v2/prompts/TAXONOMY.txt": "f5a2b5003b611f80b4e4c9c52f723ba8bbec6e2f38ffb24cae509dbedef42af0",
+    "mdci/v2/prompts/baseline.txt": "8f7873b19cb4ff005747b828cdbc7e2a81002fff7ccce865108979b752b993aa"
+  },
+  "assignment_packets": [
+    {
+      "packet": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/A_odd.json",
+      "branch": "A",
+      "paper_ids": [
+        "q01",
+        "q03",
+        "q05",
+        "q07",
+        "q09",
+        "q11"
+      ],
+      "sha256": "4bea469f67fd1bd4222a3a99672b7c02b152f07ff65f79515e81c781667d62f1"
+    },
+    {
+      "packet": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/A_even.json",
+      "branch": "A",
+      "paper_ids": [
+        "q02",
+        "q04",
+        "q06",
+        "q08",
+        "q10",
+        "q12"
+      ],
+      "sha256": "8a8923003a0853bb4376a3bd1f3a392bc140e1fd69c4c702740441929452110f"
+    },
+    {
+      "packet": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/B_odd.json",
+      "branch": "B",
+      "paper_ids": [
+        "q01",
+        "q03",
+        "q05",
+        "q07",
+        "q09",
+        "q11"
+      ],
+      "sha256": "ec41d0e92323b6361a58cd422ba9a5a58fcdfee408183da209f4119ba844543c"
+    },
+    {
+      "packet": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/B_even.json",
+      "branch": "B",
+      "paper_ids": [
+        "q02",
+        "q04",
+        "q06",
+        "q08",
+        "q10",
+        "q12"
+      ],
+      "sha256": "178ffa0d641e093f1c0a241b670a0bce0079dabd06a77f7aa48e380cf0e2fad0"
+    },
+    {
+      "packet": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/baseline.json",
+      "branch": "baseline",
+      "paper_ids": [
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q05",
+        "q06",
+        "q07",
+        "q08",
+        "q09",
+        "q10",
+        "q11",
+        "q12"
+      ],
+      "sha256": "422f93d3316988d1b2829ef59be6c35160114e4678cd032f3005cf626c7709d6"
+    },
+    {
+      "packet": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/A_repeat.json",
+      "branch": "A_repeat",
+      "paper_ids": [
+        "q02",
+        "q05",
+        "q08"
+      ],
+      "sha256": "525e541936437fa979b2eb14cd3eb18a99b37542b1159a11ce2a5468bcc0b74e"
+    }
+  ],
+  "no_assessment_outputs_exist": true
+}

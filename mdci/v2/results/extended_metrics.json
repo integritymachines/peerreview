@@ -1,0 +1,38 @@
+{
+  "A_baseline_suitable_identical": 12,
+  "A_B_mean_candidates": {
+    "A": 3.0,
+    "B": 2.75,
+    "baseline": 3.0
+  },
+  "strict_preferences": {
+    "A": 0,
+    "B": 0,
+    "baseline": 0
+  },
+  "empty_preferred_sets": {
+    "A": 12,
+    "B": 12,
+    "baseline": 12
+  },
+  "candidate_intersection": 12,
+  "formal_evidence_items": 37,
+  "nonempty_C_quotes": 6,
+  "normalized_C_quote_matches": 5,
+  "dossier_evidence_items": 61,
+  "dossier_evidence_normalized_matches": 61,
+  "repeat": {
+    "cases": 3,
+    "exact_signature_vectors": 1,
+    "coordinate_MAE": {
+      "R": 0.08333333333333333,
+      "F": 0.08333333333333333,
+      "D": 0.0
+    },
+    "overall_coordinate_MAE": 0.05555555555555555,
+    "maximum_coordinate_difference": 0.25,
+    "exact_framework_sets": 2,
+    "mean_framework_jaccard": 0.8888888888888888,
+    "preference_stability": 3
+  }
+}

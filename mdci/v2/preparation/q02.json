@@ -1,0 +1,134 @@
+{
+  "title": "Does Compulsory School Attendance Affect Schooling and Earnings?",
+  "authors": [
+    "Joshua D. Angrist",
+    "Alan B. Krueger"
+  ],
+  "year": 1991,
+  "journal": "Quarterly Journal of Economics",
+  "volume": "106",
+  "issue": "4",
+  "pages": "979\u20131014",
+  "doi": "10.2307/2937954",
+  "source_url": "https://doi.org/10.2307/2937954",
+  "canonical_url": "https://academic.oup.com/qje/article-abstract/106/4/979/1873496",
+  "domain": "Compulsory schooling, educational attainment, and labor-market earnings in the United States.",
+  "estimand": "Effect of additional completed schooling on weekly earnings among people whose schooling duration can be changed by compulsory attendance requirements; effect of those requirements on enrollment and schooling.",
+  "journal_start": 979,
+  "id": "q02",
+  "retrieved_or_verified_utc": "2026-11-06",
+  "sha256": "ba76fba5f055fab3cfcb9d2e341311795d623f44146286fbe8b456ad39d48af8",
+  "page_count": 37,
+  "pdf_path": "/workspace/scratch/16a620a1f92f/mdci/v2/private/pdfs/q02.pdf",
+  "full_text_path": "/workspace/scratch/16a620a1f92f/mdci/v2/private/papers/q02.txt",
+  "dossier_path": "/workspace/scratch/16a620a1f92f/mdci/v2/private/dossiers/q02.txt",
+  "dossier_word_count": 493,
+  "full_text_page_labels": 37,
+  "copyright_handling": "Full published text is private research material; do not distribute or commit. Blinded dossier contains original paraphrase.",
+  "published_version_verification": {
+    "status": "verified_final_published_article",
+    "evidence": "Journal masthead, volume/issue/date, running page numbers and final references match bibliographic record. No working-paper substitute.",
+    "journal_pages": "979\u20131014",
+    "archive_extras": "One JSTOR cover page."
+  },
+  "acquisition": {
+    "method": "Copied user-authorized existing original PDF",
+    "local_original": "/workspace/scratch/16a620a1f92f/pilot/private/pdfs/p002.pdf",
+    "original_download_url": null,
+    "url_provenance_note": "Original acquisition URL was not supplied to this preparation task; source_url is the canonical published-source resolver, not a claimed download origin."
+  },
+  "text_extraction": {
+    "method": "Full-paper OCR; reused supplied PDF-page OCR 2\u201322; OCR of cover and pages 23\u201337 at 160 dpi with Tesseract, OMP_THREAD_LIMIT=1.",
+    "limitations": "OCR and embedded-text extraction may contain recognition, ordering, symbol and table-alignment errors. Every PDF page is represented; PDF is authoritative."
+  },
+  "citation_count": 1742,
+  "citation_count_evidence": {
+    "provider": "Crossref REST",
+    "field": "is-referenced-by-count",
+    "request_url": "https://api.crossref.org/works?query.title=Does+Compulsory+School+Attendance+Affect+Schooling+and+Earnings&rows=2",
+    "doi_matched": "10.2307/2937954",
+    "snapshot_path": "/workspace/scratch/16a620a1f92f/mdci/v2/private/q02_crossref.json",
+    "retrieved_utc": "2026-11-06"
+  },
+  "limitations": [
+    "Full text extraction is not a diplomatic transcription.",
+    "Dossier candidate dependencies and analytical constraints are ex-ante reasoning, not observed diagnostic findings.",
+    "Citation counts are source-specific snapshots, not comprehensive counts."
+  ],
+  "dossier_statement_provenance": [
+    {
+      "section": "domain_target_estimand",
+      "journal_pages": "979\u2013982",
+      "pdf_pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "basis": "Factual source-page provenance; empirical effects and diagnostic results excluded."
+    },
+    {
+      "section": "observed_variables_evidence",
+      "journal_pages": "1010\u20131013",
+      "pdf_pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "basis": "Factual source-page provenance; empirical effects and diagnostic results excluded."
+    },
+    {
+      "section": "undirected_dependencies",
+      "journal_pages": "979\u2013982, 1005\u20131008",
+      "pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        28,
+        29,
+        30,
+        31
+      ],
+      "basis": "Documented factual setting and measurements, with explicitly hypothetical ex-ante candidate relationships and assumptions."
+    },
+    {
+      "section": "institutional_functional_prior",
+      "journal_pages": "980\u2013982, 988\u2013991, 1012\u20131013",
+      "pdf_pages": [
+        3,
+        4,
+        5,
+        11,
+        12,
+        13,
+        14,
+        35,
+        36
+      ],
+      "basis": "Documented factual setting and measurements, with explicitly hypothetical ex-ante candidate relationships and assumptions."
+    },
+    {
+      "section": "physical_directional_constraints",
+      "journal_pages": "1010\u20131012",
+      "pdf_pages": [
+        33,
+        34,
+        35
+      ],
+      "basis": "Analytical definitional/physical constraints grounded in the documented setting; not a reported empirical result."
+    },
+    {
+      "section": "observation_limitations",
+      "journal_pages": "1010\u20131013",
+      "pdf_pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "basis": "Factual source-page provenance; empirical effects and diagnostic results excluded."
+    }
+  ]
+}
