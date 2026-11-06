@@ -1,15 +1,15 @@
-name: MDCI lite offline checks
+name: MDCI lite offline checks (inactive template)
 on:
   push:
     paths:
       - 'mdci/**'
-      - 'review-lite.txt'
-      - '.github/workflows/mdci-lite.yml'
+      - 'mdci/review-lite.txt'
+      - 'mdci/ci-template.yml'
   pull_request:
     paths:
       - 'mdci/**'
-      - 'review-lite.txt'
-      - '.github/workflows/mdci-lite.yml'
+      - 'mdci/review-lite.txt'
+      - 'mdci/ci-template.yml'
   workflow_dispatch:
 permissions:
   contents: read

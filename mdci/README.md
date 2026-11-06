@@ -17,7 +17,7 @@ Paths are relative to the manifest. Use opaque paper IDs. The paper file must co
     python mdci/run.py run --manifest manifest.jsonl --limit 2 --execute --output results.jsonl
     python mdci/run.py compare --results results.jsonl --output comparison.json
 
-Model defaults to gpt-4.1-mini, change with --model. Budget controls: 2 independent API requests per paper, hard --limit <= 5, explicit --execute flag, and 25,000-character source limit per branch (no silent truncation). No paid API calls run on push or on a schedule. If a request fails, results already written remain available. A manual GitHub Actions invocation runs only offline tests, because paper text and API secrets have not been installed on the runner.
+Model defaults to gpt-4.1-mini, change with --model. Budget controls: 2 independent API requests per paper, hard --limit <= 5, explicit --execute flag, and 25,000-character source limit per branch (no silent truncation). No paid API calls run on push or on a schedule. If a request fails, results already written remain available. An optional offline CI template is stored at mdci/ci-template.yml; it is intentionally inactive because all pilot files are kept within this subfolder. To run checks manually, use the unittest command above.
 
 ## What a verdict means
 

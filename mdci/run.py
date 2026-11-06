@@ -8,7 +8,7 @@ import sys
 import urllib.error
 import urllib.request
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent
 FAMILIES = {"randomized", "adjustment", "instrumental_variables", "difference_in_differences",
             "regression_discontinuity", "synthetic_control", "structural_selection",
             "graphical", "longitudinal_g_methods", "partial_identification", "other"}
@@ -83,7 +83,7 @@ def run(args):
     if not 1 <= args.limit <= 5:
         raise ValueError("Hard pilot limit: 1 to 5 papers")
     manifest = read_jsonl(args.manifest)
-    sig_prompt = (ROOT/"mdci/signature-lite.txt").read_text(encoding="utf-8")
+    sig_prompt = (ROOT/"signature-lite.txt").read_text(encoding="utf-8")
     peer_prompt = (ROOT/"review-lite.txt").read_text(encoding="utf-8")
     output = Path(args.output)
     output.parent.mkdir(parents=True,exist_ok=True)
