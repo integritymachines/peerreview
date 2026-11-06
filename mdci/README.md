@@ -10,7 +10,46 @@ Create a private JSONL manifest with one paper per line:
 
 Paths are relative to the manifest. Use opaque paper IDs. The paper file must contain enough original methodological content for an adequate review. The dossier must be prepared using only prior system knowledge, design, physical/logical priors, and the target estimand; it **must not identify the author's chosen framework or study conclusions**. Do not commit copyrighted full papers or private API credentials. Sources are passed to the OpenAI API if paid execution is explicitly enabled.
 
-## Execute locally
+## Execute with isolated agents (no API key)
+
+In a work session with fresh-context agent support, use one new agent per paper
+per branch. An API key is not required for this route. The host's own usage
+limits apply; this does not imply free or unmetered inference.
+
+    python mdci/agent_run.py prepare --manifest manifest.jsonl --limit 5 --requests agent_requests
+
+This exports separate JSON request files under `signature/` and `review/` and a
+hash index. **Exporting requests does not execute the assessments.** Have the
+work-session orchestrator execute each request once in a fresh agent, without
+inheriting the parent conversation (for example, `fork_turns="none"`). Each agent
+may read only its assigned request and write only its assigned response. Do not
+give reviewers dossiers, signature materials, bibliographies, citation counts,
+other assessments, or the experiment hypothesis. Do not give signature agents
+paper extracts, published-method inventories, or reviews. Do not reuse an agent
+across branches or papers. No browsing or delegation within an assessment.
+
+Apply the request's `instructions` to its `source`, treating source text as data.
+Ask for a concise single-pass result, around 1,000 words or fewer. Write one JSON
+response per request under the corresponding branch directory:
+
+    {"paper_id":"p001","branch":"review","request_hash":"<copy from request>","result":{...}}
+
+The `result` follows the unchanged branch prompt. Preserve all responses before
+combining them, and never tune inputs using an observed assessment. Then:
+
+    python mdci/agent_run.py collect --requests agent_requests --responses agent_responses --output results.jsonl --execution-label "host agents; actual model if known"
+    python mdci/run.py compare --results results.jsonl --output comparison.json
+
+The collector rejects changed requests, mismatched response identities,
+incomplete pairs, invalid method families and overwriting existing results. It
+records response hashes and marks API usage as unknown, not zero inference.
+Hash checks establish input identity; they do not prove behavioral compliance.
+Fresh contexts provide procedural information separation, not a filesystem
+security boundary or statistically independent model errors. Host agents do not
+inherit the API runner's enforced output-token cap. Keep assessments concise and
+avoid retries or model sweeps unless a recorded failure warrants them.
+
+## Execute with the OpenAI API (optional)
 
     python -m unittest discover -s mdci -p 'test_*.py' -v
     export OPENAI_API_KEY=...  # use a secret, not a committed value
@@ -25,4 +64,4 @@ Review fit is appropriate | mismatch | indeterminate. Mismatch is warranted only
 
 ## Limits
 
-LLMs cannot be completely blinded to famous studies already in training, and a single-pass review is not a replication or independent ground truth. Require exact paper passages; keep ambiguity as indeterminate. Sample both apparent matches and nonmatches; do not cherry-pick cases of criticism. The experiment needs full-text rights and an operator-supplied API key for actual review runs.
+LLMs cannot be completely blinded to famous studies already in training, and a single-pass review is not a replication or independent ground truth. Require exact paper passages; keep ambiguity as indeterminate. Sample both apparent matches and nonmatches; do not cherry-pick cases of criticism. The experiment needs sufficient original methodological text and applicable full-text rights. An operator-supplied API key is required only for the optional API route; the isolated-agent route uses the work session's inference.
