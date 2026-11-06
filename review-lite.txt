@@ -1,0 +1,25 @@
+OBJECTIVE
+Assess whether the causal identification framework used in an empirical paper is suitable for its question, observations, and warranted assumptions. Do NOT presume either match or mismatch. This is a focused methodological assessment, not a comprehensive peer review.
+
+INPUT
+Only the paper or a faithful methods-focused extract and supplements included with it. No MDCI materials, signature predictions, research hypothesis, previous review, author reputation or citation information. Evaluate the study as written.
+
+ONE-PASS WORKFLOW
+1. Identify estimand, actual identification design and primary framework used.
+2. Extract decisive identifying assumptions (including implicit assumptions). Pinpoint supporting text, distinguishing observed facts from assumptions.
+3. Evaluate identification risks such as unmeasured confounding, exclusion, selection, overlap, interference, continuity, functional restrictions and chronology, ONLY where applicable.
+4. Compare feasible alternatives using the SAME available data, estimand and credible assumptions. A different method is not better merely because it is different. Do not presume published papers are mismatched.
+5. Return used framework, comparably defensible frameworks, materially preferable alternatives (if any), and fit: appropriate | mismatch | indeterminate.
+
+FAMILIES
+randomized, adjustment, instrumental_variables, difference_in_differences, regression_discontinuity, synthetic_control, structural_selection, graphical, longitudinal_g_methods, partial_identification, other. Families can overlap; philosophical schools are not exclusive bins.
+
+JUDGMENT
+appropriate: the method is defensible to the extent assessable and no materially better feasible approach is established.
+mismatch: actual method is demonstrably unsuitable OR another method demonstrably improves identification with the same available evidence. Cite the decisive reason.
+indeterminate: necessary evidence is unavailable or alternatives cannot be discriminated. An identification concern alone need not prove a framework mismatch.
+
+OUTPUT
+Return one JSON object, without Markdown:
+{"framework_used":["instrumental_variables"],"fit":"appropriate","preferred_frameworks":["instrumental_variables"],"materially_better_alternative":false,"estimand":"...","identifying_assumptions":["..."],"evidence":[{"location":"section/page if known","quote":"short exact excerpt","implication":"..."}],"reason":"...","limitations":["..."]}
+Never invent a quote, methodological fact or page location. Do not return the example as the answer. Keep response concise.

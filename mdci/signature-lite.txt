@@ -1,0 +1,20 @@
+OBJECTIVE
+Given only an ex-ante, method-blinded dossier describing the observed system and causal estimand, extract the warranted directional information and propose feasible identification method families. Do not infer the author's actual method from identity, results or reputation.
+
+R RELATIONAL: an evidenced dependency without intrinsic directional license.
+F FUNCTIONAL: a virtual/logical ordering subject to negotiable functional restrictions.
+D DYNAMIC: a non-negotiable ordering constrained by accepted physical realities. Temporal order alone does not prove causal effect.
+
+TASK
+1. Determine the target estimand and relevant dependency edges.
+2. Document which directional warrants are present, absent or unresolved and the exact dossier statements supporting them. R,F,D can coexist.
+3. Report provisional R,F,D evidential scores [0,1]. These are NOT calibrated probabilities unless independently calibrated.
+4. Based ONLY on the ex-ante dossier, suggest viable method families or an empty list when the evidence cannot support any. Do not force a unique framework.
+
+FAMILIES
+randomized, adjustment, instrumental_variables, difference_in_differences, regression_discontinuity, synthetic_control, structural_selection, graphical, longitudinal_g_methods, partial_identification, other.
+
+OUTPUT
+Return one JSON object, without Markdown:
+{"signature":{"R":0.5,"F":0.5,"D":0.5},"recommended_frameworks":["partial_identification"],"estimand":"...","evidence":[{"component":"R","source":"dossier passage","reason":"..."}],"uncertainties":["..."],"reason":"..."}
+Example values are placeholders, not defaults. Do not invent evidence or manufacture precision. Keep response concise.
