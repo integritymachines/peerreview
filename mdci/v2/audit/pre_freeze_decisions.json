@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-06",
+  "pre_assessment": true,
+  "scope_replacements": [
+    {
+      "id": "q07",
+      "from": "Robins Hernan Brumback 2000 general MSM paper",
+      "to": "Hernan Brumback Robins 2000 zidovudine empirical cohort paper",
+      "reason": "Original candidate has illustrative rather than observed application data."
+    },
+    {
+      "id": "q11",
+      "from": "Ferguson et al 2006 hypothetical influenza mitigation",
+      "to": "Flaxman et al 2020 European COVID-19 interventions",
+      "reason": "Use empirical mortality/policy inference instead of hypothetical pandemic simulation."
+    },
+    {
+      "id": "q06",
+      "from": "Keane Wolpin 1997",
+      "to": "Chetty 2008 unemployment insurance",
+      "reason": "Final original inaccessible; public university PDF lead proved teaching slides. Replacement final published paper accessible, preserves behavioral/policy-extrapolation coverage."
+    }
+  ],
+  "dossier_editorial_corrections": [
+    {
+      "ids": [
+        "q01",
+        "q02",
+        "q03"
+      ],
+      "reason": "Explicitly distinguish accounting/arithmetic/legal constraints from nonnegotiable physical direction; no original target effect inferred."
+    },
+    {
+      "id": "q12",
+      "reason": "Keep actual allocation procedure and uncertainty rather than adopt authors randomization characterization."
+    }
+  ],
+  "selection_screening": "No cases selected or removed using a framework-fit assessment or known mismatch result."
+}

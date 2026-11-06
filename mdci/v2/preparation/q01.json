@@ -1,0 +1,132 @@
+{
+  "title": "Evaluating the Econometric Evaluations of Training Programs with Experimental Data",
+  "authors": [
+    "Robert J. LaLonde"
+  ],
+  "year": 1986,
+  "journal": "American Economic Review",
+  "volume": "76",
+  "issue": "4",
+  "pages": "604\u2013620",
+  "doi": null,
+  "source_url": "https://web.pdx.edu/~nwallace/PATF/Lalonde.pdf",
+  "canonical_url": "https://www.jstor.org/stable/1806062",
+  "domain": "Temporary employment assistance and adult labor-market earnings in the United States.",
+  "estimand": "Effect of access to temporary supported work and associated services on post-program earnings among eligible disadvantaged applicants.",
+  "journal_start": 604,
+  "id": "q01",
+  "retrieved_or_verified_utc": "2026-11-06",
+  "sha256": "13ef0638e4438ddabd35b002d3ff65fcc8be1a3da3024394c70bff84ec8ab04b",
+  "page_count": 18,
+  "pdf_path": "/workspace/scratch/16a620a1f92f/mdci/v2/private/pdfs/q01.pdf",
+  "full_text_path": "/workspace/scratch/16a620a1f92f/mdci/v2/private/papers/q01.txt",
+  "dossier_path": "/workspace/scratch/16a620a1f92f/mdci/v2/private/dossiers/q01.txt",
+  "dossier_word_count": 461,
+  "full_text_page_labels": 18,
+  "copyright_handling": "Full published text is private research material; do not distribute or commit. Blinded dossier contains original paraphrase.",
+  "published_version_verification": {
+    "status": "verified_final_published_article",
+    "evidence": "Journal masthead, volume/issue/date, running page numbers and final references match bibliographic record. No working-paper substitute.",
+    "journal_pages": "604\u2013620",
+    "archive_extras": "One JSTOR cover page."
+  },
+  "acquisition": {
+    "method": "curl from institutional teaching mirror",
+    "local_original": null,
+    "original_download_url": "https://web.pdx.edu/~nwallace/PATF/Lalonde.pdf",
+    "url_provenance_note": "Exact live download URL recorded."
+  },
+  "text_extraction": {
+    "method": "pdftotext -layout for every page.",
+    "limitations": "OCR and embedded-text extraction may contain recognition, ordering, symbol and table-alignment errors. Every PDF page is represented; PDF is authoritative."
+  },
+  "citation_count": null,
+  "citation_count_evidence": {
+    "status": "unavailable_for_verified_published_version",
+    "attempts": [
+      "Crossref title query",
+      "Crossref exact JSTOR-like DOI lookup returned 404",
+      "OpenAlex title search",
+      "OpenAlex publication-year-filtered title search"
+    ],
+    "snapshot_paths": [
+      "/workspace/scratch/16a620a1f92f/mdci/v2/private/q01_crossref_exact.json",
+      "/workspace/scratch/16a620a1f92f/mdci/v2/private/q01_openalex.json",
+      "/workspace/scratch/16a620a1f92f/mdci/v2/private/q01_crossref.json",
+      "/workspace/scratch/16a620a1f92f/mdci/v2/private/q01_openalex_filtered.json"
+    ],
+    "reason": "Retrieved title matches were working-paper or reply/comment versions, or unrelated records. Counts from those records were not substituted."
+  },
+  "doi_status": "No registered DOI verified; JSTOR stable identifier is preserved in canonical_url and is not asserted to be a DOI.",
+  "limitations": [
+    "Full text extraction is not a diplomatic transcription.",
+    "Dossier candidate dependencies and analytical constraints are ex-ante reasoning, not observed diagnostic findings.",
+    "Citation counts are source-specific snapshots, not comprehensive counts.",
+    "A citation count for the exact published version could not be verified; citation_count is null.",
+    "First institutional mirror attempted (Baylor) returned HTTP 404; Portland State institutional mirror succeeded."
+  ],
+  "dossier_statement_provenance": [
+    {
+      "section": "domain_target_estimand",
+      "journal_pages": "604\u2013606",
+      "pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "basis": "Factual source-page provenance; empirical effects and diagnostic results excluded."
+    },
+    {
+      "section": "observed_variables_evidence",
+      "journal_pages": "605\u2013608",
+      "pdf_pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "basis": "Factual source-page provenance; empirical effects and diagnostic results excluded."
+    },
+    {
+      "section": "undirected_dependencies",
+      "journal_pages": "607\u2013610",
+      "pdf_pages": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "basis": "Documented factual setting and measurements, with explicitly hypothetical ex-ante candidate relationships and assumptions."
+    },
+    {
+      "section": "institutional_functional_prior",
+      "journal_pages": "605, 607\u2013610",
+      "pdf_pages": [
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "basis": "Documented factual setting and measurements, with explicitly hypothetical ex-ante candidate relationships and assumptions."
+    },
+    {
+      "section": "physical_directional_constraints",
+      "journal_pages": "605",
+      "pdf_pages": [
+        3
+      ],
+      "basis": "Analytical definitional/physical constraints grounded in the documented setting; not a reported empirical result."
+    },
+    {
+      "section": "observation_limitations",
+      "journal_pages": "606\u2013608",
+      "pdf_pages": [
+        4,
+        5,
+        6
+      ],
+      "basis": "Factual source-page provenance; empirical effects and diagnostic results excluded."
+    }
+  ]
+}

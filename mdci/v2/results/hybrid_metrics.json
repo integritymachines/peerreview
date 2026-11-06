@@ -1,0 +1,159 @@
+{
+  "A_B": {
+    "cases": [
+      {
+        "paper_id": "q01",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": true,
+        "full_recommendation_equal": true
+      },
+      {
+        "paper_id": "q02",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q03",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": true,
+        "full_recommendation_equal": true
+      },
+      {
+        "paper_id": "q04",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q05",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q06",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q07",
+        "component_sets_equal": false,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q08",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q09",
+        "component_sets_equal": false,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q10",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q11",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q12",
+        "component_sets_equal": false,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      }
+    ],
+    "hybrid_sets_equal": 2,
+    "full_recommendation_equal": 2
+  },
+  "baseline_B": {
+    "cases": [
+      {
+        "paper_id": "q01",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q02",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": true,
+        "full_recommendation_equal": true
+      },
+      {
+        "paper_id": "q03",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q04",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q05",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q06",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q07",
+        "component_sets_equal": false,
+        "hybrid_sets_equal": true,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q08",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q09",
+        "component_sets_equal": false,
+        "hybrid_sets_equal": true,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q10",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": true,
+        "full_recommendation_equal": true
+      },
+      {
+        "paper_id": "q11",
+        "component_sets_equal": true,
+        "hybrid_sets_equal": false,
+        "full_recommendation_equal": false
+      },
+      {
+        "paper_id": "q12",
+        "component_sets_equal": false,
+        "hybrid_sets_equal": true,
+        "full_recommendation_equal": false
+      }
+    ],
+    "hybrid_sets_equal": 5,
+    "full_recommendation_equal": 2
+  },
+  "note": "Secondary descriptive audit of explicit hybrid listings; omission is not a demonstrated rejection of compatibility."
+}

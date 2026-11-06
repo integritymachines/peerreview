@@ -1,0 +1,827 @@
+{
+  "id": "q11",
+  "prepared_at": "2026-11-06",
+  "bibliography": {
+    "title": "Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe",
+    "authors": [
+      {
+        "given": "Seth",
+        "family": "Flaxman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Swapnil",
+        "family": "Mishra",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6777-0451",
+        "authenticated-orcid": false,
+        "given": "Axel",
+        "family": "Gandy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9120-4003",
+        "authenticated-orcid": false,
+        "given": "H. Juliette T.",
+        "family": "Unwin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thomas A.",
+        "family": "Mellan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Helen",
+        "family": "Coupland",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Charles",
+        "family": "Whittaker",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Harrison",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tresnia",
+        "family": "Berah",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeffrey W.",
+        "family": "Eaton",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mélodie",
+        "family": "Monod",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "Imperial College COVID-19 Response Team",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pablo N.",
+        "family": "Perez-Guzman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nora",
+        "family": "Schmit",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lucia",
+        "family": "Cilloni",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kylie E. C.",
+        "family": "Ainslie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marc",
+        "family": "Baguelin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Adhiratha",
+        "family": "Boonyasiri",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Olivia",
+        "family": "Boyd",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lorenzo",
+        "family": "Cattarino",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Laura V.",
+        "family": "Cooper",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zulma",
+        "family": "Cucunubá",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gina",
+        "family": "Cuomo-Dannenburg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Amy",
+        "family": "Dighe",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bimandra",
+        "family": "Djaafara",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ilaria",
+        "family": "Dorigatti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sabine L.",
+        "family": "van Elsland",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richard G.",
+        "family": "FitzJohn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Katy A. M.",
+        "family": "Gaythorpe",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lily",
+        "family": "Geidelberg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nicholas C.",
+        "family": "Grassly",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "William D.",
+        "family": "Green",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Timothy",
+        "family": "Hallett",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arran",
+        "family": "Hamlet",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wes",
+        "family": "Hinsley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ben",
+        "family": "Jeffrey",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Edward",
+        "family": "Knock",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel J.",
+        "family": "Laydon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gemma",
+        "family": "Nedjati-Gilani",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pierre",
+        "family": "Nouvellet",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kris V.",
+        "family": "Parag",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Igor",
+        "family": "Siveroni",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hayley A.",
+        "family": "Thompson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert",
+        "family": "Verity",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Erik",
+        "family": "Volz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Caroline E.",
+        "family": "Walters",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Haowei",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuanrong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Oliver J.",
+        "family": "Watson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peter",
+        "family": "Winskill",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaoyue",
+        "family": "Xi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Patrick G. T.",
+        "family": "Walker",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Azra C.",
+        "family": "Ghani",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christl A.",
+        "family": "Donnelly",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Steven",
+        "family": "Riley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michaela A. C.",
+        "family": "Vollmer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1154-8093",
+        "authenticated-orcid": false,
+        "given": "Neil M.",
+        "family": "Ferguson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lucy C.",
+        "family": "Okell",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0891-4611",
+        "authenticated-orcid": false,
+        "given": "Samir",
+        "family": "Bhatt",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Nature",
+    "year": [
+      [
+        2020,
+        6,
+        8
+      ]
+    ],
+    "volume": "584",
+    "issue": "7820",
+    "pages": "257-261",
+    "doi": "10.1038/s41586-020-2405-7"
+  },
+  "doi": "10.1038/s41586-020-2405-7",
+  "source_urls": {
+    "pdf": "https://www.nature.com/articles/s41586-020-2405-7.pdf",
+    "doi": "https://doi.org/10.1038/s41586-020-2405-7",
+    "bibliography": "https://api.crossref.org/works/10.1038/s41586-020-2405-7"
+  },
+  "final_version_verification": "Publisher Nature PDF has journal pagination257–261, volume584,13August2020 and DOI10.1038/s41586-020-2405-7. Includes final Methods, Extended Data and reporting summary. It is the published PDF, not Nature _reference.pdf accepted-manuscript version nor Imperial Report13.",
+  "files": {
+    "pdf": "private/pdfs/q11.pdf",
+    "text": "private/papers/q11.txt",
+    "dossier": "private/dossiers/q11.txt"
+  },
+  "pdf_sha256": "4349c80728c40eaf0143ef5e60c9ded285467e5a090f9eb02706f0effa29f05d",
+  "text_sha256": "26d620c995d49e7e4284cbeb0b4362b7c8442dcb0b13f9612b57ab059e9daa85",
+  "dossier_sha256": "5ea30e0a38c7f5763f07a5efa409f5c0a161bcc7bb5d87c424d2670023aba372",
+  "page_count": 15,
+  "text_extraction": {
+    "method": "pdftotext -layout; every PDF page retained and labelled === PDF PAGE n ===",
+    "ocr_used": false,
+    "coverage": "Complete original final main article including references, tables and figure captions; extraction preserves typeset columns but diagrams are not exhaustively verbalized."
+  },
+  "citation_count": {
+    "value": 2867,
+    "field": "is-referenced-by-count",
+    "provider": "Crossref REST",
+    "url": "https://api.crossref.org/works/10.1038/s41586-020-2405-7",
+    "retrieved_at": "2026-11-06",
+    "raw_metadata": "private/sources/q11-crossref.json",
+    "scope": "Crossref-linked citing works; not all possible citations"
+  },
+  "baseline": {
+    "domain": "Respiratory-virus transmission and public contact restrictions",
+    "estimand": "Changes in transmission, infections, and deaths under specified public-policy histories compared with alternative policy histories."
+  },
+  "dossier_word_count": 485,
+  "dossier_statement_provenance": [
+    {
+      "dossier_paragraph": 1,
+      "source": "p257 opening; p260 effect-on-deaths question; PDFp6 Methods/Data",
+      "scope": "Transmission and mortality target under policy histories"
+    },
+    {
+      "dossier_paragraph": 2,
+      "source": "PDFp6 Methods/Data, Data availability, Code availability; pp257–258",
+      "scope": "Observed death/policy data, external epidemiological inputs; distinguishes observed epidemic from hypothetical simulation"
+    },
+    {
+      "dossier_paragraph": 3,
+      "source": "pp258,260 Discussion; PDFp6 Methods; Extended Data Fig4",
+      "scope": "Candidate dependencies and simultaneous policies; no effect estimates or diagnostic findings"
+    },
+    {
+      "dossier_paragraph": 4,
+      "source": "p258 assumptions paragraph; PDFp6 Methods/Model",
+      "scope": "Negotiable timing, transportability, behaviour, importation and observation priors, without estimator labels"
+    },
+    {
+      "dossier_paragraph": 5,
+      "source": "p258 death reporting paragraph; PDFp6 Methods/Data",
+      "scope": "Reporting and aggregation limits; physical infection-to-death constraints are preparer deductions"
+    }
+  ],
+  "blinding_note": "Dossier excludes author/title/citation, selected method and estimator names, identifying equations, numerical signatures, empirical findings, conclusions, diagnostics and methodological justification. Domain priors are not presented as physical necessities. No framework assessment performed.",
+  "selection_change": {
+    "replaced": "Ferguson et al (2006), Strategies for mitigating an influenza pandemic, Nature442:448–452, DOI10.1038/nature04795",
+    "reason": "Parent requested observed epidemic mortality/policy application rather than hypothetical-pandemic simulation before selection freeze and before any assessment.",
+    "replacement_decision_basis": "Empirical scope, not observed effects or framework performance."
+  },
+  "section_coverage": [
+    "PDFpp1–5 journalpp257–261 main article and references",
+    "PDFp6 Methods, Data availability, Code availability",
+    "PDFp7 acknowledgments/contributions/information",
+    "PDFpp8–12 Extended Data Figs1–5",
+    "PDFp13 Extended Data Table1",
+    "PDFpp14–15 Nature reporting summary"
+  ],
+  "supplements": {
+    "status": "Published Supplementary Information obtained separately in full; videos/peer-review files not downloaded.",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-020-2405-7/MediaObjects/41586_2020_2405_MOESM1_ESM.pdf",
+    "pdf": "private/pdfs/q11-supplement.pdf",
+    "text": "private/papers/q11-supplement.txt",
+    "pdf_sha256": "216046f230ed5aa5eab08f870906edccc2c0c7ec12eac7ebf5c24400b3fccb11",
+    "text_sha256": "3cb1adbac521f35cfd9623722c7ef76dbd67f51aab6776144d2685434df2a67b",
+    "page_count": 36,
+    "scope": "Supplementary Methods, Notes and Discussions, figures and tables; includes policy/date/data documentation."
+  },
+  "limitations": [
+    "Aggregate mortality and policy records; infection histories and compliance are incompletely observed.",
+    "Main paper contains a hypothetical no-intervention extrapolation; dossier target retained but no numerical results or conclusions included.",
+    "No assessment outputs read."
+  ]
+}

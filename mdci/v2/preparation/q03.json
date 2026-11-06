@@ -1,0 +1,141 @@
+{
+  "title": "Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania",
+  "authors": [
+    "David Card",
+    "Alan B. Krueger"
+  ],
+  "year": 1994,
+  "journal": "American Economic Review",
+  "volume": "84",
+  "issue": "4",
+  "pages": "772\u2013793",
+  "doi": null,
+  "source_url": "https://www.jstor.org/stable/2118030",
+  "canonical_url": "https://www.jstor.org/stable/2118030",
+  "domain": "Restaurant labor demand and statutory minimum wages in neighboring United States states.",
+  "estimand": "Effect of a statutory hourly wage-floor increase on employment in sampled fast-food restaurants over the ensuing months.",
+  "journal_start": 772,
+  "id": "q03",
+  "retrieved_or_verified_utc": "2026-11-06",
+  "sha256": "ee1c49a69983b1d274c8c50dabb2cee8734b37e8dcf01af8cfee07673d6d86c9",
+  "page_count": 27,
+  "pdf_path": "/workspace/scratch/16a620a1f92f/mdci/v2/private/pdfs/q03.pdf",
+  "full_text_path": "/workspace/scratch/16a620a1f92f/mdci/v2/private/papers/q03.txt",
+  "dossier_path": "/workspace/scratch/16a620a1f92f/mdci/v2/private/dossiers/q03.txt",
+  "dossier_word_count": 484,
+  "full_text_page_labels": 27,
+  "copyright_handling": "Full published text is private research material; do not distribute or commit. Blinded dossier contains original paraphrase.",
+  "published_version_verification": {
+    "status": "verified_final_published_article",
+    "evidence": "Journal masthead, volume/issue/date, running page numbers and final references match bibliographic record. No working-paper substitute.",
+    "journal_pages": "772\u2013793",
+    "archive_extras": "One JSTOR cover page and four linked-citation pages."
+  },
+  "acquisition": {
+    "method": "Copied user-authorized existing original PDF",
+    "local_original": "/workspace/scratch/16a620a1f92f/pilot/private/pdfs/p001.pdf",
+    "original_download_url": null,
+    "url_provenance_note": "Original acquisition URL was not supplied to this preparation task; source_url is the canonical published-source resolver, not a claimed download origin."
+  },
+  "text_extraction": {
+    "method": "pdftotext -layout for every page; supplemented PDF page 7 with Tesseract OCR of its table.",
+    "limitations": "OCR and embedded-text extraction may contain recognition, ordering, symbol and table-alignment errors. Every PDF page is represented; PDF is authoritative."
+  },
+  "citation_count": null,
+  "citation_count_evidence": {
+    "status": "unavailable_for_verified_published_version",
+    "attempts": [
+      "Crossref title query",
+      "Crossref exact JSTOR-like DOI lookup returned 404",
+      "OpenAlex title search",
+      "OpenAlex publication-year-filtered title search"
+    ],
+    "snapshot_paths": [
+      "/workspace/scratch/16a620a1f92f/mdci/v2/private/q03_openalex_filtered.json",
+      "/workspace/scratch/16a620a1f92f/mdci/v2/private/q03_openalex.json",
+      "/workspace/scratch/16a620a1f92f/mdci/v2/private/q03_crossref.json",
+      "/workspace/scratch/16a620a1f92f/mdci/v2/private/q03_crossref_exact.json"
+    ],
+    "reason": "Retrieved title matches were working-paper or reply/comment versions, or unrelated records. Counts from those records were not substituted."
+  },
+  "doi_status": "No registered DOI verified; JSTOR stable identifier is preserved in canonical_url and is not asserted to be a DOI.",
+  "limitations": [
+    "Full text extraction is not a diplomatic transcription.",
+    "Dossier candidate dependencies and analytical constraints are ex-ante reasoning, not observed diagnostic findings.",
+    "Citation counts are source-specific snapshots, not comprehensive counts.",
+    "A citation count for the exact published version could not be verified; citation_count is null."
+  ],
+  "dossier_statement_provenance": [
+    {
+      "section": "domain_target_estimand",
+      "journal_pages": "772\u2013773",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "basis": "Factual source-page provenance; empirical effects and diagnostic results excluded."
+    },
+    {
+      "section": "observed_variables_evidence",
+      "journal_pages": "773\u2013776",
+      "pdf_pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "basis": "Factual source-page provenance; empirical effects and diagnostic results excluded."
+    },
+    {
+      "section": "undirected_dependencies",
+      "journal_pages": "772\u2013775, 786\u2013789",
+      "pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        16,
+        17,
+        18,
+        19
+      ],
+      "basis": "Documented factual setting and measurements, with explicitly hypothetical ex-ante candidate relationships and assumptions."
+    },
+    {
+      "section": "institutional_functional_prior",
+      "journal_pages": "773\u2013774, 786\u2013789",
+      "pdf_pages": [
+        3,
+        4,
+        16,
+        17,
+        18,
+        19
+      ],
+      "basis": "Documented factual setting and measurements, with explicitly hypothetical ex-ante candidate relationships and assumptions."
+    },
+    {
+      "section": "physical_directional_constraints",
+      "journal_pages": "773\u2013776",
+      "pdf_pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "basis": "Analytical definitional/physical constraints grounded in the documented setting; not a reported empirical result."
+    },
+    {
+      "section": "observation_limitations",
+      "journal_pages": "774\u2013776, 791\u2013792",
+      "pdf_pages": [
+        4,
+        5,
+        6,
+        21,
+        22
+      ],
+      "basis": "Factual source-page provenance; empirical effects and diagnostic results excluded."
+    }
+  ]
+}

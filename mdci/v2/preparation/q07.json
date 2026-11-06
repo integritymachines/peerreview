@@ -1,0 +1,137 @@
+{
+  "id": "q07",
+  "prepared_at": "2026-11-06",
+  "bibliography": {
+    "title": "Marginal Structural Models to Estimate the Causal Effect of Zidovudine on the Survival of HIV-Positive Men",
+    "authors": [
+      {
+        "given": "Miguel Ángel",
+        "family": "Hernán",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Babette",
+        "family": "Brumback",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James M.",
+        "family": "Robins",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Epidemiology",
+    "year": [
+      [
+        2000,
+        9
+      ]
+    ],
+    "volume": "11",
+    "issue": "5",
+    "pages": "561-570",
+    "doi": "10.1097/00001648-200009000-00012"
+  },
+  "doi": "10.1097/00001648-200009000-00012",
+  "source_urls": {
+    "pdf": "https://hsph.harvard.edu/wp-content/uploads/2012/10/hernan_epid00.pdf",
+    "doi": "https://doi.org/10.1097/00001648-200009000-00012",
+    "bibliography": "https://api.crossref.org/works/10.1097/00001648-200009000-00012"
+  },
+  "final_version_verification": "Original typeset Epidemiology pages 561–570, volume 11 issue 5, September 2000, copyright Lippincott Williams & Wilkins; Harvard author-hosted final published copy. Title, authors, pages, DOI checked against PubMed PMID10955409 and Crossref. Not the adjacent methodological article pp550–560.",
+  "files": {
+    "pdf": "private/pdfs/q07.pdf",
+    "text": "private/papers/q07.txt",
+    "dossier": "private/dossiers/q07.txt"
+  },
+  "pdf_sha256": "fc1174d8dbd2fb4974ed56fee2d12ec4930a8b3301ff50aba85b2074521c5203",
+  "text_sha256": "a096e1587115314d5b881adb77ab263680cc9a9a9d1986083f4a30f3655fb3b8",
+  "dossier_sha256": "0767f9b159fc1f1dd48b3cae8d259b174b00a2a9fcf6319d750dafd8ce6acd01",
+  "page_count": 10,
+  "text_extraction": {
+    "method": "pdftotext -layout; every PDF page retained and labelled === PDF PAGE n ===",
+    "ocr_used": false,
+    "coverage": "Complete original final main article including references, tables and figure captions; extraction preserves typeset columns but diagrams are not exhaustively verbalized."
+  },
+  "citation_count": {
+    "value": 1503,
+    "field": "is-referenced-by-count",
+    "provider": "Crossref REST",
+    "url": "https://api.crossref.org/works/10.1097/00001648-200009000-00012",
+    "retrieved_at": "2026-11-06",
+    "raw_metadata": "private/sources/q07-crossref.json",
+    "scope": "Crossref-linked citing works; not all possible citations"
+  },
+  "baseline": {
+    "domain": "HIV treatment and mortality",
+    "estimand": "Mortality under specified zidovudine initiation and continuation histories compared with remaining untreated among initially eligible HIV-positive men."
+  },
+  "dossier_word_count": 448,
+  "dossier_statement_provenance": [
+    {
+      "dossier_paragraph": 1,
+      "source": "pp561–562, Study Population; p562 treatment-history definition; pp563–564 estimand discussion",
+      "scope": "Eligible men, treatment-history and mortality target"
+    },
+    {
+      "dossier_paragraph": 2,
+      "source": "pp561–562 Study Population; p564 Table1 footnotes; pp563–564 follow-up/censoring",
+      "scope": "Actual MACS observations, visits, eligibility, recorded covariates, collection and follow-up"
+    },
+    {
+      "dossier_paragraph": 3,
+      "source": "pp562–563 time-dependent covariates and Figural discussion; p566 Discussion",
+      "scope": "Potential dependencies restated without accepting source orientations"
+    },
+    {
+      "dossier_paragraph": 4,
+      "source": "p562 assumption of continued treatment; pp565–568 Discussion",
+      "scope": "Negotiable assumptions translated into domain terms, not identifying equations"
+    },
+    {
+      "dossier_paragraph": 5,
+      "source": "pp561–562 visit procedures, pp563–564 censoring; p566 limitations",
+      "scope": "Observation limitations; physical constraints are preparer deductions, not empirical source conclusions"
+    }
+  ],
+  "blinding_note": "Dossier excludes author/title/citation, selected method and estimator names, identifying equations, numerical signatures, empirical findings, conclusions, diagnostics and methodological justification. Domain priors are not presented as physical necessities. No framework assessment performed.",
+  "selection_change": {
+    "replaced": "Robins, Hernán & Brumback (2000), Marginal Structural Models and Causal Inference in Epidemiology, 11(5):550–560; DOI10.1097/00001648-200009000-00011",
+    "reason": "Parent requested actual empirical cohort application instead of illustrative-data methodological article before selection freeze and before any assessment.",
+    "replacement_decision_basis": "Empirical scope, not observed effects or framework performance."
+  },
+  "section_coverage": [
+    "pp561–562 Study Population",
+    "pp562–565 models and empirical analysis",
+    "pp566–568 discussion/comparisons/references",
+    "pp569–570 Appendix SAS code"
+  ],
+  "supplements": {
+    "status": "No separately linked supplement required; in-paper Appendix pp569–570 included."
+  },
+  "limitations": [
+    "Participant-level MACS data not downloaded; source PDFs and article summaries only.",
+    "No independently observed treatment assignment; ingestion/adherence histories may be incompletely described."
+  ]
+}
