@@ -1,0 +1,50 @@
+{
+  "status": "formal illustrative toy calculations, not empirical validation",
+  "cases": [
+    {
+      "case": "randomized_additive",
+      "estimand": "ATE",
+      "po": 1.25,
+      "scm": 1.25,
+      "se": 1.25,
+      "relation": "congruent-informative"
+    },
+    {
+      "case": "confounded_twins",
+      "compatible_ate_examples": [
+        0,
+        1
+      ],
+      "finding": "nonidentified: identified set contains both examples",
+      "observational_joint": [
+        [
+          0.5,
+          0
+        ],
+        [
+          0,
+          0.5
+        ]
+      ]
+    },
+    {
+      "case": "benefit_bounds",
+      "ate": 0.4,
+      "benefit_with_monotonicity": 0.4,
+      "benefit_without_crossworld_assumption": {
+        "lower": 0.4,
+        "upper": 0.7
+      }
+    },
+    {
+      "case": "simultaneous_feedback",
+      "a": 0.4,
+      "b": 0.5,
+      "effect_of_do_X": 0.5,
+      "effect_of_policy_intercept_shift": 0.625,
+      "warning": "Different interventions: not a framework disagreement"
+    }
+  ],
+  "framework_exclusive_win_demonstrated": false,
+  "school_level_uncovered_domain_demonstrated": false
+}
