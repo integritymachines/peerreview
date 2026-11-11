@@ -1,0 +1,28 @@
+{
+  "baseline_equivalent_twin_combined_effect": "65/72",
+  "baseline_mean_xy": [
+    "9/4",
+    "25/8"
+  ],
+  "baseline_only_invariant_linear_class": "nonidentified; witnesses 65/56 and 65/72; not sharp bounds",
+  "clamp_x_unit_contrast": "1/2",
+  "combined_policy_mean_xy": [
+    "32/7",
+    "30/7"
+  ],
+  "dag_only_original_variables": "out-of-variant-scope for full intervention family",
+  "evidence": "synthetic exact population laws; no empirical validation",
+  "framework_competition_demonstrated": false,
+  "individual_u1_vminus1_combined_effect": "15/14",
+  "interaction": "5/56",
+  "known_or_calibrated_structure": "congruent-informative; singleton 65/56",
+  "mean_y_effects": {
+    "combined": "65/56",
+    "intercept": "5/8",
+    "responsiveness": "25/56"
+  },
+  "no_cross_policy_restrictions": "sharp identified set R for mean contrast",
+  "policy_indexed_reduced_form_dag": "congruent for policy interventions only",
+  "school_level_uncovered_domain_demonstrated": false,
+  "study": "E: simultaneous behavioral policy"
+}

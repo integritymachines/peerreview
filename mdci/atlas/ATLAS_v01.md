@@ -1,5 +1,7 @@
 # Comparative Atlas — inaugural reference cases
 
+Continuation: [Study E](STUDY_E_SIMULTANEOUS_POLICY.md) completes a bounded reconstruction of the simultaneity challenge below, with matched policy encodings, identification witnesses and reproducible tests. The inaugural cases and their negative findings are retained.
+
 ## Conceptual object
 
 For an empirical problem `z=(O,q,I,A,T)`, a framework variant `f` defines an admissible model class `H_f(z)`. Its identified set is `Theta_f(z)={q(h;I,T):h in H_f(z), h compatible with O}`. If two faithful translations use the **same model class**, the **same causal estimand**, and the **same intervention**, their sharp identified sets must be identical. This is an elementary logical constraint, not evidence of universal equivalence of the schools.
@@ -29,3 +31,4 @@ Standard **acyclic DAG-only** formulations cannot directly display a contemporan
 Verified: A informative congruence; B observational equivalence; C distinct identification results under different assumptions/targets; D distinct effects under different interventions plus a variant-scope boundary. **Not verified:** any substantive conflict between complete schools under identical evidence, assumptions, intervention and estimand; any uncovered domain for the combined roster. The first rigorous next step is an independent reconstruction of the simultaneity argument, including cyclic SCM variants, not another bibliometric mismatch search.
 
 Sources and opposing perspectives: Imbens (2020), https://doi.org/10.1257/jel.20191597; Richardson & Robins (2013), https://csss.uw.edu/research/working-papers/single-world-intervention-graphs-swigs-unification-counterfactual-and; Heckman & Pinto (2015, 2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC4341827/ and https://pmc.ncbi.nlm.nih.gov/articles/PMC11495853/; Bongers et al. (2021), https://doi.org/10.1214/21-AOS2064; Shpitser & Pearl (2008), https://jmlr.org/papers/v9/shpitser08a.html.
+

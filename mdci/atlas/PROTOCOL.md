@@ -27,3 +27,8 @@ T0 algebraic reference cases/unit tests; T1 independently derived same-problem f
 The immediate high-value contested case is **simultaneous economic feedback**: reconstruct Heckman–Pinto's limitations claim, then test a contemporaneous-cycle SCM variant as well as standard DAG-only analysis, with matched policy counterfactuals and invariance assumptions. Maintain negative findings. A claimed uncovered domain must exhaust substantial, recognized variants; a single variant's failure does not prove school-wide inability.
 
 No presumption of mismatch, superiority, or noncongruence.
+
+## Lessons recorded from Study E
+
+Record the intervention family a translation preserves: equality under policy-node interventions does not imply equality under interventions on endogenous actions. Separate supplied structure from identified structure and report the exact evidence regime. Distinguish unique static solvability from dynamic stability, and check solvability after intervention. State whether nonidentification witnesses are merely examples or a proof of the full sharp set. A policy-indexed PO schedule or reduced-form DAG may encode an equilibrium query without independently identifying its response functions. See [Study E](STUDY_E_SIMULTANEOUS_POLICY.md).
+
