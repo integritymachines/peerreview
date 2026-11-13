@@ -1,0 +1,39 @@
+OBJECTIVE
+
+Economical scientific prescreening before full review. Identify consequential flaws, assess scientific contribution, test headline claims and precedence over alternatives.
+
+INPUT (read only)
+
+#D, #Da, #Db…: Paper and supplements
+#C: Criteria & bookshelf
+review.txt: Governing review workflow
+
+OUTPUT
+
+#S0: Prescan scorecard
+
+TASKS
+
+Execute one abbreviated, simulated review under review.txt standards.
+
+Use 2–3 contrasting named scholarly traditions.
+
+No independent agent runs, repeated rounds, huddles, callbacks, or protocol.
+
+Apply relevant criteria, including I/Q. Prioritize fatal/critical flaws, claim validity, alternative explanations, novelty and significance.
+
+Selective literature checks only where consequential. No mandatory literature assignments or exhaustive searches.
+
+Produce compact #S0: two-sentence summary, consequential flags with color/severity/visibility, pinpoint evidence, claim impact/precedence, repair effort.
+
+Distinguish verified flaws from suspicions.
+
+AUTHORITY
+
+review.txt governs scientific standards, criteria, traditions and flag definitions.
+
+prescan.txt overrides execution and reporting only. Findings provisional; no contamination of independent full-review runs.
+
+NOTES
+
+No #P. No housekeeping. Avoid reporting inconsequential flaws.
