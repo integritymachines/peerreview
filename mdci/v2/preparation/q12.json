@@ -1,0 +1,163 @@
+{
+  "title": "Worms: Identifying Impacts on Education and Health in the Presence of Treatment Externalities",
+  "authors": [
+    "Edward Miguel",
+    "Michael Kremer"
+  ],
+  "year": 2004,
+  "journal": "Econometrica",
+  "volume": "72",
+  "issue": "1",
+  "pages": "159\u2013217",
+  "doi": "10.1111/j.1468-0262.2004.00481.x",
+  "source_url": "https://doi.org/10.1111/j.1468-0262.2004.00481.x",
+  "canonical_url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1468-0262.2004.00481.x",
+  "domain": "School-based parasite control, child health, and education in rural western Kenya.",
+  "estimand": "Effect of offering a school deworming package on pupil health, school participation, and academic performance, including indirect effects on untreated pupils and pupils in neighboring schools.",
+  "journal_start": 159,
+  "id": "q12",
+  "retrieved_or_verified_utc": "2026-11-06",
+  "sha256": "f504d9e64aaf7a21268ad1bd74493b12ea9ad789f76598e450cedb3693023b71",
+  "page_count": 59,
+  "pdf_path": "/workspace/scratch/16a620a1f92f/mdci/v2/private/pdfs/q12.pdf",
+  "full_text_path": "/workspace/scratch/16a620a1f92f/mdci/v2/private/papers/q12.txt",
+  "dossier_path": "/workspace/scratch/16a620a1f92f/mdci/v2/private/dossiers/q12.txt",
+  "dossier_word_count": 504,
+  "full_text_page_labels": 59,
+  "copyright_handling": "Full published text is private research material; do not distribute or commit. Blinded dossier contains original paraphrase.",
+  "published_version_verification": {
+    "status": "verified_final_published_article",
+    "evidence": "Journal masthead, volume/issue/date, running page numbers and final references match bibliographic record. No working-paper substitute.",
+    "journal_pages": "159\u2013217",
+    "archive_extras": "None; includes published appendices and references."
+  },
+  "acquisition": {
+    "method": "Copied user-authorized existing original PDF",
+    "local_original": "/workspace/scratch/16a620a1f92f/pilot/private/pdfs/p005.pdf",
+    "original_download_url": null,
+    "url_provenance_note": "Original acquisition URL was not supplied to this preparation task; source_url is the canonical published-source resolver, not a claimed download origin."
+  },
+  "text_extraction": {
+    "method": "pdftotext -layout for every page.",
+    "limitations": "OCR and embedded-text extraction may contain recognition, ordering, symbol and table-alignment errors. Every PDF page is represented; PDF is authoritative."
+  },
+  "citation_count": 1406,
+  "citation_count_evidence": {
+    "provider": "Crossref REST",
+    "field": "is-referenced-by-count",
+    "request_url": "https://api.crossref.org/works/10.1111/j.1468-0262.2004.00481.x",
+    "doi_matched": "10.1111/j.1468-0262.2004.00481.x",
+    "snapshot_path": "/workspace/scratch/16a620a1f92f/mdci/v2/private/q12_crossref_exact.json",
+    "retrieved_utc": "2026-11-06"
+  },
+  "limitations": [
+    "Full text extraction is not a diplomatic transcription.",
+    "Dossier candidate dependencies and analytical constraints are ex-ante reasoning, not observed diagnostic findings.",
+    "Citation counts are source-specific snapshots, not comprehensive counts."
+  ],
+  "dossier_statement_provenance": [
+    {
+      "section": "domain_target_estimand",
+      "journal_pages": "159\u2013162, 165\u2013169",
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "basis": "Factual source-page provenance; empirical effects and diagnostic results excluded."
+    },
+    {
+      "section": "observed_variables_evidence",
+      "journal_pages": "165\u2013173, 188\u2013191, 199\u2013202",
+      "pdf_pages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        30,
+        31,
+        32,
+        33,
+        41,
+        42,
+        43,
+        44
+      ],
+      "basis": "Factual source-page provenance; empirical effects and diagnostic results excluded."
+    },
+    {
+      "section": "undirected_dependencies",
+      "journal_pages": "161\u2013164, 171\u2013175",
+      "pdf_pages": [
+        3,
+        4,
+        5,
+        6,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "basis": "Documented factual setting and measurements, with explicitly hypothetical ex-ante candidate relationships and assumptions."
+    },
+    {
+      "section": "institutional_functional_prior",
+      "journal_pages": "162\u2013165, 168\u2013171",
+      "pdf_pages": [
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13
+      ],
+      "basis": "Documented factual setting and measurements, with explicitly hypothetical ex-ante candidate relationships and assumptions."
+    },
+    {
+      "section": "physical_directional_constraints",
+      "journal_pages": "162\u2013164, 168\u2013169",
+      "pdf_pages": [
+        4,
+        5,
+        6,
+        10,
+        11
+      ],
+      "basis": "Analytical definitional/physical constraints grounded in the documented setting; not a reported empirical result."
+    },
+    {
+      "section": "observation_limitations",
+      "journal_pages": "167, 170\u2013173, 188\u2013191, 199\u2013202",
+      "pdf_pages": [
+        9,
+        12,
+        13,
+        14,
+        15,
+        30,
+        31,
+        32,
+        33,
+        41,
+        42,
+        43,
+        44
+      ],
+      "basis": "Factual source-page provenance; empirical effects and diagnostic results excluded."
+    }
+  ]
+}
