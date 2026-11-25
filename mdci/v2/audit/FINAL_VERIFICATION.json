@@ -1,0 +1,32 @@
+{
+  "completed_utc": "2026-11-06T21:28:23.683632+00:00",
+  "papers": 12,
+  "case_assessments": 51,
+  "A_B_baseline_repeat_sealed_before_C": true,
+  "assessment_agent_contexts": 12,
+  "source_preparation_contexts": 3,
+  "model_id": null,
+  "host_usage": null,
+  "external_openai_api_calls": 0,
+  "substantive_retries": 0,
+  "all_pre_assessment_hashes_unchanged": true,
+  "all_raw_response_hashes_unchanged": true,
+  "full_published_main_articles": 12,
+  "missing_separate_supplements": [
+    "q08",
+    "q09"
+  ],
+  "unavailable_erratum_text": [
+    "q06"
+  ],
+  "new_v2_tests_passed": 9,
+  "original_runner_tests_passed": 3,
+  "material_framework_mismatch": "none demonstrated; not a prevalence estimate",
+  "indeterminate_C_framework_membership": 4,
+  "actual_component_coverage_gap": [
+    "q12"
+  ],
+  "primary_A_baseline_atomic_sets_identical": 12,
+  "strict_A_B_component_equality": 9,
+  "hybrid_aware_full_recommendation_equality": 2
+}

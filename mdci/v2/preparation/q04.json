@@ -1,0 +1,101 @@
+{
+  "id": "q04",
+  "bibliography": {
+    "title": "Optimal Replacement of GMC Bus Engines: An Empirical Model of Harold Zurcher",
+    "authors": [
+      "John Rust"
+    ],
+    "year": 1987,
+    "journal": "Econometrica",
+    "volume": "55",
+    "issue": "5",
+    "pages": "999\u20131033"
+  },
+  "doi": "10.2307/1911259",
+  "source_urls": [
+    "https://www.its.caltech.edu/~mshum/stats/rust.pdf",
+    "https://www.jstor.org/stable/i332683"
+  ],
+  "published_version_verification": {
+    "status": "verified_final_published",
+    "evidence": "Journal masthead, author/title, publication year and issue match; complete printed page sequence 999\u20131033 is present.",
+    "pdf_contents": "JSTOR cover + 35 printed article pages; scanned article OCR used."
+  },
+  "pdf": {
+    "path": "mdci/v2/private/pdfs/q04.pdf",
+    "sha256": "a11bb9e6381dde0eef9c1ec0e6da6ee226e8e396fe91316f9a84ce2208a1ebbf",
+    "page_count": 36
+  },
+  "extraction": {
+    "path": "mdci/v2/private/papers/q04.txt",
+    "every_pdf_page": true,
+    "page_markers": "===== PDF PAGE N =====",
+    "method": "pdftotext -layout per page; tesseract only for image-only pages, OMP_THREAD_LIMIT=1",
+    "ocr_pdf_pages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  "citation_count": {
+    "value": 1161,
+    "provider": "Crossref REST",
+    "field": "is-referenced-by-count",
+    "source_url": "https://api.crossref.org/works/10.2307/1911259",
+    "retrieved_date": "2026-11-06",
+    "limitations": "Crossref registered citing works, not all scholarly citations; changes over time."
+  },
+  "baseline": {
+    "domain": "Public transport fleet maintenance and replacement investment",
+    "estimand": "Effect of replacement cost changes on engine replacement timing, frequency, and replacement demand"
+  },
+  "source_page_dossier_provenance": [
+    {
+      "printed_pages": "999, 1001\u20131005",
+      "pdf_pages": "2, 4\u20138",
+      "content": "Domain, administrative records, observed variables, maintenance procedures, censoring and unobserved condition"
+    },
+    {
+      "printed_pages": "1028\u20131030",
+      "pdf_pages": "31\u201333",
+      "content": "Replacement demand policy quantity; only target and intervention retained"
+    }
+  ],
+  "dossier_word_count": 479,
+  "limitations": [
+    "Dossier is a preparer paraphrase limited to ex-ante target, observables, dependencies and priors; it does not endorse assumptions.",
+    "University-hosted copy retains final journal pagination."
+  ]
+}

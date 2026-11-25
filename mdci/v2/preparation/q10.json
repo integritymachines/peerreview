@@ -1,0 +1,67 @@
+{
+  "id": "q10",
+  "bibliography": {
+    "title": "Temperature Shocks and Economic Growth: Evidence from the Last Half Century",
+    "authors": [
+      "Melissa Dell",
+      "Benjamin F. Jones",
+      "Benjamin A. Olken"
+    ],
+    "year": 2012,
+    "journal": "American Economic Journal: Macroeconomics",
+    "volume": "4",
+    "issue": "3",
+    "pages": "66\u201395"
+  },
+  "doi": "10.1257/mac.4.3.66",
+  "source_urls": [
+    "https://economics.mit.edu/sites/default/files/publications/120626%20Climate%20Published.pdf",
+    "https://www.aeaweb.org/articles?id=10.1257/mac.4.3.66"
+  ],
+  "published_version_verification": {
+    "status": "verified_final_published",
+    "evidence": "Journal masthead, author/title, publication year and issue match; complete printed page sequence 66\u201395 is present.",
+    "pdf_contents": "30 published journal pages."
+  },
+  "pdf": {
+    "path": "mdci/v2/private/pdfs/q10.pdf",
+    "sha256": "c1494124679a86617338f080c0b02aed63431521bd7b7c4dbdd21a70a629014d",
+    "page_count": 30
+  },
+  "extraction": {
+    "path": "mdci/v2/private/papers/q10.txt",
+    "every_pdf_page": true,
+    "page_markers": "===== PDF PAGE N =====",
+    "method": "pdftotext -layout per page; tesseract only for image-only pages, OMP_THREAD_LIMIT=1",
+    "ocr_pdf_pages": []
+  },
+  "citation_count": {
+    "value": 1266,
+    "provider": "Crossref REST",
+    "field": "is-referenced-by-count",
+    "source_url": "https://api.crossref.org/works/10.1257/mac.4.3.66",
+    "retrieved_date": "2026-11-06",
+    "limitations": "Crossref registered citing works, not all scholarly citations; changes over time."
+  },
+  "baseline": {
+    "domain": "Climate exposure and national economic development",
+    "estimand": "Effect of temperature and precipitation changes on national output, economic growth, and persistence of output responses"
+  },
+  "source_page_dossier_provenance": [
+    {
+      "printed_pages": "66\u201370",
+      "pdf_pages": "1\u20135",
+      "content": "Target question, weather versus climate, weather construction and economic accounts coverage"
+    },
+    {
+      "printed_pages": "73\u201374, 82\u201389",
+      "pdf_pages": "8\u20139, 17\u201324",
+      "content": "Temporal targets, sectoral and political evidence availability, persistence and adaptation limitations; all empirical results excluded"
+    }
+  ],
+  "dossier_word_count": 509,
+  "limitations": [
+    "Dossier is a preparer paraphrase limited to ex-ante target, observables, dependencies and priors; it does not endorse assumptions.",
+    "University-hosted copy retains final journal pagination."
+  ]
+}

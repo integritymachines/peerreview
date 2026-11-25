@@ -1,0 +1,941 @@
+{
+  "C": [
+    {
+      "paper_id": "q01",
+      "index": 0,
+      "location": "Printed pp. 611\u2013612 / PDF pp. 9\u201310, equations (1)\u2013(4)",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q01",
+      "index": 1,
+      "location": "Printed p. 615 / PDF p. 13, equations (6)\u2013(7); p. 616, Table 6",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q01",
+      "index": 2,
+      "location": "Printed pp. 608\u2013610 / PDF pp. 6\u20138; pp. 612\u2013613, equation (5)",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q02",
+      "index": 0,
+      "location": "Journal pp. 980\u2013982; PDF pp. 3\u20135",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q02",
+      "index": 1,
+      "location": "Journal pp. 995\u2013998, equations (1)\u2013(2); PDF pp. 18\u201321",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q02",
+      "index": 2,
+      "location": "Journal pp. 1004\u20131005 and 1007\u20131009; PDF pp. 27\u201328 and 30\u201332",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q03",
+      "index": 0,
+      "location": "Printed pp. 778\u2013779 / PDF pp. 8\u20139, Section III.A and equations (1a)\u2013(1b)",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q03",
+      "index": 1,
+      "location": "Printed p. 773 / PDF p. 3; pp. 781\u2013784 / PDF pp. 11\u201314, specification checks",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q03",
+      "index": 2,
+      "location": "Printed pp. 787\u2013788 / PDF pp. 17\u201318, Section V; pp. 790\u2013792 / PDF pp. 20\u201322, Section VIII",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q04",
+      "index": 0,
+      "location": "Printed pp. 1006\u20131007 (PDF pp. 9\u201310), equations (3.2)\u2013(3.8)",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q04",
+      "index": 1,
+      "location": "Printed pp. 1010\u20131013 (PDF pp. 13\u201316), equations (4.1)\u2013(4.15)",
+      "quote_words": 3,
+      "quote_sha256": "9045bbd122ea57ddf4871747e5f8b147b9d7e09b6ac63f11de5eb8fe81d7b379",
+      "quote_present": true,
+      "exact": true,
+      "normalized": true,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q04",
+      "index": 2,
+      "location": "Printed pp. 1015\u20131016 and 1029\u20131031 (PDF pp. 18\u201319, 32\u201334), equations (5.1)\u2013(5.4), (6.1)\u2013(6.3)",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q05",
+      "index": 0,
+      "location": "Journal pp. 845\u2013849, equations (2.1)\u2013(2.2), (2.7a\u2013b); PDF pp. 6\u201310",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q05",
+      "index": 1,
+      "location": "Journal pp. 853\u2013854, equations (3.1)\u2013(3.6), footnote 12; PDF pp. 14\u201315",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q05",
+      "index": 2,
+      "location": "Journal pp. 854\u2013855, equation (4.1); pp. 861\u2013865, equations (5.8), (6.8); PDF pp. 15\u201316, 22\u201326",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q05",
+      "index": 3,
+      "location": "Journal pp. 885\u2013887, section 8; PDF pp. 46\u201348",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q06",
+      "index": 0,
+      "location": "Printed pp. 177\u2013179; PDF pp. 6\u20138; equations (1)\u2013(5)",
+      "quote_words": 4,
+      "quote_sha256": "dbea05ebbac530ed0a9e9507022bc05487945d180e8590cf14fac07b077a8f7b",
+      "quote_present": true,
+      "exact": true,
+      "normalized": true,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q06",
+      "index": 1,
+      "location": "Printed pp. 180\u2013181, 185\u2013187, 222\u2013223; PDF pp. 9\u201310, 14\u201316, 51\u201352; equations (6)\u2013(9), (12)\u2013(14), (A1)\u2013(A2)",
+      "quote_words": 4,
+      "quote_sha256": "7acd876f38ce3a0182e045005b42a4c96b2f4e7877194b236da6a81d1dd4fc70",
+      "quote_present": true,
+      "exact": true,
+      "normalized": true,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q06",
+      "index": 2,
+      "location": "Printed pp. 190\u2013192, 209, 216; PDF pp. 19\u201321, 38, 45; equations (15)\u2013(16), (19)",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q07",
+      "index": 0,
+      "location": "Printed p. 563; PDF p. 3; counterfactual death-time definition and displayed marginal structural Cox model",
+      "quote_words": 4,
+      "quote_sha256": "93f7f6180f711beffa0e55bf3b2cc5de4c2ec2c2c64d6ed1dd104d0bf4a8e2cf",
+      "quote_present": true,
+      "exact": false,
+      "normalized": false,
+      "formal_description_present": true,
+      "located_paraphrase_present": true,
+      "visually_verified": true,
+      "verification_note": "Parent rendered final PDF page3 and verified the phrase in the left column plus the regime-indexed death-time definition and hazard model. Automated string match fails because two-column extraction interleaves right-column text between counterfactual and outcomes."
+    },
+    {
+      "paper_id": "q07",
+      "index": 1,
+      "location": "Printed pp. 562\u2013563; PDF pp. 2\u20133; displayed treatment and censoring weight products",
+      "quote_words": 3,
+      "quote_sha256": "4b7ced1e777aac48e54cac2d6c70144012f38b8aa8306e8d4edb5abf4471a1ca",
+      "quote_present": true,
+      "exact": true,
+      "normalized": true,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q07",
+      "index": 2,
+      "location": "Printed pp. 567\u2013570; PDF pp. 7\u201310; method comparison, discussion and SAS appendix",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q08",
+      "index": 0,
+      "location": "Printed pp. 524\u2013525; PDF pp. 3\u20134; Fig. 1B\u2013C",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q08",
+      "index": 1,
+      "location": "Printed p. 525; PDF p. 4; Fig. 1 discussion",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q08",
+      "index": 2,
+      "location": "Printed pp. 527\u2013528; PDF pp. 6\u20137; Fig. 4",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q09",
+      "index": 0,
+      "location": "Printed p. 575 / PDF p. 4, paragraph preceding the predicted-risk calculation",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q09",
+      "index": 1,
+      "location": "Printed p. 576 / PDF p. 5, instrumental-variable calculation and Table 3",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q09",
+      "index": 2,
+      "location": "Printed pp. 575\u2013576 / PDF pp. 4\u20135, predicted risk and multiple-variant score paragraphs",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q10",
+      "index": 0,
+      "location": "Printed pp. 72\u201373 / PDF pp. 7\u20138, equations (1)\u2013(3)",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q10",
+      "index": 1,
+      "location": "Printed pp. 73\u201374 / PDF pp. 8\u20139, equation (4) and hypothesis tests",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q10",
+      "index": 2,
+      "location": "Printed pp. 82\u201383 and 88 / PDF pp. 17\u201318 and 23, channel discussion and medium-run regression",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q11",
+      "index": 0,
+      "location": "Supplementary Methods, printed pp. 4\u20135 (supplement PDF pp. 5\u20136), Infection model",
+      "quote_words": 3,
+      "quote_sha256": "45ded3f205e03d658139ee636152e1752c788bf71f880dad0451c402ef4364ee",
+      "quote_present": true,
+      "exact": true,
+      "normalized": true,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q11",
+      "index": 1,
+      "location": "Supplementary Methods, printed pp. 3\u20134 and 6 (supplement PDF pp. 4\u20135 and 7), Death model and Rt equation",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q11",
+      "index": 2,
+      "location": "Main article printed p. 260 (PDF p. 4), Estimated effect of interventions on deaths; Extended Data Fig. 5 (PDF p. 12)",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q12",
+      "index": 0,
+      "location": "Printed pp. 175\u2013177; PDF pp. 17\u201319; equation (1)",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q12",
+      "index": 1,
+      "location": "Printed pp. 178, 180\u2013182; PDF pp. 20, 22\u201324; selection rule and equations (2)\u2013(3)",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    },
+    {
+      "paper_id": "q12",
+      "index": 2,
+      "location": "Printed pp. 177\u2013178, 197, 207\u2013208; PDF pp. 19\u201320, 39, 49\u201350",
+      "quote_words": 0,
+      "quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote_present": false,
+      "exact": null,
+      "normalized": null,
+      "formal_description_present": true,
+      "located_paraphrase_present": true
+    }
+  ],
+  "dossier_branches": [
+    {
+      "paper_id": "q01",
+      "branch": "A",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q01",
+      "branch": "A",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q01",
+      "branch": "B",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q01",
+      "branch": "B",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q01",
+      "branch": "B",
+      "index": 2,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q02",
+      "branch": "A",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q02",
+      "branch": "A",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q02",
+      "branch": "B",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q02",
+      "branch": "B",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q02",
+      "branch": "A_repeat",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q02",
+      "branch": "A_repeat",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q03",
+      "branch": "A",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q03",
+      "branch": "A",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q03",
+      "branch": "B",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q03",
+      "branch": "B",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q03",
+      "branch": "B",
+      "index": 2,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q04",
+      "branch": "A",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q04",
+      "branch": "A",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q04",
+      "branch": "B",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q04",
+      "branch": "B",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q05",
+      "branch": "A",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q05",
+      "branch": "A",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q05",
+      "branch": "B",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q05",
+      "branch": "B",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q05",
+      "branch": "B",
+      "index": 2,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q05",
+      "branch": "A_repeat",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q05",
+      "branch": "A_repeat",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q06",
+      "branch": "A",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q06",
+      "branch": "A",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q06",
+      "branch": "B",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q06",
+      "branch": "B",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q07",
+      "branch": "A",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q07",
+      "branch": "A",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q07",
+      "branch": "B",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q07",
+      "branch": "B",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q07",
+      "branch": "B",
+      "index": 2,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q08",
+      "branch": "A",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q08",
+      "branch": "A",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q08",
+      "branch": "B",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q08",
+      "branch": "B",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q08",
+      "branch": "A_repeat",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q08",
+      "branch": "A_repeat",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q09",
+      "branch": "A",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q09",
+      "branch": "A",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q09",
+      "branch": "B",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q09",
+      "branch": "B",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q09",
+      "branch": "B",
+      "index": 2,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q10",
+      "branch": "A",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q10",
+      "branch": "A",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q10",
+      "branch": "B",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q10",
+      "branch": "B",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q11",
+      "branch": "A",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q11",
+      "branch": "A",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q11",
+      "branch": "B",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q11",
+      "branch": "B",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q11",
+      "branch": "B",
+      "index": 2,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q12",
+      "branch": "A",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q12",
+      "branch": "A",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q12",
+      "branch": "B",
+      "index": 0,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q12",
+      "branch": "B",
+      "index": 1,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    },
+    {
+      "paper_id": "q12",
+      "branch": "B",
+      "index": 2,
+      "source_passage_present": true,
+      "exact": true,
+      "normalized": true
+    }
+  ],
+  "note": "Automated matching verifies literal excerpt provenance only. Located mathematical paraphrases and framework classifications are interpretive, not independently replicated."
+}

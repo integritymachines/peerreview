@@ -1,0 +1,72 @@
+{
+  "id": "q05",
+  "bibliography": {
+    "title": "Automobile Prices in Market Equilibrium",
+    "authors": [
+      "Steven Berry",
+      "James Levinsohn",
+      "Ariel Pakes"
+    ],
+    "year": 1995,
+    "journal": "Econometrica",
+    "volume": "63",
+    "issue": "4",
+    "pages": "841\u2013890"
+  },
+  "doi": "10.2307/2171802",
+  "source_urls": [
+    "https://www.its.caltech.edu/~mshum/gradio/papers/BerryLevinsohnPakes1995.pdf",
+    "https://faculty.som.yale.edu/jameslevinsohn/selected-publications/"
+  ],
+  "published_version_verification": {
+    "status": "verified_final_published",
+    "evidence": "Journal masthead, author/title, publication year and issue match; complete printed page sequence 841\u2013890 is present.",
+    "pdf_contents": "JSTOR cover + 50 printed article pages + 7 linked-citation archive pages."
+  },
+  "pdf": {
+    "path": "mdci/v2/private/pdfs/q05.pdf",
+    "sha256": "237824a4c9af247d51128ecd08ce6273cc129de2684946ce7ebc104bfbf64d15",
+    "page_count": 58
+  },
+  "extraction": {
+    "path": "mdci/v2/private/papers/q05.txt",
+    "every_pdf_page": true,
+    "page_markers": "===== PDF PAGE N =====",
+    "method": "pdftotext -layout per page; tesseract only for image-only pages, OMP_THREAD_LIMIT=1",
+    "ocr_pdf_pages": []
+  },
+  "citation_count": {
+    "value": 3487,
+    "provider": "Crossref REST",
+    "field": "is-referenced-by-count",
+    "source_url": "https://api.crossref.org/works/10.2307/2171802",
+    "retrieved_date": "2026-11-06",
+    "limitations": "Crossref registered citing works, not all scholarly citations; changes over time."
+  },
+  "baseline": {
+    "domain": "Differentiated durable consumer product markets",
+    "estimand": "Demand responses to vehicle prices and attributes, substitution across products, and attribute-dependent production costs"
+  },
+  "source_page_dossier_provenance": [
+    {
+      "printed_pages": "841\u2013843",
+      "pdf_pages": "2\u20134",
+      "content": "Research target and policy quantities; method statements excluded"
+    },
+    {
+      "printed_pages": "844\u2013853",
+      "pdf_pages": "5\u201314",
+      "content": "Observable versus unobserved features and negotiable behavioral dependencies"
+    },
+    {
+      "printed_pages": "868\u2013869",
+      "pdf_pages": "29\u201330",
+      "content": "Original data sources, base-model list prices, nameplate sales, ownership classification, household evidence and data limitations"
+    }
+  ],
+  "dossier_word_count": 493,
+  "limitations": [
+    "Dossier is a preparer paraphrase limited to ex-ante target, observables, dependencies and priors; it does not endorse assumptions.",
+    "University-hosted copy retains final journal pagination."
+  ]
+}

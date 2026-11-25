@@ -1,0 +1,61 @@
+{
+  "created_after_AB_seal": true,
+  "time_utc": "2026-11-06T17:24:11.422396+00:00",
+  "AB_seal_sha256": "56cc53584ab1839bec1927419f861abc36774e6cc8d9321dfdc09fb0b0068236",
+  "assignments": [
+    {
+      "packet": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/C_1.json",
+      "scope_notes": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/C_1_scope.json",
+      "paper_ids": [
+        "q06",
+        "q07"
+      ],
+      "sha256": "9aad029c7a35cd88504210501b3cca928a2374c0fcf17bca089e9e638df81d82"
+    },
+    {
+      "packet": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/C_2.json",
+      "scope_notes": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/C_2_scope.json",
+      "paper_ids": [
+        "q12",
+        "q08"
+      ],
+      "sha256": "bc096864c6b8de6c87a2ef163aabcee30216ff4777ab73392255e79afb0f541e"
+    },
+    {
+      "packet": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/C_3.json",
+      "scope_notes": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/C_3_scope.json",
+      "paper_ids": [
+        "q05",
+        "q02"
+      ],
+      "sha256": "ce39f92b0fdc7d15ac2bf565ae7ce8bed5aa1033cea971fef6f7ec6c62b11208"
+    },
+    {
+      "packet": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/C_4.json",
+      "scope_notes": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/C_4_scope.json",
+      "paper_ids": [
+        "q11",
+        "q04"
+      ],
+      "sha256": "8464e98bf62f4fe343c6d7c7df87c757cb5fafb8c84a92800df841055c36995f"
+    },
+    {
+      "packet": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/C_5.json",
+      "scope_notes": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/C_5_scope.json",
+      "paper_ids": [
+        "q10",
+        "q09"
+      ],
+      "sha256": "6c0c9b76b1bbfad0bd8b55328fd2b89fb2c75165507aaae73e2ecfd743e421af"
+    },
+    {
+      "packet": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/C_6.json",
+      "scope_notes": "/workspace/scratch/16a620a1f92f/mdci/v2/private/packets/C_6_scope.json",
+      "paper_ids": [
+        "q01",
+        "q03"
+      ],
+      "sha256": "6f0feb1652c3e2dad06758f07579c3fd315eb5e4e24135682f0306d85893cdda"
+    }
+  ]
+}
