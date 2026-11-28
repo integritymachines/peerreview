@@ -1,0 +1,30 @@
+PBPR — Peer Review — Strategy
+v0.1 | 2026-11-28 | GPT-6.2
+Status: A APPROVED.
+
+AMBITION
+Establish a repeatable, criteria-driven architecture for rigorous adversarial academic review, constructive pre-submission revision and editorial assessment.
+
+RATIONALE
+Claim survival and comparative precedence are separate tests. Diverse independent searches followed by adjudication can expose weaknesses missed by a single review.
+
+SCOPE
+Review workflow, criteria and bookshelves, scorecards, constructive preview and editorial reports. Catalogue scope may be discipline-specific. Review content rather than irrelevant ancillary information.
+
+APPROACH
+Route by epistemic anchor and competencies; perform independent preliminary runs with flag-blind reviewers; adjudicate material findings and alternatives in a deciding run.
+
+ACTORS, ROLES, AUTHORITIES (ARA)
+A governs project intent. Within review: neutral system routes; assigning editor scopes; reviewers search; huddle adjudicates; deciding editor controls and consolidates. Human editorial decisions remain with their actual authority.
+
+STOCKS, FLOWS, TRANSFORMATIONS (SFT)
+Stocks: criteria, bookshelves, submissions, scorecards and protocols. Flows: manuscript to independent preliminary reviews to deciding run to review outputs. Transformations: routing, adversarial search, substantiation, deduplication and adjudication.
+
+PRINCIPLES
+Search broadly; flag carefully. Headline claim no stronger than surviving claim; require precedence over viable alternatives. Preserve disagreements and distinguish simulated from independent review.
+
+CONSTRAINTS
+Confidentiality and run isolation where required; cite evidence accurately; no fabricated references or human editorial authority.
+
+ENDPOINT
+A documented, reusable and demonstrably rigorous review protocol and catalogue construction method. Ongoing application and improvement; validation thresholds and journal adoption goals remain unspecified.
